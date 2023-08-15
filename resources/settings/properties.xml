@@ -1,0 +1,10 @@
+<properties>
+
+    <property id="BackgroundColor" type="number">0x000000</property>
+    <property id="HourColor" type="number">0xFFAAAA</property>
+    <property id="MinuteColor" type="number">0x00FF00</property>
+    <property id="SecondsColor" type="number">0xAAAAFF</property>
+    
+    
+
+</properties>

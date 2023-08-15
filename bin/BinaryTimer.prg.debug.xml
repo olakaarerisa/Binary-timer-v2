@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="1" lineNum="7" parent="globals/BinaryTimerMenuDelegate" pc="268436052" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="1" lineNum="8" parent="globals/BinaryTimerMenuDelegate" pc="268436056" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="2" lineNum="11" parent="globals/BinaryTimerMenuDelegate" pc="268436075" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="2" lineNum="12" parent="globals/BinaryTimerMenuDelegate" pc="268436079" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="2" lineNum="13" parent="globals/BinaryTimerMenuDelegate" pc="268436090" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="2" lineNum="14" parent="globals/BinaryTimerMenuDelegate" pc="268436114" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="2" lineNum="15" parent="globals/BinaryTimerMenuDelegate" pc="268436125" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="3" lineNum="5" parent="globals/BinaryTimerMenuDelegate" pc="268444902" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="3" lineNum="5" parent="globals/BinaryTimerMenuDelegate" pc="268444902" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="20" parent="globals/WordFactory" pc="268436150" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="21" parent="globals/WordFactory" pc="268436154" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="23" parent="globals/WordFactory" pc="268436172" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="25" parent="globals/WordFactory" pc="268436182" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="26" parent="globals/WordFactory" pc="268436200" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="27" parent="globals/WordFactory" pc="268436207" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="5" lineNum="29" parent="globals/WordFactory" pc="268436220" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="36" parent="globals/WordFactory" pc="268436241" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="37" parent="globals/WordFactory" pc="268436245" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="38" parent="globals/WordFactory" pc="268436259" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="39" parent="globals/WordFactory" pc="268436289" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="40" parent="globals/WordFactory" pc="268436329" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="44" parent="globals/WordFactory" pc="268436351" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="45" parent="globals/WordFactory" pc="268436381" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="46" parent="globals/WordFactory" pc="268436406" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="6" lineNum="51" parent="globals/WordFactory" pc="268436425" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="7" lineNum="56" parent="globals/WordFactory" pc="268436432" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="7" lineNum="57" parent="globals/WordFactory" pc="268436436" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="8" lineNum="63" parent="globals/WordFactory" pc="268436455" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="8" lineNum="64" parent="globals/WordFactory" pc="268436459" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="9" lineNum="71" parent="globals/WordFactory" pc="268436472" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="9" lineNum="72" parent="globals/WordFactory" pc="268436476" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="10" lineNum="12" parent="globals/WordFactory" pc="268444562" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/WordFactory.mc" id="10" lineNum="12" parent="globals/WordFactory" pc="268444562" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="12" lineNum="20" parent="globals/BinaryTimerServiceDelegate" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="12" lineNum="21" parent="globals/BinaryTimerServiceDelegate" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="27" parent="globals/BinaryTimerServiceDelegate" pc="268435479" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="30" parent="globals/BinaryTimerServiceDelegate" pc="268435483" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="31" parent="globals/BinaryTimerServiceDelegate" pc="268435500" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="33" parent="globals/BinaryTimerServiceDelegate" pc="268435560" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="37" parent="globals/BinaryTimerServiceDelegate" pc="268435581" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="38" parent="globals/BinaryTimerServiceDelegate" pc="268435598" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="13" lineNum="41" parent="globals/BinaryTimerServiceDelegate" pc="268435627" symbol="onTemporalEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="14" lineNum="17" parent="globals/BinaryTimerServiceDelegate" pc="268436033" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerBackground.mc" id="14" lineNum="17" parent="globals/BinaryTimerServiceDelegate" pc="268436033" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="16" lineNum="17" parent="globals/BinaryTimerDelegate" pc="268436605" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="16" lineNum="18" parent="globals/BinaryTimerDelegate" pc="268436609" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="16" lineNum="19" parent="globals/BinaryTimerDelegate" pc="268436627" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="17" lineNum="32" parent="globals/BinaryTimerDelegate" pc="268436638" symbol="onSelect"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="17" lineNum="33" parent="globals/BinaryTimerDelegate" pc="268436642" symbol="onSelect"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="17" lineNum="34" parent="globals/BinaryTimerDelegate" pc="268436660" symbol="onSelect"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="18" lineNum="39" parent="globals/BinaryTimerDelegate" pc="268436664" symbol="onNextPage"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="18" lineNum="40" parent="globals/BinaryTimerDelegate" pc="268436668" symbol="onNextPage"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="19" lineNum="43" parent="globals/BinaryTimerDelegate" pc="268436687" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="19" lineNum="44" parent="globals/BinaryTimerDelegate" pc="268436691" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="19" lineNum="45" parent="globals/BinaryTimerDelegate" pc="268436709" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="20" lineNum="49" parent="globals/BinaryTimerDelegate" pc="268436722" symbol="onBack"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="21" lineNum="53" parent="globals/BinaryTimerDelegate" pc="268436727" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="21" lineNum="54" parent="globals/BinaryTimerDelegate" pc="268436731" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="21" lineNum="55" parent="globals/BinaryTimerDelegate" pc="268436811" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="22" lineNum="12" parent="globals/BinaryTimerDelegate" pc="268444864" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerDelegate.mc" id="22" lineNum="12" parent="globals/BinaryTimerDelegate" pc="268444864" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="24" lineNum="18" parent="globals/RectangleFactory" pc="268436815" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="24" lineNum="19" parent="globals/RectangleFactory" pc="268436819" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="24" lineNum="20" parent="globals/RectangleFactory" pc="268436837" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="25" lineNum="25" parent="globals/RectangleFactory" pc="268436848" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="25" lineNum="26" parent="globals/RectangleFactory" pc="268436852" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="26" lineNum="32" parent="globals/RectangleFactory" pc="268436859" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="26" lineNum="33" parent="globals/RectangleFactory" pc="268436863" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="27" lineNum="40" parent="globals/RectangleFactory" pc="268436870" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="27" lineNum="41" parent="globals/RectangleFactory" pc="268436874" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="28" lineNum="12" parent="globals/RectangleFactory" pc="268444600" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/RectangleFactory.mc" id="28" lineNum="12" parent="globals/RectangleFactory" pc="268444600" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="26" parent="globals/NumberFactory" pc="268436910" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="30" parent="globals/NumberFactory" pc="268436914" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="32" parent="globals/NumberFactory" pc="268436932" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="33" parent="globals/NumberFactory" pc="268436942" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="34" parent="globals/NumberFactory" pc="268436952" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="36" parent="globals/NumberFactory" pc="268436962" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="37" parent="globals/NumberFactory" pc="268436980" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="38" parent="globals/NumberFactory" pc="268436987" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="40" parent="globals/NumberFactory" pc="268437000" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="43" parent="globals/NumberFactory" pc="268437013" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="44" parent="globals/NumberFactory" pc="268437031" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="45" parent="globals/NumberFactory" pc="268437038" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="30" lineNum="47" parent="globals/NumberFactory" pc="268437051" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="31" lineNum="54" parent="globals/NumberFactory" pc="268437072" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="31" lineNum="55" parent="globals/NumberFactory" pc="268437076" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="62" parent="globals/NumberFactory" pc="268437098" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="63" parent="globals/NumberFactory" pc="268437102" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="64" parent="globals/NumberFactory" pc="268437117" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="65" parent="globals/NumberFactory" pc="268437124" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="66" parent="globals/NumberFactory" pc="268437138" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="32" lineNum="68" parent="globals/NumberFactory" pc="268437162" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="33" lineNum="75" parent="globals/NumberFactory" pc="268437282" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="33" lineNum="76" parent="globals/NumberFactory" pc="268437286" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="34" lineNum="81" parent="globals/NumberFactory" pc="268437308" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="34" lineNum="82" parent="globals/NumberFactory" pc="268437312" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="35" lineNum="12" parent="globals/NumberFactory" pc="268444978" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/NumberFactory.mc" id="35" lineNum="12" parent="globals/NumberFactory" pc="268444978" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="25" parent="globals/TimePicker" pc="268437346" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="26" parent="globals/TimePicker" pc="268437350" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="27" parent="globals/TimePicker" pc="268437366" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="30" parent="globals/TimePicker" pc="268437492" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="32" parent="globals/TimePicker" pc="268437500" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="33" parent="globals/TimePicker" pc="268437551" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="34" parent="globals/TimePicker" pc="268437684" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="35" parent="globals/TimePicker" pc="268437735" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="36" parent="globals/TimePicker" pc="268437868" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="38" parent="globals/TimePicker" pc="268437919" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="41" parent="globals/TimePicker" pc="268437943" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="42" parent="globals/TimePicker" pc="268437985" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="43" parent="globals/TimePicker" pc="268438027" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="37" lineNum="46" parent="globals/TimePicker" pc="268438069" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="38" lineNum="52" parent="globals/TimePicker" pc="268438124" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="38" lineNum="53" parent="globals/TimePicker" pc="268438128" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="38" lineNum="54" parent="globals/TimePicker" pc="268438164" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="38" lineNum="55" parent="globals/TimePicker" pc="268438176" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="61" parent="globals/TimePicker" pc="268438197" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="62" parent="globals/TimePicker" pc="268438201" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="63" parent="globals/TimePicker" pc="268438226" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="64" parent="globals/TimePicker" pc="268438233" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="66" parent="globals/TimePicker" pc="268438243" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="67" parent="globals/TimePicker" pc="268438248" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="68" parent="globals/TimePicker" pc="268438258" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="69" parent="globals/TimePicker" pc="268438274" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="70" parent="globals/TimePicker" pc="268438290" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="72" parent="globals/TimePicker" pc="268438300" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="74" parent="globals/TimePicker" pc="268438310" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="39" lineNum="75" parent="globals/TimePicker" pc="268438320" symbol="splitStoredTime"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="40" lineNum="16" parent="globals/TimePicker" pc="268444959" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="40" lineNum="16" parent="globals/TimePicker" pc="268444959" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="41" lineNum="89" parent="globals/TimePickerDelegate" pc="268438324" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="41" lineNum="90" parent="globals/TimePickerDelegate" pc="268438328" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="42" lineNum="95" parent="globals/TimePickerDelegate" pc="268438347" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="42" lineNum="96" parent="globals/TimePickerDelegate" pc="268438351" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="42" lineNum="97" parent="globals/TimePickerDelegate" pc="268438379" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="103" parent="globals/TimePickerDelegate" pc="268438383" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="104" parent="globals/TimePickerDelegate" pc="268438387" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="107" parent="globals/TimePickerDelegate" pc="268438433" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="108" parent="globals/TimePickerDelegate" pc="268438459" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="109" parent="globals/TimePickerDelegate" pc="268438498" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="43" lineNum="110" parent="globals/TimePickerDelegate" pc="268438526" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="44" lineNum="82" parent="globals/TimePickerDelegate" pc="268444524" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/pickers/TimePicker.mc" id="44" lineNum="82" parent="globals/TimePickerDelegate" pc="268444524" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="46" lineNum="21" parent="globals/BinaryTimerApp" pc="268435646" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="46" lineNum="22" parent="globals/BinaryTimerApp" pc="268435650" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="47" lineNum="27" parent="globals/BinaryTimerApp" pc="268435669" symbol="onStart"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="48" lineNum="33" parent="globals/BinaryTimerApp" pc="268435674" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="48" lineNum="34" parent="globals/BinaryTimerApp" pc="268435678" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="48" lineNum="35" parent="globals/BinaryTimerApp" pc="268435688" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="48" lineNum="36" parent="globals/BinaryTimerApp" pc="268435695" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="48" lineNum="37" parent="globals/BinaryTimerApp" pc="268435707" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="49" lineNum="43" parent="globals/BinaryTimerApp" pc="268435723" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="49" lineNum="44" parent="globals/BinaryTimerApp" pc="268435727" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="49" lineNum="45" parent="globals/BinaryTimerApp" pc="268435737" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="49" lineNum="46" parent="globals/BinaryTimerApp" pc="268435744" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="49" lineNum="48" parent="globals/BinaryTimerApp" pc="268435759" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="54" parent="globals/BinaryTimerApp" pc="268435770" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="55" parent="globals/BinaryTimerApp" pc="268435774" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="56" parent="globals/BinaryTimerApp" pc="268435816" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="57" parent="globals/BinaryTimerApp" pc="268435826" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="58" parent="globals/BinaryTimerApp" pc="268435833" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="59" parent="globals/BinaryTimerApp" pc="268435845" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="50" lineNum="61" parent="globals/BinaryTimerApp" pc="268435901" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="51" lineNum="66" parent="globals/BinaryTimerApp" pc="268435904" symbol="getServiceDelegate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="51" lineNum="67" parent="globals/BinaryTimerApp" pc="268435908" symbol="getServiceDelegate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="52" lineNum="71" parent="globals/BinaryTimerApp" pc="268435950" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="52" lineNum="72" parent="globals/BinaryTimerApp" pc="268435954" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="52" lineNum="73" parent="globals/BinaryTimerApp" pc="268435967" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="53" lineNum="16" parent="globals/BinaryTimerApp" pc="268436014" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="53" lineNum="16" parent="globals/BinaryTimerApp" pc="268436014" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="54" lineNum="79" parent="globals" pc="268438530" symbol="handleStorageUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerApp.mc" id="54" lineNum="80" parent="globals" pc="268438542" symbol="handleStorageUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="56" lineNum="14" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438598" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="56" lineNum="15" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438602" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="20" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438621" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="21" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438625" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="22" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438661" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="23" parent="globals/BinaryTimerStorageChangedAlertView" pc="268438673" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="11" parent="globals/BinaryTimerStorageChangedAlertView" pc="268444581" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="11" parent="globals/BinaryTimerStorageChangedAlertView" pc="268444581" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="60" lineNum="20" parent="globals/CharacterFactory" pc="268438762" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="60" lineNum="21" parent="globals/CharacterFactory" pc="268438766" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="60" lineNum="22" parent="globals/CharacterFactory" pc="268438784" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="60" lineNum="23" parent="globals/CharacterFactory" pc="268438794" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="61" lineNum="29" parent="globals/CharacterFactory" pc="268438805" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="61" lineNum="30" parent="globals/CharacterFactory" pc="268438809" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="62" lineNum="35" parent="globals/CharacterFactory" pc="268438830" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="62" lineNum="36" parent="globals/CharacterFactory" pc="268438834" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="63" lineNum="42" parent="globals/CharacterFactory" pc="268438878" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="63" lineNum="43" parent="globals/CharacterFactory" pc="268438882" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="63" lineNum="44" parent="globals/CharacterFactory" pc="268438905" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="63" lineNum="47" parent="globals/CharacterFactory" pc="268438917" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="64" lineNum="54" parent="globals/CharacterFactory" pc="268438946" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="64" lineNum="55" parent="globals/CharacterFactory" pc="268438950" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="64" lineNum="56" parent="globals/CharacterFactory" pc="268438973" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="64" lineNum="60" parent="globals/CharacterFactory" pc="268439121" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="65" lineNum="67" parent="globals/CharacterFactory" pc="268439256" symbol="isDone"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="65" lineNum="68" parent="globals/CharacterFactory" pc="268439260" symbol="isDone"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="66" lineNum="12" parent="globals/CharacterFactory" pc="268444940" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/CharacterFactory.mc" id="66" lineNum="12" parent="globals/CharacterFactory" pc="268444940" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="68" lineNum="17" parent="globals/Rectangle" pc="268439287" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="68" lineNum="18" parent="globals/Rectangle" pc="268439291" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="68" lineNum="19" parent="globals/Rectangle" pc="268439315" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="69" lineNum="24" parent="globals/Rectangle" pc="268439326" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="69" lineNum="25" parent="globals/Rectangle" pc="268439330" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="69" lineNum="26" parent="globals/Rectangle" pc="268439358" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="70" lineNum="11" parent="globals/Rectangle" pc="268444921" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/Rectangle.mc" id="70" lineNum="11" parent="globals/Rectangle" pc="268444921" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="47" parent="globals/BinaryTimerView" pc="268439403" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="50" parent="globals/BinaryTimerView" pc="268439407" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="53" parent="globals/BinaryTimerView" pc="268439425" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="55" parent="globals/BinaryTimerView" pc="268439432" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="56" parent="globals/BinaryTimerView" pc="268439457" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="57" parent="globals/BinaryTimerView" pc="268439471" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="58" parent="globals/BinaryTimerView" pc="268439481" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="59" parent="globals/BinaryTimerView" pc="268439490" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="62" parent="globals/BinaryTimerView" pc="268439502" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="65" parent="globals/BinaryTimerView" pc="268439518" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="66" parent="globals/BinaryTimerView" pc="268439549" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="70" parent="globals/BinaryTimerView" pc="268439583" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="71" parent="globals/BinaryTimerView" pc="268439599" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="72" parent="globals/BinaryTimerView" pc="268439608" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="76" parent="globals/BinaryTimerView" pc="268439617" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="79" parent="globals/BinaryTimerView" pc="268439651" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="81" parent="globals/BinaryTimerView" pc="268439680" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="85" parent="globals/BinaryTimerView" pc="268439725" symbol="onLayout"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="89" parent="globals/BinaryTimerView" pc="268439730" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="92" parent="globals/BinaryTimerView" pc="268439734" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="93" parent="globals/BinaryTimerView" pc="268439759" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="94" parent="globals/BinaryTimerView" pc="268439773" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="95" parent="globals/BinaryTimerView" pc="268439783" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="96" parent="globals/BinaryTimerView" pc="268439792" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="99" parent="globals/BinaryTimerView" pc="268439804" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="103" parent="globals/BinaryTimerView" pc="268439820" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="104" parent="globals/BinaryTimerView" pc="268439851" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="108" parent="globals/BinaryTimerView" pc="268439882" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="111" parent="globals/BinaryTimerView" pc="268439916" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="113" parent="globals/BinaryTimerView" pc="268439945" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="118" parent="globals/BinaryTimerView" pc="268439990" symbol="setStartPause"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="127" parent="globals/BinaryTimerView" pc="268439995" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="128" parent="globals/BinaryTimerView" pc="268439999" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="129" parent="globals/BinaryTimerView" pc="268440027" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="131" parent="globals/BinaryTimerView" pc="268440039" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="132" parent="globals/BinaryTimerView" pc="268440058" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="133" parent="globals/BinaryTimerView" pc="268440065" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="134" parent="globals/BinaryTimerView" pc="268440075" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="135" parent="globals/BinaryTimerView" pc="268440075" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="136" parent="globals/BinaryTimerView" pc="268440082" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="137" parent="globals/BinaryTimerView" pc="268440092" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="139" parent="globals/BinaryTimerView" pc="268440099" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="140" parent="globals/BinaryTimerView" pc="268440119" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="141" parent="globals/BinaryTimerView" pc="268440139" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="142" parent="globals/BinaryTimerView" pc="268440159" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="144" parent="globals/BinaryTimerView" pc="268440169" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="147" parent="globals/BinaryTimerView" pc="268440198" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="148" parent="globals/BinaryTimerView" pc="268440212" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="150" parent="globals/BinaryTimerView" pc="268440222" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="151" parent="globals/BinaryTimerView" pc="268440242" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="152" parent="globals/BinaryTimerView" pc="268440262" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="153" parent="globals/BinaryTimerView" pc="268440282" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="154" parent="globals/BinaryTimerView" pc="268440314" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="155" parent="globals/BinaryTimerView" pc="268440332" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="156" parent="globals/BinaryTimerView" pc="268440339" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="157" parent="globals/BinaryTimerView" pc="268440346" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="158" parent="globals/BinaryTimerView" pc="268440353" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="159" parent="globals/BinaryTimerView" pc="268440360" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="160" parent="globals/BinaryTimerView" pc="268440367" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="161" parent="globals/BinaryTimerView" pc="268440374" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="163" parent="globals/BinaryTimerView" pc="268440381" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="164" parent="globals/BinaryTimerView" pc="268440398" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="179" parent="globals/BinaryTimerView" pc="268440876" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="182" parent="globals/BinaryTimerView" pc="268440913" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="183" parent="globals/BinaryTimerView" pc="268440930" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="193" parent="globals/BinaryTimerView" pc="268441260" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="198" parent="globals/BinaryTimerView" pc="268441289" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="201" parent="globals/BinaryTimerView" pc="268441292" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="202" parent="globals/BinaryTimerView" pc="268441332" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="205" parent="globals/BinaryTimerView" pc="268441345" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="207" parent="globals/BinaryTimerView" pc="268441352" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="208" parent="globals/BinaryTimerView" pc="268441362" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="209" parent="globals/BinaryTimerView" pc="268441378" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="212" parent="globals/BinaryTimerView" pc="268441388" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="213" parent="globals/BinaryTimerView" pc="268441420" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="215" parent="globals/BinaryTimerView" pc="268441432" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="216" parent="globals/BinaryTimerView" pc="268441432" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="217" parent="globals/BinaryTimerView" pc="268441432" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="218" parent="globals/BinaryTimerView" pc="268441432" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="224" parent="globals/BinaryTimerView" pc="268441432" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="225" parent="globals/BinaryTimerView" pc="268441457" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="226" parent="globals/BinaryTimerView" pc="268441489" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="227" parent="globals/BinaryTimerView" pc="268441499" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="228" parent="globals/BinaryTimerView" pc="268441531" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="230" parent="globals/BinaryTimerView" pc="268441541" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="232" parent="globals/BinaryTimerView" pc="268441548" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="233" parent="globals/BinaryTimerView" pc="268441576" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="236" parent="globals/BinaryTimerView" pc="268441604" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="238" parent="globals/BinaryTimerView" pc="268441620" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="239" parent="globals/BinaryTimerView" pc="268441627" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="242" parent="globals/BinaryTimerView" pc="268441658" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="243" parent="globals/BinaryTimerView" pc="268441676" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="244" parent="globals/BinaryTimerView" pc="268441694" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="249" parent="globals/BinaryTimerView" pc="268441764" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="250" parent="globals/BinaryTimerView" pc="268441782" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="251" parent="globals/BinaryTimerView" pc="268441839" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="255" parent="globals/BinaryTimerView" pc="268441905" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="257" parent="globals/BinaryTimerView" pc="268441921" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="258" parent="globals/BinaryTimerView" pc="268441928" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="262" parent="globals/BinaryTimerView" pc="268441959" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="263" parent="globals/BinaryTimerView" pc="268441977" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="264" parent="globals/BinaryTimerView" pc="268441995" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="268" parent="globals/BinaryTimerView" pc="268442065" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="269" parent="globals/BinaryTimerView" pc="268442083" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="270" parent="globals/BinaryTimerView" pc="268442140" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="274" parent="globals/BinaryTimerView" pc="268442203" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="276" parent="globals/BinaryTimerView" pc="268442219" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="277" parent="globals/BinaryTimerView" pc="268442226" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="280" parent="globals/BinaryTimerView" pc="268442257" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="281" parent="globals/BinaryTimerView" pc="268442275" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="282" parent="globals/BinaryTimerView" pc="268442293" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="287" parent="globals/BinaryTimerView" pc="268442363" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="288" parent="globals/BinaryTimerView" pc="268442381" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="289" parent="globals/BinaryTimerView" pc="268442438" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="299" parent="globals/BinaryTimerView" pc="268442508" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="300" parent="globals/BinaryTimerView" pc="268442512" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="302" parent="globals/BinaryTimerView" pc="268442538" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="303" parent="globals/BinaryTimerView" pc="268442548" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="304" parent="globals/BinaryTimerView" pc="268442555" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="305" parent="globals/BinaryTimerView" pc="268442565" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="307" parent="globals/BinaryTimerView" pc="268442609" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="308" parent="globals/BinaryTimerView" pc="268442619" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="309" parent="globals/BinaryTimerView" pc="268442626" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="310" parent="globals/BinaryTimerView" pc="268442636" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="311" parent="globals/BinaryTimerView" pc="268442654" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="313" parent="globals/BinaryTimerView" pc="268442673" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="314" parent="globals/BinaryTimerView" pc="268442690" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="315" parent="globals/BinaryTimerView" pc="268442706" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="316" parent="globals/BinaryTimerView" pc="268442715" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="322" parent="globals/BinaryTimerView" pc="268442760" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="323" parent="globals/BinaryTimerView" pc="268442764" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="324" parent="globals/BinaryTimerView" pc="268442782" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="331" parent="globals/BinaryTimerView" pc="268442799" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="332" parent="globals/BinaryTimerView" pc="268442803" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="333" parent="globals/BinaryTimerView" pc="268442816" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="334" parent="globals/BinaryTimerView" pc="268442825" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="335" parent="globals/BinaryTimerView" pc="268442834" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="336" parent="globals/BinaryTimerView" pc="268442866" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="337" parent="globals/BinaryTimerView" pc="268442898" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="338" parent="globals/BinaryTimerView" pc="268442914" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="340" parent="globals/BinaryTimerView" pc="268442920" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="345" parent="globals/BinaryTimerView" pc="268442924" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="346" parent="globals/BinaryTimerView" pc="268442928" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="347" parent="globals/BinaryTimerView" pc="268442960" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="348" parent="globals/BinaryTimerView" pc="268442992" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="354" parent="globals/BinaryTimerView" pc="268443025" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="355" parent="globals/BinaryTimerView" pc="268443029" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="356" parent="globals/BinaryTimerView" pc="268443039" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="357" parent="globals/BinaryTimerView" pc="268443062" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="358" parent="globals/BinaryTimerView" pc="268443092" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="359" parent="globals/BinaryTimerView" pc="268443139" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="360" parent="globals/BinaryTimerView" pc="268443139" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="361" parent="globals/BinaryTimerView" pc="268443176" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="82" lineNum="374" parent="globals/BinaryTimerView" pc="268443238" symbol="deleteBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="82" lineNum="375" parent="globals/BinaryTimerView" pc="268443242" symbol="deleteBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="83" lineNum="380" parent="globals/BinaryTimerView" pc="268443259" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="83" lineNum="381" parent="globals/BinaryTimerView" pc="268443263" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="83" lineNum="382" parent="globals/BinaryTimerView" pc="268443279" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="83" lineNum="383" parent="globals/BinaryTimerView" pc="268443288" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="83" lineNum="384" parent="globals/BinaryTimerView" pc="268443297" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="84" lineNum="390" parent="globals/BinaryTimerView" pc="268443314" symbol="requestUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="84" lineNum="391" parent="globals/BinaryTimerView" pc="268443318" symbol="requestUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="19" parent="globals/BinaryTimerView" pc="268444649" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="21" parent="globals/BinaryTimerView" pc="268444667" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="22" parent="globals/BinaryTimerView" pc="268444704" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="23" parent="globals/BinaryTimerView" pc="268444741" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="24" parent="globals/BinaryTimerView" pc="268444778" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="25" parent="globals/BinaryTimerView" pc="268444815" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="26" parent="globals/BinaryTimerView" pc="268444831" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="27" parent="globals/BinaryTimerView" pc="268444847" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/BinaryTimerView.mc" id="85" lineNum="19" parent="globals/BinaryTimerView" pc="268444649" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="17" parent="globals/ColorFactory" pc="268443335" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="18" parent="globals/ColorFactory" pc="268443339" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="19" parent="globals/ColorFactory" pc="268443357" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="25" parent="globals/ColorFactory" pc="268443394" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="26" parent="globals/ColorFactory" pc="268443398" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="89" lineNum="31" parent="globals/ColorFactory" pc="268443419" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="89" lineNum="32" parent="globals/ColorFactory" pc="268443423" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="90" lineNum="38" parent="globals/ColorFactory" pc="268443442" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="90" lineNum="39" parent="globals/ColorFactory" pc="268443446" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="91" lineNum="46" parent="globals/ColorFactory" pc="268443467" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="91" lineNum="47" parent="globals/ColorFactory" pc="268443471" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="91" lineNum="48" parent="globals/ColorFactory" pc="268443491" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="92" lineNum="12" parent="globals/ColorFactory" pc="268444543" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/factories/ColorFactory.mc" id="92" lineNum="12" parent="globals/ColorFactory" pc="268444543" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="94" lineNum="22" parent="globals/ColorWheel" pc="268443501" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="94" lineNum="23" parent="globals/ColorWheel" pc="268443505" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="94" lineNum="24" parent="globals/ColorWheel" pc="268443529" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="94" lineNum="25" parent="globals/ColorWheel" pc="268443539" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="30" parent="globals/ColorWheel" pc="268443553" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="31" parent="globals/ColorWheel" pc="268443557" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="32" parent="globals/ColorWheel" pc="268443567" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="33" parent="globals/ColorWheel" pc="268443605" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="36" parent="globals/ColorWheel" pc="268443634" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="37" parent="globals/ColorWheel" pc="268443664" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="38" parent="globals/ColorWheel" pc="268443687" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="40" parent="globals/ColorWheel" pc="268443697" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="41" parent="globals/ColorWheel" pc="268443731" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="42" parent="globals/ColorWheel" pc="268443803" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="46" parent="globals/ColorWheel" pc="268443826" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="95" lineNum="47" parent="globals/ColorWheel" pc="268443862" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="57" parent="globals/ColorWheel" pc="268443920" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="58" parent="globals/ColorWheel" pc="268443924" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="59" parent="globals/ColorWheel" pc="268443935" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="60" parent="globals/ColorWheel" pc="268443954" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="61" parent="globals/ColorWheel" pc="268443973" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="62" parent="globals/ColorWheel" pc="268443990" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="63" parent="globals/ColorWheel" pc="268444006" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="64" parent="globals/ColorWheel" pc="268444021" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="65" parent="globals/ColorWheel" pc="268444046" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="67" parent="globals/ColorWheel" pc="268444132" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="69" parent="globals/ColorWheel" pc="268444175" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="70" parent="globals/ColorWheel" pc="268444180" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="72" parent="globals/ColorWheel" pc="268444197" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="73" parent="globals/ColorWheel" pc="268444224" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="96" lineNum="75" parent="globals/ColorWheel" pc="268444305" symbol="drawArc"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="97" lineNum="81" parent="globals/ColorWheel" pc="268444392" symbol="setColor"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="97" lineNum="82" parent="globals/ColorWheel" pc="268444396" symbol="setColor"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="98" lineNum="88" parent="globals/ColorWheel" pc="268444407" symbol="getColor"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="98" lineNum="89" parent="globals/ColorWheel" pc="268444411" symbol="getColor"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="99" lineNum="94" parent="globals/ColorWheel" pc="268444424" symbol="getNumberOfColors"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="99" lineNum="95" parent="globals/ColorWheel" pc="268444428" symbol="getNumberOfColors"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="100" lineNum="101" parent="globals/ColorWheel" pc="268444447" symbol="getColorIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="100" lineNum="102" parent="globals/ColorWheel" pc="268444451" symbol="getColorIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="100" lineNum="103" parent="globals/ColorWheel" pc="268444481" symbol="getColorIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="100" lineNum="104" parent="globals/ColorWheel" pc="268444498" symbol="getColorIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="100" lineNum="107" parent="globals/ColorWheel" pc="268444517" symbol="getColorIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="101" lineNum="13" parent="globals/ColorWheel" pc="268444883" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/OneDrive-VestfoldogTelemarkfylkeskommune/eclipse-workspace/Binary Timer/source/drawable/ColorWheel.mc" id="101" lineNum="13" parent="globals/ColorWheel" pc="268444883" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="103" lineNum="2" parent="globals/BackgroundRez/JsonData" pc="268436012" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="104" lineNum="4" parent="globals/BackgroundRez/Strings" pc="268436013" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="105" lineNum="1" parent="globals/BackgroundRez" pc="268435988" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="105" lineNum="1" parent="globals/BackgroundRez" pc="268435988" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="106" lineNum="10" parent="globals/Rez/Drawables" pc="268444643" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="107" lineNum="14" parent="globals/Rez/Fonts" pc="268444645" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="108" lineNum="16" parent="globals/Rez/JsonData" pc="268444647" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="109" lineNum="18" parent="globals/Rez/Layouts" pc="268444646" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="110" lineNum="20" parent="globals/Rez/Menus" pc="268444644" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="111" lineNum="22" parent="globals/Rez/Strings" pc="268444648" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="112" lineNum="9" parent="globals/Rez" pc="268444619" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="112" lineNum="9" parent="globals/Rez" pc="268444619" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389626" method="true" symbol="onAccept"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="109" symbol="&lt;globals/BinaryTimerView/&lt;&gt;_timerStartTime&gt;"/>
+        <entry id="113" method="true" symbol="startStopTimer"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="60" symbol="ColorPastellPink"/>
+        <entry field="true" id="69" symbol="ColorPurple"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="79" symbol="characterPickerOk"/>
+        <entry field="true" id="103" symbol="rectangleMode"/>
+        <entry field="true" id="85" symbol="SecondsColorTitle"/>
+        <entry field="true" id="102" symbol="secondsColor"/>
+        <entry field="true" id="88" symbol="ColorGreen"/>
+        <entry field="true" id="81" symbol="ColorYellow"/>
+        <entry field="true" id="138" symbol="&lt;globals/NumberFactory/&lt;&gt;_increment&gt;"/>
+        <entry field="true" id="47" symbol="ColorRed"/>
+        <entry field="true" id="77" symbol="ColorDarkRed"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="4" module="true" symbol="globals/BackgroundRez/Strings"/>
+        <entry field="true" id="32" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry field="true" id="99" symbol="_secondsColor"/>
+        <entry id="27" object="true" symbol="ColorWheel"/>
+        <entry id="8389629" method="true" symbol="getValue"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="49" symbol="month12"/>
+        <entry field="true" id="50" symbol="month11"/>
+        <entry field="true" id="53" symbol="month10"/>
+        <entry field="true" id="121" symbol="&lt;globals/ColorWheel/&lt;&gt;_colors&gt;"/>
+        <entry field="true" id="71" symbol="month09"/>
+        <entry field="true" id="72" symbol="month08"/>
+        <entry field="true" id="61" symbol="month07"/>
+        <entry field="true" id="62" symbol="month06"/>
+        <entry field="true" id="58" symbol="month05"/>
+        <entry field="true" id="59" symbol="month04"/>
+        <entry field="true" id="65" symbol="month03"/>
+        <entry field="true" id="66" symbol="month02"/>
+        <entry field="true" id="64" symbol="month01"/>
+        <entry id="8389287" method="true" symbol="saveProperties"/>
+        <entry field="true" id="106" symbol="&lt;globals/BinaryTimerView/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry id="26" object="true" symbol="ColorFactory"/>
+        <entry field="true" id="73" symbol="ColorBlue"/>
+        <entry field="true" id="80" symbol="timeSeparator"/>
+        <entry field="true" id="104" symbol="&lt;globals/BinaryTimerView/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry id="8391451" module="true" object="true" symbol="BackgroundRez"/>
+        <entry field="true" id="82" symbol="AppName"/>
+        <entry field="true" id="42" symbol="date"/>
+        <entry field="true" id="8389807" symbol="data"/>
+        <entry id="11" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="48" symbol="pickerChooserString"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="127" symbol="&lt;globals/Rectangle/&lt;&gt;_color&gt;"/>
+        <entry id="126" method="true" symbol="getColorIndex"/>
+        <entry field="true" id="97" symbol="_hourColor"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="55" symbol="ColorOrange"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry field="true" id="132" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry field="true" id="96" symbol="prompt"/>
+        <entry field="true" id="30" symbol="&lt;globals/BinaryTimerApp/&lt;&gt;_backgroundData&gt;"/>
+        <entry field="true" id="136" symbol="&lt;globals/NumberFactory/&lt;&gt;_start&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="17" object="true" symbol="NumberFactory"/>
+        <entry id="18" object="true" symbol="TimePicker"/>
+        <entry id="3" module="true" symbol="globals/BackgroundRez/JsonData"/>
+        <entry id="8389687" method="true" symbol="drawArc"/>
+        <entry id="8388764" method="true" symbol="format"/>
+        <entry field="true" id="76" symbol="timePickerTitle"/>
+        <entry id="131" method="true" symbol="isDone"/>
+        <entry id="8391338" symbol="toneProfile"/>
+        <entry id="8389026" method="true" symbol="requestUpdate"/>
+        <entry field="true" id="78" symbol="string"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389630" method="true" symbol="getSize"/>
+        <entry field="true" id="123" symbol="&lt;globals/ColorWheel/&lt;&gt;NUM_POINTS&gt;"/>
+        <entry id="142" symbol="item_2"/>
+        <entry id="141" symbol="item_1"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="40" module="true" symbol="Menus"/>
+        <entry id="9" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="118" method="true" symbol="backgroundEvent"/>
+        <entry id="2" module="true" symbol="globals/BackgroundRez"/>
+        <entry id="8391275" object="true" symbol="ToneProfile"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="54" symbol="stringPickerTitle"/>
+        <entry field="true" id="51" symbol="ColorPastellBlue"/>
+        <entry field="true" id="95" symbol="time"/>
+        <entry field="true" id="33" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry field="true" id="98" symbol="_minuteColor"/>
+        <entry id="8388987" method="true" symbol="vibrate"/>
+        <entry id="20" object="true" symbol="BinaryTimerApp"/>
+        <entry field="true" id="56" symbol="morning"/>
+        <entry id="22" object="true" symbol="BinaryTimerStorageChangedAlertView"/>
+        <entry id="13" object="true" symbol="WordFactory"/>
+        <entry id="8389644" symbol="defaults"/>
+        <entry id="19" object="true" symbol="TimePickerDelegate"/>
+        <entry field="true" id="52" symbol="ColorWhite"/>
+        <entry field="true" id="91" symbol="ColorDarkBlue"/>
+        <entry field="true" id="107" symbol="&lt;globals/BinaryTimerView/&lt;&gt;TIMER_DURATION_DEFAULT&gt;"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry id="10" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="116" method="true" symbol="setBackgroundEvent"/>
+        <entry field="true" id="93" symbol="ColorBlack"/>
+        <entry field="true" id="140" symbol="&lt;globals/NumberFactory/&lt;&gt;_font&gt;"/>
+        <entry id="117" method="true" symbol="deleteBackgroundEvent"/>
+        <entry id="125" method="true" symbol="getNumberOfColors"/>
+        <entry id="24" object="true" symbol="Rectangle"/>
+        <entry id="6" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390170" method="true" symbol="onBackgroundData"/>
+        <entry field="true" id="57" symbol="pickerChooserDate"/>
+        <entry field="true" id="28" symbol="TimerExpired"/>
+        <entry field="true" id="43" symbol="dateSeparator"/>
+        <entry field="true" id="37" symbol="&lt;globals/WordFactory/&lt;&gt;_font&gt;"/>
+        <entry id="12" object="true" symbol="BinaryTimerMenuDelegate"/>
+        <entry id="8389628" method="true" symbol="getDrawable"/>
+        <entry field="true" id="87" symbol="pickerChooserColor"/>
+        <entry field="true" id="133" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry id="25" object="true" symbol="BinaryTimerView"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="84" symbol="datePickerTitle"/>
+        <entry field="true" id="108" symbol="&lt;globals/BinaryTimerView/&lt;&gt;_timerDuration&gt;"/>
+        <entry field="true" id="94" symbol="afternoon"/>
+        <entry id="112" method="true" symbol="setStartPause"/>
+        <entry field="true" id="122" symbol="&lt;globals/ColorWheel/&lt;&gt;_index&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="41" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="83" symbol="ColorDarkGreen"/>
+        <entry field="true" id="70" symbol="pickerChooserTitle"/>
+        <entry id="8389021" method="true" symbol="loadResource"/>
+        <entry id="114" method="true" symbol="stopTimer"/>
+        <entry field="true" id="45" symbol="pickerChooserTime"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="75" symbol="BackgroundColorTitle"/>
+        <entry id="124" method="true" symbol="getColor"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="137" symbol="&lt;globals/NumberFactory/&lt;&gt;_stop&gt;"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="130" symbol="&lt;globals/CharacterFactory/&lt;&gt;DONE&gt;"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="46" symbol="HourColorTitle"/>
+        <entry field="true" id="36" symbol="&lt;globals/WordFactory/&lt;&gt;_words&gt;"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="44" symbol="ColorPastellGreen"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry field="true" id="110" symbol="&lt;globals/BinaryTimerView/&lt;&gt;_timerPauseTime&gt;"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="16" object="true" symbol="RectangleFactory"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="120" method="true" symbol="pushPicker"/>
+        <entry field="true" id="38" symbol="&lt;globals/RectangleFactory/&lt;&gt;_color&gt;"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="8391704" method="true" symbol="onStorageChanged"/>
+        <entry field="true" id="86" symbol="ColorPink"/>
+        <entry id="135" method="true" symbol="splitStoredTime"/>
+        <entry field="true" id="100" symbol="hourColor"/>
+        <entry id="23" object="true" symbol="CharacterFactory"/>
+        <entry id="21" method="true" symbol="handleStorageUpdate"/>
+        <entry id="15" object="true" symbol="BinaryTimerDelegate"/>
+        <entry id="35" method="true" symbol="getIndex"/>
+        <entry id="14" object="true" symbol="BinaryTimerServiceDelegate"/>
+        <entry field="true" id="63" symbol="ColorPastellOrange"/>
+        <entry field="true" id="139" symbol="&lt;globals/NumberFactory/&lt;&gt;_formatString&gt;"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry field="true" id="134" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry id="39" module="true" symbol="Layouts"/>
+        <entry field="true" id="31" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry field="true" id="128" symbol="&lt;globals/CharacterFactory/&lt;&gt;_characterSet&gt;"/>
+        <entry id="8389643" symbol="pattern"/>
+        <entry field="true" id="129" symbol="&lt;globals/CharacterFactory/&lt;&gt;_addOk&gt;"/>
+        <entry field="true" id="101" symbol="minuteColor"/>
+        <entry field="true" id="105" symbol="&lt;globals/BinaryTimerView/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry field="true" id="92" symbol="pickerChooserLayout"/>
+        <entry field="true" id="89" symbol="MinuteColorTitle"/>
+        <entry id="8" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="74" symbol="clickHere"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry field="true" id="111" symbol="&lt;globals/BinaryTimerView/&lt;&gt;_updateTimer&gt;"/>
+        <entry field="true" id="119" symbol="&lt;globals/BinaryTimerDelegate/&lt;&gt;_parentView&gt;"/>
+        <entry field="true" id="34" symbol="&lt;globals/ColorFactory/&lt;&gt;_colorWheel&gt;"/>
+        <entry field="true" id="90" symbol="colorPickerTitle"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="29" symbol="&lt;globals/BinaryTimerApp/&lt;&gt;_timerView&gt;"/>
+        <entry field="true" id="68" symbol="menu_label_2"/>
+        <entry field="true" id="67" symbol="menu_label_1"/>
+        <entry id="115" method="true" symbol="resetTimer"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436149" name="item" stackId="1" startPc="268436075"/>
+        <entry endPc="268436239" name="font" stackId="3" startPc="268436154"/>
+        <entry arg="true" endPc="268436240" name="options" stackId="2" startPc="268436150"/>
+        <entry arg="true" endPc="268436240" name="words" stackId="1" startPc="268436150"/>
+        <entry endPc="268436347" name="i" stackId="2" startPc="268436289"/>
+        <entry endPc="268436424" name="i" stackId="3" startPc="268436381"/>
+        <entry arg="true" endPc="268436431" name="value" stackId="1" startPc="268436241"/>
+        <entry arg="true" endPc="268436471" name="index" stackId="1" startPc="268436455"/>
+        <entry arg="true" endPc="268436604" name="index" stackId="1" startPc="268436472"/>
+        <entry arg="true" endPc="268436604" name="selected" stackId="2" startPc="268436472"/>
+        <entry arg="true" endPc="268436637" name="view" stackId="1" startPc="268436605"/>
+        <entry arg="true" endPc="268436847" name="color" stackId="1" startPc="268436815"/>
+        <entry arg="true" endPc="268436869" name="index" stackId="1" startPc="268436859"/>
+        <entry arg="true" endPc="268436909" name="index" stackId="1" startPc="268436870"/>
+        <entry arg="true" endPc="268436909" name="selected" stackId="2" startPc="268436870"/>
+        <entry endPc="268437070" name="font" stackId="6" startPc="268436914"/>
+        <entry endPc="268437070" name="format" stackId="5" startPc="268436914"/>
+        <entry arg="true" endPc="268437071" name="increment" stackId="3" startPc="268436910"/>
+        <entry arg="true" endPc="268437071" name="options" stackId="4" startPc="268436910"/>
+        <entry arg="true" endPc="268437071" name="stop" stackId="2" startPc="268436910"/>
+        <entry arg="true" endPc="268437071" name="start" stackId="1" startPc="268436910"/>
+        <entry arg="true" endPc="268437097" name="value" stackId="1" startPc="268437072"/>
+        <entry endPc="268437280" name="value" stackId="3" startPc="268437102"/>
+        <entry endPc="268437280" name="text" stackId="4" startPc="268437102"/>
+        <entry arg="true" endPc="268437281" name="index" stackId="1" startPc="268437098"/>
+        <entry arg="true" endPc="268437281" name="selected" stackId="2" startPc="268437098"/>
+        <entry arg="true" endPc="268437307" name="index" stackId="1" startPc="268437282"/>
+        <entry endPc="268438122" name="factories" stackId="2" startPc="268437350"/>
+        <entry endPc="268438122" name="defaults" stackId="3" startPc="268437350"/>
+        <entry endPc="268438122" name="title" stackId="1" startPc="268437350"/>
+        <entry arg="true" endPc="268438196" name="dc" stackId="1" startPc="268438124"/>
+        <entry endPc="268438322" name="hours" stackId="6" startPc="268438201"/>
+        <entry endPc="268438322" name="minutes" stackId="5" startPc="268438201"/>
+        <entry endPc="268438322" name="defaults" stackId="3" startPc="268438201"/>
+        <entry endPc="268438322" name="seconds" stackId="4" startPc="268438201"/>
+        <entry endPc="268438322" name="storedValue" stackId="2" startPc="268438201"/>
+        <entry arg="true" endPc="268438323" name="arraySize" stackId="1" startPc="268438197"/>
+        <entry endPc="268438528" name="time" stackId="2" startPc="268438387"/>
+        <entry arg="true" endPc="268438529" name="values" stackId="1" startPc="268438383"/>
+        <entry arg="true" endPc="268435673" name="state" stackId="1" startPc="268435669"/>
+        <entry endPc="268435721" name="timerView" stackId="2" startPc="268435678"/>
+        <entry arg="true" endPc="268435722" name="state" stackId="1" startPc="268435674"/>
+        <entry endPc="268435768" name="timerView" stackId="2" startPc="268435727"/>
+        <entry arg="true" endPc="268435769" name="data" stackId="1" startPc="268435723"/>
+        <entry endPc="268435902" name="timerView" stackId="1" startPc="268435774"/>
+        <entry arg="true" endPc="268438761" name="dc" stackId="1" startPc="268438621"/>
+        <entry arg="true" endPc="268438804" name="characterSet" stackId="1" startPc="268438762"/>
+        <entry arg="true" endPc="268438804" name="addOk" stackId="2" startPc="268438762"/>
+        <entry arg="true" endPc="268438829" name="value" stackId="1" startPc="268438805"/>
+        <entry arg="true" endPc="268438945" name="index" stackId="1" startPc="268438878"/>
+        <entry arg="true" endPc="268439255" name="index" stackId="1" startPc="268438946"/>
+        <entry arg="true" endPc="268439255" name="selected" stackId="2" startPc="268438946"/>
+        <entry arg="true" endPc="268439286" name="value" stackId="1" startPc="268439256"/>
+        <entry arg="true" endPc="268439325" name="color" stackId="1" startPc="268439287"/>
+        <entry arg="true" endPc="268439402" name="dc" stackId="1" startPc="268439326"/>
+        <entry endPc="268439579" name="timerDuration" stackId="2" startPc="268439432"/>
+        <entry arg="true" endPc="268439724" name="backgroundRan" stackId="1" startPc="268439403"/>
+        <entry arg="true" endPc="268439729" name="dc" stackId="1" startPc="268439725"/>
+        <entry endPc="268439988" name="timerDuration" stackId="1" startPc="268439734"/>
+        <entry endPc="268440909" name="toneProfile" stackId="13" startPc="268440398"/>
+        <entry endPc="268441279" name="vibrateData" stackId="14" startPc="268440930"/>
+        <entry endPc="268441282" name="b" stackId="11" startPc="268440212"/>
+        <entry endPc="268441282" name="giss" stackId="10" startPc="268440212"/>
+        <entry endPc="268441282" name="fiss" stackId="9" startPc="268440212"/>
+        <entry endPc="268441282" name="toneLength" stackId="6" startPc="268440212"/>
+        <entry endPc="268441282" name="g" stackId="8" startPc="268440212"/>
+        <entry endPc="268441282" name="p" stackId="12" startPc="268440212"/>
+        <entry endPc="268441282" name="c" stackId="7" startPc="268440212"/>
+        <entry endPc="268441750" name="y" stackId="26" startPc="268441694"/>
+        <entry endPc="268441763" name="x" stackId="25" startPc="268441676"/>
+        <entry endPc="268441904" name="i" stackId="27" startPc="268441782"/>
+        <entry endPc="268442051" name="y" stackId="29" startPc="268441995"/>
+        <entry endPc="268442064" name="x" stackId="28" startPc="268441977"/>
+        <entry endPc="268442202" name="i" stackId="30" startPc="268442083"/>
+        <entry endPc="268442349" name="y" stackId="32" startPc="268442293"/>
+        <entry endPc="268442362" name="x" stackId="31" startPc="268442275"/>
+        <entry endPc="268442506" name="i" stackId="33" startPc="268442381"/>
+        <entry endPc="268442506" name="rest_height" stackId="22" startPc="268439999"/>
+        <entry endPc="268442506" name="finishValue" stackId="17" startPc="268439999"/>
+        <entry endPc="268442506" name="rectangle_width" stackId="23" startPc="268439999"/>
+        <entry endPc="268442506" name="timerStartTime" stackId="4" startPc="268439999"/>
+        <entry endPc="268442506" name="rest_width" stackId="21" startPc="268439999"/>
+        <entry endPc="268442506" name="clockTime" stackId="2" startPc="268439999"/>
+        <entry endPc="268442506" name="minutes" stackId="19" startPc="268439999"/>
+        <entry endPc="268442506" name="clockValue" stackId="15" startPc="268439999"/>
+        <entry endPc="268442506" name="hours" stackId="20" startPc="268439999"/>
+        <entry endPc="268442506" name="seconds" stackId="18" startPc="268439999"/>
+        <entry endPc="268442506" name="timerValue" stackId="16" startPc="268439999"/>
+        <entry endPc="268442506" name="timerPauseTime" stackId="5" startPc="268439999"/>
+        <entry endPc="268442506" name="elapsed" stackId="3" startPc="268439999"/>
+        <entry endPc="268442506" name="rectangle_height" stackId="24" startPc="268439999"/>
+        <entry arg="true" endPc="268442507" name="dc" stackId="1" startPc="268439995"/>
+        <entry endPc="268442758" name="timerPauseTime" stackId="3" startPc="268442609"/>
+        <entry endPc="268442758" name="now" stackId="1" startPc="268442512"/>
+        <entry endPc="268442758" name="timerStartTime" stackId="2" startPc="268442512"/>
+        <entry endPc="268443193" name="info" stackId="3" startPc="268443139"/>
+        <entry endPc="268443233" name="time" stackId="2" startPc="268443062"/>
+        <entry endPc="268443236" name="timerStartTime" stackId="1" startPc="268443029"/>
+        <entry arg="true" endPc="268443393" name="colors" stackId="1" startPc="268443335"/>
+        <entry arg="true" endPc="268443418" name="value" stackId="1" startPc="268443394"/>
+        <entry arg="true" endPc="268443466" name="index" stackId="1" startPc="268443442"/>
+        <entry arg="true" endPc="268443500" name="index" stackId="1" startPc="268443467"/>
+        <entry arg="true" endPc="268443500" name="selected" stackId="2" startPc="268443467"/>
+        <entry arg="true" endPc="268443552" name="colors" stackId="1" startPc="268443501"/>
+        <entry endPc="268443825" name="i" stackId="5" startPc="268443664"/>
+        <entry endPc="268443918" name="index" stackId="2" startPc="268443557"/>
+        <entry endPc="268443918" name="startAngle" stackId="4" startPc="268443557"/>
+        <entry endPc="268443918" name="angle" stackId="3" startPc="268443557"/>
+        <entry arg="true" endPc="268443919" name="dc" stackId="1" startPc="268443553"/>
+        <entry endPc="268444118" name="angle" stackId="13" startPc="268444021"/>
+        <entry endPc="268444131" name="i" stackId="12" startPc="268444021"/>
+        <entry endPc="268444304" name="i" stackId="14" startPc="268444224"/>
+        <entry endPc="268444390" name="radius" stackId="10" startPc="268443924"/>
+        <entry endPc="268444390" name="halfHeight" stackId="8" startPc="268443924"/>
+        <entry endPc="268444390" name="points" stackId="7" startPc="268443924"/>
+        <entry endPc="268444390" name="arcSize" stackId="11" startPc="268443924"/>
+        <entry endPc="268444390" name="halfWidth" stackId="9" startPc="268443924"/>
+        <entry arg="true" endPc="268444391" name="dc" stackId="1" startPc="268443920"/>
+        <entry arg="true" endPc="268444391" name="endAngle" stackId="5" startPc="268443920"/>
+        <entry arg="true" endPc="268444391" name="startAngle" stackId="4" startPc="268443920"/>
+        <entry arg="true" endPc="268444391" name="centerY" stackId="3" startPc="268443920"/>
+        <entry arg="true" endPc="268444391" name="fill" stackId="6" startPc="268443920"/>
+        <entry arg="true" endPc="268444391" name="centerX" stackId="2" startPc="268443920"/>
+        <entry arg="true" endPc="268444406" name="index" stackId="1" startPc="268444392"/>
+        <entry arg="true" endPc="268444423" name="index" stackId="1" startPc="268444407"/>
+        <entry endPc="268444516" name="i" stackId="2" startPc="268444481"/>
+        <entry arg="true" endPc="268444523" name="color" stackId="1" startPc="268444447"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="typecheck(disableBackgroundCheck)" class="globals" module="" symbol="handleStorageUpdate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/BackgroundRez" symbol="TimerExpired"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="date"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dateSeparator"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPastellGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserTime"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="HourColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimerExpired"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserString"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month12"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month11"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPastellBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month10"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stringPickerTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorOrange"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="morning"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserDate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month05"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month04"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPastellPink"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month07"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month06"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPastellOrange"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month01"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month03"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month02"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPurple"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month09"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="month08"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="clickHere"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timePickerTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="string"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="characterPickerOk"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timeSeparator"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorYellow"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="datePickerTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondsColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPink"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MinuteColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="colorPickerTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pickerChooserLayout"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="afternoon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="time"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="111" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/BackgroundRez" offset="294" parentId="globals" symbolId="BackgroundRez" type="module"/>
+        <dataEntry label="globals/BackgroundRez/JsonData" offset="341" parentId="BackgroundRez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/BackgroundRez/Strings" offset="372" parentId="BackgroundRez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/BinaryTimerApp" offset="411" parentId="globals" symbolId="BinaryTimerApp" type="class"/>
+        <dataEntry label="globals/BinaryTimerServiceDelegate" offset="522" parentId="globals" symbolId="BinaryTimerServiceDelegate" type="class"/>
+        <dataEntry label="globals/TimePickerDelegate" offset="1070" parentId="globals" symbolId="TimePickerDelegate" type="class"/>
+        <dataEntry label="globals/ColorFactory" offset="1157" parentId="globals" symbolId="ColorFactory" type="class"/>
+        <dataEntry label="globals/WordFactory" offset="1244" parentId="globals" symbolId="WordFactory" type="class"/>
+        <dataEntry label="globals/BinaryTimerStorageChangedAlertView" offset="1339" parentId="globals" symbolId="BinaryTimerStorageChangedAlertView" type="class"/>
+        <dataEntry label="globals/RectangleFactory" offset="1394" parentId="globals" symbolId="RectangleFactory" type="class"/>
+        <dataEntry label="globals/Rez" offset="1473" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1552" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1591" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1622" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1653" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1684" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1715" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/BinaryTimerView" offset="2194" parentId="globals" symbolId="BinaryTimerView" type="class"/>
+        <dataEntry label="globals/BinaryTimerDelegate" offset="2465" parentId="globals" symbolId="BinaryTimerDelegate" type="class"/>
+        <dataEntry label="globals/ColorWheel" offset="2560" parentId="globals" symbolId="ColorWheel" type="class"/>
+        <dataEntry label="globals/BinaryTimerMenuDelegate" offset="2679" parentId="globals" symbolId="BinaryTimerMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rectangle" offset="2734" parentId="globals" symbolId="Rectangle" type="class"/>
+        <dataEntry label="globals/CharacterFactory" offset="2797" parentId="globals" symbolId="CharacterFactory" type="class"/>
+        <dataEntry label="globals/TimePicker" offset="2908" parentId="globals" symbolId="TimePicker" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="3003" parentId="globals" symbolId="NumberFactory" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268436074" name="initialize" parent="BinaryTimerMenuDelegate" startPc="268436052">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436149" name="onMenuItem" parent="BinaryTimerMenuDelegate" startPc="268436075">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444920" name="&lt;init&gt;" parent="BinaryTimerMenuDelegate" startPc="268444902">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436240" name="initialize" parent="WordFactory" startPc="268436150">
+            <param id="words"/>
+            <param id="options"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> words Resource identifiers for strings</div><br/> <div class="param"> options Dictionary of options</div><br/> @option options :font The font to use<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436431" name="getIndex" parent="WordFactory" startPc="268436241">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get the index of an item<br/> <div class="param"> value The string or resource identifier to get the index of</div><br/> <div class="returns">Returns  The index</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436454" name="getSize" parent="WordFactory" startPc="268436432">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436471" name="getValue" parent="WordFactory" startPc="268436455">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436604" name="getDrawable" parent="WordFactory" startPc="268436472">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444580" name="&lt;init&gt;" parent="WordFactory" startPc="268444562">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="BinaryTimerServiceDelegate" startPc="268435456">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435645" name="onTemporalEvent" parent="BinaryTimerServiceDelegate" startPc="268435479">
+            <documentation><![CDATA[<div class="description"> If our timer expires, it means the application timer ran out,<br/> and the main application is not open. Prompt the user to let them<br/> know the timer expired.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436051" name="&lt;init&gt;" parent="BinaryTimerServiceDelegate" startPc="268436033">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436637" name="initialize" parent="BinaryTimerDelegate" startPc="268436605">
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> view The app view</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436663" name="onSelect" parent="BinaryTimerDelegate" startPc="268436638">
+            <documentation><![CDATA[<div class="description"> Call the start stop timer method on the parent view<br/> when the select action occurs (start/stop button on most products)<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436686" name="onNextPage" parent="BinaryTimerDelegate" startPc="268436664">
+            <documentation><![CDATA[<div class="description"> Call the reset method on the parent view when the<br/> back action occurs.<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436721" name="onMenu" parent="BinaryTimerDelegate" startPc="268436687">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436726" name="onBack" parent="BinaryTimerDelegate" startPc="268436722">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436814" name="pushPicker" parent="BinaryTimerDelegate" startPc="268436727">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444882" name="&lt;init&gt;" parent="BinaryTimerDelegate" startPc="268444864">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436847" name="initialize" parent="RectangleFactory" startPc="268436815">
+            <param id="color"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> color Color for the rectangle</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436858" name="getSize" parent="RectangleFactory" startPc="268436848">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436869" name="getValue" parent="RectangleFactory" startPc="268436859">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436909" name="getDrawable" parent="RectangleFactory" startPc="268436870">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444618" name="&lt;init&gt;" parent="RectangleFactory" startPc="268444600">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437071" name="initialize" parent="NumberFactory" startPc="268436910">
+            <param id="start"/>
+            <param id="stop"/>
+            <param id="increment"/>
+            <param id="options"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> start Number to start with</div><br/> <div class="param"> stop Number to end with</div><br/> <div class="param"> increment How far apart the numbers should be</div><br/> <div class="param"> options Dictionary of options</div><br/> @option options :font The font to use<br/> @option options :format The number format to display<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437097" name="getIndex" parent="NumberFactory" startPc="268437072">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get the index of a number item<br/> <div class="param"> value The number to get the index of</div><br/> <div class="returns">Returns  The index of the number</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437281" name="getDrawable" parent="NumberFactory" startPc="268437098">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437307" name="getValue" parent="NumberFactory" startPc="268437282">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437345" name="getSize" parent="NumberFactory" startPc="268437308">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444996" name="&lt;init&gt;" parent="NumberFactory" startPc="268444978">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438123" name="initialize" parent="TimePicker" startPc="268437346">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438196" name="onUpdate" parent="TimePicker" startPc="268438124">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438323" name="splitStoredTime" parent="TimePicker" startPc="268438197">
+            <param id="arraySize"/>
+            <documentation><![CDATA[<div class="description"> Get the stored time in an array<br/> <div class="param"> factoryCount Number of factories used to make the time</div><br/> <div class="returns">Returns  Array with the stored time</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444977" name="&lt;init&gt;" parent="TimePicker" startPc="268444959">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438346" name="initialize" parent="TimePickerDelegate" startPc="268438324">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438382" name="onCancel" parent="TimePickerDelegate" startPc="268438347">
+            <documentation><![CDATA[<div class="description"> Handle a cancel event from the picker<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438529" name="onAccept" parent="TimePickerDelegate" startPc="268438383">
+            <param id="values"/>
+            <documentation><![CDATA[<div class="description"> Handle a confirm event from the picker<br/> <div class="param"> values The values chosen in the picker</div><br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444542" name="&lt;init&gt;" parent="TimePickerDelegate" startPc="268444524">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435668" name="initialize" parent="BinaryTimerApp" startPc="268435646">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435673" name="onStart" parent="BinaryTimerApp" startPc="268435669">
+            <param id="state"/>
+            <documentation><![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435722" name="onStop" parent="BinaryTimerApp" startPc="268435674">
+            <param id="state"/>
+            <documentation><![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435769" name="onBackgroundData" parent="BinaryTimerApp" startPc="268435723">
+            <param id="data"/>
+            <documentation><![CDATA[<div class="description"> Handle data passed from a background service delegate to the app<br/> <div class="param"> data The data passed from the background process</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435903" name="getInitialView" parent="BinaryTimerApp" startPc="268435770">
+            <documentation><![CDATA[<div class="description"> Return the initial view for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate]</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435949" name="getServiceDelegate" parent="BinaryTimerApp" startPc="268435904">
+            <documentation><![CDATA[<div class="description"> Get service delegates to run background tasks for the app<br/> <div class="returns">Returns  An array of service delegates to run background tasks</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435986" name="onStorageChanged" parent="BinaryTimerApp" startPc="268435950">
+            <documentation><![CDATA[<div class="description"> Handle a storage update<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436032" name="&lt;init&gt;" parent="BinaryTimerApp" startPc="268436014">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438597" name="handleStorageUpdate" startPc="268438530">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438620" name="initialize" parent="BinaryTimerStorageChangedAlertView" startPc="268438598">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438761" name="onUpdate" parent="BinaryTimerStorageChangedAlertView" startPc="268438621">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444599" name="&lt;init&gt;" parent="BinaryTimerStorageChangedAlertView" startPc="268444581">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438804" name="initialize" parent="CharacterFactory" startPc="268438762">
+            <param id="characterSet"/>
+            <param id="addOk"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> characterSet The characters to include in the Picker</div><br/> <div class="param"> addOk true to add OK button, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438829" name="getIndex" parent="CharacterFactory" startPc="268438805">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get the index of a character item<br/> <div class="param"> value The character to get the index of</div><br/> <div class="returns">Returns  The index of the character</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438877" name="getSize" parent="CharacterFactory" startPc="268438830">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438945" name="getValue" parent="CharacterFactory" startPc="268438878">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439255" name="getDrawable" parent="CharacterFactory" startPc="268438946">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439286" name="isDone" parent="CharacterFactory" startPc="268439256">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get whether the user selected OK and is done picking<br/> <div class="param"> value Value user selected</div><br/> <div class="returns">Returns  true if user is done, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444958" name="&lt;init&gt;" parent="CharacterFactory" startPc="268444940">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439325" name="initialize" parent="Rectangle" startPc="268439287">
+            <param id="color"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> color Color of the rectangle</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439402" name="draw" parent="Rectangle" startPc="268439326">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draw a rectangle<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444939" name="&lt;init&gt;" parent="Rectangle" startPc="268444921">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439724" name="initialize" parent="BinaryTimerView" startPc="268439403">
+            <param id="backgroundRan"/>
+            <documentation><![CDATA[<div class="description"> Initialize variables for this view<br/> <div class="param"> backgroundRan Contains background data if background ran</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439729" name="onLayout" parent="BinaryTimerView" startPc="268439725">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439989" name="onShow" parent="BinaryTimerView" startPc="268439730">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439994" name="setStartPause" parent="BinaryTimerView" startPc="268439990">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442507" name="onUpdate" parent="BinaryTimerView" startPc="268439995">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draw the time remaining on the timer to the display<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442759" name="startStopTimer" parent="BinaryTimerView" startPc="268442508">
+            <documentation><![CDATA[<div class="description"> If the timer is running, pause it. Otherwise, start it up.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442798" name="stopTimer" parent="BinaryTimerView" startPc="268442760">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442923" name="resetTimer" parent="BinaryTimerView" startPc="268442799">
+            <documentation><![CDATA[<div class="description"> If the timer is paused, then go ahead and reset it back to the default time.<br/> <div class="returns">Returns  true if timer is reset, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443024" name="saveProperties" parent="BinaryTimerView" startPc="268442924">
+            <documentation><![CDATA[<div class="description"> Save all the persisted values into the object store. This gets<br/> called by the Application base before the application shuts down.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443237" name="setBackgroundEvent" parent="BinaryTimerView" startPc="268443025">
+            <documentation><![CDATA[<div class="description"> Set up a background event to occur when the timer expires. This<br/> will alert the user that the timer has expired even if the<br/> application does not remain open.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443258" name="deleteBackgroundEvent" parent="BinaryTimerView" startPc="268443238">
+            <documentation><![CDATA[<div class="description"> Delete the background event. We can get rid of this event when the<br/> application opens because now we can see exactly when the timer<br/> is going to expire. We will set it again when the application closes.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443313" name="backgroundEvent" parent="BinaryTimerView" startPc="268443259">
+            <documentation><![CDATA[<div class="description"> If we do receive a background event while the application is open,<br/> go ahead and reset to the default timer.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443334" name="requestUpdate" parent="BinaryTimerView" startPc="268443314">
+            <documentation><![CDATA[<div class="description"> This is the callback method we use for our timer. It is<br/> only needed to request display updates as the timer counts<br/> down so we see the updated time on the display.<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444863" name="&lt;init&gt;" parent="BinaryTimerView" startPc="268444649">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443393" name="initialize" parent="ColorFactory" startPc="268443335">
+            <param id="colors"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> colors Colors to display in the Color Wheel</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443418" name="getIndex" parent="ColorFactory" startPc="268443394">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get the index of a color item<br/> <div class="param"> value The color to get the index of</div><br/> <div class="returns">Returns  The index of the color</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443441" name="getSize" parent="ColorFactory" startPc="268443419">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443466" name="getValue" parent="ColorFactory" startPc="268443442">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443500" name="getDrawable" parent="ColorFactory" startPc="268443467">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444561" name="&lt;init&gt;" parent="ColorFactory" startPc="268444543">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443552" name="initialize" parent="ColorWheel" startPc="268443501">
+            <param id="colors"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> colors The colors to put on the color wheel</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443919" name="draw" parent="ColorWheel" startPc="268443553">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draw an object to device context<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444391" name="drawArc" parent="ColorWheel" startPc="268443920">
+            <param id="dc"/>
+            <param id="centerX"/>
+            <param id="centerY"/>
+            <param id="startAngle"/>
+            <param id="endAngle"/>
+            <param id="fill"/>
+            <documentation><![CDATA[<div class="description"> Draw an arc that is a section of the color wheel<br/> <div class="param"> dc Device context</div><br/> <div class="param"> centerX Center of the wheel, x coordinate</div><br/> <div class="param"> centerY Center of the wheel, y coordinate</div><br/> <div class="param"> startAngle Angle for the start of the arc</div><br/> <div class="param"> endAngle Angle for the end of the arc</div><br/> <div class="param"> fill Whether to fill the section drawn</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444406" name="setColor" parent="ColorWheel" startPc="268444392">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Set the current color index<br/> <div class="param"> index Current color index</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444423" name="getColor" parent="ColorWheel" startPc="268444407">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the color of the item at the given index<br/> <div class="param"> index Index of the item to get the color of</div><br/> <div class="returns">Returns  Color of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444446" name="getNumberOfColors" parent="ColorWheel" startPc="268444424">
+            <documentation><![CDATA[<div class="description"> Get the number of colors in the wheel<br/> <div class="returns">Returns  Number of colors</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444523" name="getColorIndex" parent="ColorWheel" startPc="268444447">
+            <param id="color"/>
+            <documentation><![CDATA[<div class="description"> Get the index of a color<br/> <div class="param"> color The color to get the index of</div><br/> <div class="returns">Returns  The index of the color</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444901" name="&lt;init&gt;" parent="ColorWheel" startPc="268444883">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436012" name="&lt;init&gt;" parent="JsonData" startPc="268436012">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436013" name="&lt;init&gt;" parent="Strings" startPc="268436013">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268436011" name="&lt;init&gt;" parent="BackgroundRez" startPc="268435988">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444643" name="&lt;init&gt;" parent="Drawables" startPc="268444643">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444645" name="&lt;init&gt;" parent="Fonts" startPc="268444645">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444647" name="&lt;init&gt;" parent="JsonData" startPc="268444647">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444646" name="&lt;init&gt;" parent="Layouts" startPc="268444646">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444644" name="&lt;init&gt;" parent="Menus" startPc="268444644">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444648" name="&lt;init&gt;" parent="Strings" startPc="268444648">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444642" name="&lt;init&gt;" parent="Rez" startPc="268444619">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
