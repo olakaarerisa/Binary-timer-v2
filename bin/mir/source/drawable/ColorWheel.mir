@@ -1,0 +1,522 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 7; ]
+import Toybox.Graphics;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 9; ]
+import Toybox.Math;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 10; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 13; ]
+class ColorWheel extends WatchUi.Drawable{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 15; @position = 16; ]
+    private
+    var _colors as Array<ColorType>;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 16; @position = 16; ]
+    private
+    var _index as Number;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 18; @position = 18; ]
+    private
+    const NUM_POINTS = 30;
+    //! Constructor
+    //! @param colors The colors to put on the color wheel
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 22; ]
+    public
+    function initialize(colors as Array<ColorType>) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_22_59_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 23 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 0;
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 24 8 ]
+        %tmp.6 = lgetv %colors;
+        putv self :_colors %tmp.6;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 25 8 ]
+        %tmp.7 = 0;
+        putv self :_index %tmp.7;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_22_59_stop:
+    }
+    //! Draw an object to device context
+    //! @param dc Device context
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 30; ]
+    public
+    function draw(dc as Dc) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 31 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_stop" ]
+        %index.1 = local;
+        %tmp.2 = getv ? :_index;
+        lputv %index.1 %tmp.2;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 32 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_stop" ]
+        %angle.2 = local;
+        %tmp.3 = getm $.Toybox.Math;
+        %tmp.4 = getv %tmp.3 :PI;
+        %tmp.5 = 2;
+        %tmp.6 = mul %tmp.4 %tmp.5;
+        %tmp.8 = getv ? :_colors;
+        %tmp.9 = getv function %tmp.8 :size;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = div %tmp.6 %tmp.10;
+        lputv %angle.2 %tmp.11;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 33 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_stop" ]
+        %startAngle.3 = local;
+        %tmp.12 = getm $.Toybox.Math;
+        %tmp.13 = getv %tmp.12 :PI;
+        %tmp.14 = 3;
+        %tmp.15 = 2.0;
+        %tmp.16 = div %tmp.14 %tmp.15;
+        %tmp.17 = mul %tmp.13 %tmp.16;
+        %tmp.19 = lgetv %angle.2;
+        %tmp.20 = 2.0;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = sub %tmp.17 %tmp.21;
+        lputv %startAngle.3 %tmp.22;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 36 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_end" ]
+        %i.4 = local;
+        %tmp.23 = 0;
+        lputv %i.4 %tmp.23;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_test:
+        %tmp.25 = lgetv %i.4;
+        %tmp.27 = getv ? :_colors;
+        %tmp.28 = getv function %tmp.27 :size;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = lt %tmp.25 %tmp.29;
+        bf %tmp.30 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_49_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 37 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_12_if_stmt:
+        %tmp.32 = lgetv %index.1;
+        %tmp.34 = getv ? :_colors;
+        %tmp.35 = getv function %tmp.34 :size;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = eq %tmp.32 %tmp.36;
+        bf %tmp.37 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_41_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 38 16 ]
+        %tmp.38 = 0;
+        lputv %index.1 %tmp.38;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_41_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_37_12_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 40 12 ]
+        %tmp.39 = lgetv %dc;
+        %tmp.40 = getv function %tmp.39 :setColor;
+        %tmp.42 = getv ? :_colors;
+        %tmp.44 = lgetv %index.1;
+        %tmp.45 = agetv %tmp.42 %tmp.44;
+        %tmp.47 = getv ? :_colors;
+        %tmp.49 = lgetv %index.1;
+        %tmp.50 = agetv %tmp.47 %tmp.49;
+        invoke %tmp.39 %tmp.40(%tmp.45, %tmp.50);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 41 12 ]
+        %tmp.51 = self;
+        %tmp.52 = getv function %tmp.51 :drawArc;
+        %tmp.54 = lgetv %dc;
+        %tmp.55 = lgetv %dc;
+        %tmp.56 = getv function %tmp.55 :getHeight;
+        %tmp.57 = invoke %tmp.55 %tmp.56();
+        %tmp.58 = 2;
+        %tmp.59 = div %tmp.57 %tmp.58;
+        %tmp.60 = lgetv %dc;
+        %tmp.61 = getv function %tmp.60 :getWidth;
+        %tmp.62 = invoke %tmp.60 %tmp.61();
+        %tmp.63 = 2;
+        %tmp.64 = div %tmp.62 %tmp.63;
+        %tmp.66 = lgetv %i.4;
+        %tmp.68 = lgetv %angle.2;
+        %tmp.69 = mul %tmp.66 %tmp.68;
+        %tmp.71 = lgetv %startAngle.3;
+        %tmp.72 = add %tmp.69 %tmp.71;
+        %tmp.74 = lgetv %i.4;
+        %tmp.75 = 1;
+        %tmp.76 = add %tmp.74 %tmp.75;
+        %tmp.78 = lgetv %angle.2;
+        %tmp.79 = mul %tmp.76 %tmp.78;
+        %tmp.81 = lgetv %startAngle.3;
+        %tmp.82 = add %tmp.79 %tmp.81;
+        %tmp.83 = true;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.59, %tmp.64, %tmp.72, %tmp.82, %tmp.83);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 42 12 ]
+        %tmp.86 = lgetv %index.1;
+        %tmp.87 = add %tmp.86 1;
+        lputv %index.1 %tmp.87;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_49_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 36 ]
+        %tmp.90 = lgetv %i.4;
+        %tmp.91 = add %tmp.90 1;
+        lputv %i.4 %tmp.91;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_36_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 46 8 ]
+        %tmp.92 = lgetv %dc;
+        %tmp.93 = getv function %tmp.92 :setColor;
+        %tmp.94 = getm $.Toybox.Graphics;
+        %tmp.95 = getv %tmp.94 :COLOR_WHITE;
+        %tmp.96 = getm $.Toybox.Graphics;
+        %tmp.97 = getv %tmp.96 :COLOR_WHITE;
+        invoke %tmp.92 %tmp.93(%tmp.95, %tmp.97);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 47 8 ]
+        %tmp.98 = self;
+        %tmp.99 = getv function %tmp.98 :drawArc;
+        %tmp.101 = lgetv %dc;
+        %tmp.102 = lgetv %dc;
+        %tmp.103 = getv function %tmp.102 :getHeight;
+        %tmp.104 = invoke %tmp.102 %tmp.103();
+        %tmp.105 = 2;
+        %tmp.106 = div %tmp.104 %tmp.105;
+        %tmp.107 = lgetv %dc;
+        %tmp.108 = getv function %tmp.107 :getWidth;
+        %tmp.109 = invoke %tmp.107 %tmp.108();
+        %tmp.110 = 2;
+        %tmp.111 = div %tmp.109 %tmp.110;
+        %tmp.113 = lgetv %startAngle.3;
+        %tmp.115 = lgetv %startAngle.3;
+        %tmp.117 = lgetv %angle.2;
+        %tmp.118 = add %tmp.115 %tmp.117;
+        %tmp.119 = false;
+        invoke %tmp.98 %tmp.99(%tmp.101, %tmp.106, %tmp.111, %tmp.113, %tmp.118, %tmp.119);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_30_43_stop:
+    }
+    //! Draw an arc that is a section of the color wheel
+    //! @param dc Device context
+    //! @param centerX Center of the wheel, x coordinate
+    //! @param centerY Center of the wheel, y coordinate
+    //! @param startAngle Angle for the start of the arc
+    //! @param endAngle Angle for the end of the arc
+    //! @param fill Whether to fill the section drawn
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 57; ]
+    public
+    function drawArc(dc as Dc, centerX as Number, centerY as Number, startAngle as Float, endAngle as Float, fill as Boolean) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 58 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop" ]
+        %points.1 = local;
+        %tmp.3 = getv ? :NUM_POINTS;
+        %tmp.1 = newa Array<Array<Number or Float>> %tmp.3;
+        lputv %points.1 %tmp.1;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 59 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop" ]
+        %halfHeight.2 = local;
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.7 = 2;
+        %tmp.8 = div %tmp.6 %tmp.7;
+        lputv %halfHeight.2 %tmp.8;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 60 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop" ]
+        %halfWidth.3 = local;
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :getWidth;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 2;
+        %tmp.13 = div %tmp.11 %tmp.12;
+        lputv %halfWidth.3 %tmp.13;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 61 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop" ]
+        %radius.4 = local;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_begin:
+        %tmp.15 = lgetv %halfHeight.2;
+        %tmp.17 = lgetv %halfWidth.3;
+        %tmp.18 = gt %tmp.15 %tmp.17;
+        bf %tmp.18 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_true:
+        %tmp.20 = lgetv %halfWidth.3;
+        push %tmp.20;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_false:
+        %tmp.22 = lgetv %halfHeight.2;
+        push %tmp.22;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_end:
+        %tmp.23 = phi [%tmp.18 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_begin] [%tmp.20 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_true] [%tmp.22 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_false] [%tmp.23 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_61_21_end];
+        lputv %radius.4 %tmp.23;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 62 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop" ]
+        %arcSize.5 = local;
+        %tmp.25 = getv ? :NUM_POINTS;
+        %tmp.26 = 2;
+        %tmp.27 = sub %tmp.25 %tmp.26;
+        lputv %arcSize.5 %tmp.27;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 63 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_end" ]
+        %i.6 = local;
+        %tmp.29 = lgetv %arcSize.5;
+        lputv %i.6 %tmp.29;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_test:
+        %tmp.31 = lgetv %i.6;
+        %tmp.32 = 0;
+        %tmp.33 = gte %tmp.31 %tmp.32;
+        bf %tmp.33 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_43_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 64 12 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_43_stop" ]
+        %angle.7 = local;
+        %tmp.35 = lgetv %i.6;
+        %tmp.36 = lgetv %arcSize.5;
+        %tmp.37 = getv function %tmp.36 :toFloat;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.39 = div %tmp.35 %tmp.38;
+        %tmp.41 = lgetv %endAngle;
+        %tmp.43 = lgetv %startAngle;
+        %tmp.44 = sub %tmp.41 %tmp.43;
+        %tmp.45 = mul %tmp.39 %tmp.44;
+        %tmp.47 = lgetv %startAngle;
+        %tmp.48 = add %tmp.45 %tmp.47;
+        lputv %angle.7 %tmp.48;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 65 12 ]
+        %tmp.49 = lgetv %points.1;
+        %tmp.50 = newa Array<Float> 2;
+        %tmp.52 = lgetv %halfWidth.3;
+        %tmp.54 = lgetv %radius.4;
+        %tmp.55 = getm $.Toybox.Math;
+        %tmp.56 = getv function %tmp.55 :cos;
+        %tmp.58 = lgetv %angle.7;
+        %tmp.59 = invoke %tmp.55 %tmp.56(%tmp.58);
+        %tmp.60 = mul %tmp.54 %tmp.59;
+        %tmp.61 = add %tmp.52 %tmp.60;
+        %tmp.62 = dup %tmp.50;
+        %tmp.63 = aputv %tmp.62 0 %tmp.61;
+        %tmp.65 = lgetv %halfHeight.2;
+        %tmp.67 = lgetv %radius.4;
+        %tmp.68 = getm $.Toybox.Math;
+        %tmp.69 = getv function %tmp.68 :sin;
+        %tmp.71 = lgetv %angle.7;
+        %tmp.72 = invoke %tmp.68 %tmp.69(%tmp.71);
+        %tmp.73 = mul %tmp.67 %tmp.72;
+        %tmp.74 = add %tmp.65 %tmp.73;
+        %tmp.75 = dup %tmp.63;
+        %tmp.76 = aputv %tmp.75 1 %tmp.74;
+        %tmp.78 = lgetv %i.6;
+        aputv %tmp.49 %tmp.78 %tmp.76;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_43_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 63 ]
+        %tmp.81 = lgetv %i.6;
+        %tmp.82 = sub %tmp.81 1;
+        lputv %i.6 %tmp.82;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_63_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 67 8 ]
+        %tmp.83 = lgetv %points.1;
+        %tmp.84 = newa Array<Number> 2;
+        %tmp.86 = lgetv %halfWidth.3;
+        %tmp.87 = dup %tmp.84;
+        %tmp.88 = aputv %tmp.87 0 %tmp.86;
+        %tmp.90 = lgetv %halfHeight.2;
+        %tmp.91 = dup %tmp.88;
+        %tmp.92 = aputv %tmp.91 1 %tmp.90;
+        %tmp.94 = getv ? :NUM_POINTS;
+        %tmp.95 = 1;
+        %tmp.96 = sub %tmp.94 %tmp.95;
+        aputv %tmp.83 %tmp.96 %tmp.92;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 69 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_stmt:
+        %tmp.98 = lgetv %fill;
+        bf %tmp.98 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_18_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 70 12 ]
+        %tmp.99 = lgetv %dc;
+        %tmp.100 = getv function %tmp.99 :fillPolygon;
+        %tmp.102 = lgetv %points.1;
+        invoke %tmp.99 %tmp.100(%tmp.102);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_18_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_71_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 72 12 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_end" ]
+        %i.8 = local;
+        %tmp.103 = 0;
+        lputv %i.8 %tmp.103;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_test:
+        %tmp.105 = lgetv %i.8;
+        %tmp.107 = getv ? :NUM_POINTS;
+        %tmp.108 = 1;
+        %tmp.109 = sub %tmp.107 %tmp.108;
+        %tmp.110 = lt %tmp.105 %tmp.109;
+        bf %tmp.110 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_53_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 73 16 ]
+        %tmp.111 = lgetv %dc;
+        %tmp.112 = getv function %tmp.111 :drawLine;
+        %tmp.114 = lgetv %points.1;
+        %tmp.116 = lgetv %i.8;
+        %tmp.117 = agetv %tmp.114 %tmp.116;
+        %tmp.118 = 0;
+        %tmp.119 = agetv %tmp.117 %tmp.118;
+        %tmp.121 = lgetv %points.1;
+        %tmp.123 = lgetv %i.8;
+        %tmp.124 = agetv %tmp.121 %tmp.123;
+        %tmp.125 = 1;
+        %tmp.126 = agetv %tmp.124 %tmp.125;
+        %tmp.128 = lgetv %points.1;
+        %tmp.130 = lgetv %i.8;
+        %tmp.131 = 1;
+        %tmp.132 = add %tmp.130 %tmp.131;
+        %tmp.133 = agetv %tmp.128 %tmp.132;
+        %tmp.134 = 0;
+        %tmp.135 = agetv %tmp.133 %tmp.134;
+        %tmp.137 = lgetv %points.1;
+        %tmp.139 = lgetv %i.8;
+        %tmp.140 = 1;
+        %tmp.141 = add %tmp.139 %tmp.140;
+        %tmp.142 = agetv %tmp.137 %tmp.141;
+        %tmp.143 = 1;
+        %tmp.144 = agetv %tmp.142 %tmp.143;
+        invoke %tmp.111 %tmp.112(%tmp.119, %tmp.126, %tmp.135, %tmp.144);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_53_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 72 ]
+        %tmp.147 = lgetv %i.8;
+        %tmp.148 = add %tmp.147 1;
+        lputv %i.8 %tmp.148;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_72_12_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 75 12 ]
+        %tmp.149 = lgetv %dc;
+        %tmp.150 = getv function %tmp.149 :drawLine;
+        %tmp.152 = lgetv %points.1;
+        %tmp.154 = getv ? :NUM_POINTS;
+        %tmp.155 = 1;
+        %tmp.156 = sub %tmp.154 %tmp.155;
+        %tmp.157 = agetv %tmp.152 %tmp.156;
+        %tmp.158 = 0;
+        %tmp.159 = agetv %tmp.157 %tmp.158;
+        %tmp.161 = lgetv %points.1;
+        %tmp.163 = getv ? :NUM_POINTS;
+        %tmp.164 = 1;
+        %tmp.165 = sub %tmp.163 %tmp.164;
+        %tmp.166 = agetv %tmp.161 %tmp.165;
+        %tmp.167 = 1;
+        %tmp.168 = agetv %tmp.166 %tmp.167;
+        %tmp.170 = lgetv %points.1;
+        %tmp.171 = 0;
+        %tmp.172 = agetv %tmp.170 %tmp.171;
+        %tmp.173 = 0;
+        %tmp.174 = agetv %tmp.172 %tmp.173;
+        %tmp.176 = lgetv %points.1;
+        %tmp.177 = 0;
+        %tmp.178 = agetv %tmp.176 %tmp.177;
+        %tmp.179 = 1;
+        %tmp.180 = agetv %tmp.178 %tmp.179;
+        invoke %tmp.149 %tmp.150(%tmp.159, %tmp.168, %tmp.174, %tmp.180);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_71_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_69_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_57_141_stop:
+    }
+    //! Set the current color index
+    //! @param index Current color index
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 81; ]
+    public
+    function setColor(index as Number) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_81_54_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 82 8 ]
+        %tmp.2 = lgetv %index;
+        putv self :_index %tmp.2;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_81_54_stop:
+    }
+    //! Get the color of the item at the given index
+    //! @param index Index of the item to get the color of
+    //! @return Color of the item
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 88; ]
+    public
+    function getColor(index as Number) as ColorType {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_88_59_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 89 8 ]
+        %tmp.2 = getv ? :_colors;
+        %tmp.4 = lgetv %index;
+        %tmp.5 = agetv %tmp.2 %tmp.4;
+        ret %tmp.5;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_88_59_stop:
+    }
+    //! Get the number of colors in the wheel
+    //! @return Number of colors
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 94; ]
+    public
+    function getNumberOfColors() as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_94_50_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 95 8 ]
+        %tmp.2 = getv ? :_colors;
+        %tmp.3 = getv function %tmp.2 :size;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        ret %tmp.4;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_94_50_stop:
+    }
+    //! Get the index of a color
+    //! @param color The color to get the index of
+    //! @return The index of the color
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 101; ]
+    public
+    function getColorIndex(color as ColorType) as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_101_64_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 102 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_end" ]
+        %i.1 = local;
+        %tmp.1 = 0;
+        lputv %i.1 %tmp.1;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_test:
+        %tmp.3 = lgetv %i.1;
+        %tmp.5 = getv ? :_colors;
+        %tmp.6 = getv function %tmp.5 :size;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = lt %tmp.3 %tmp.7;
+        bf %tmp.8 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_49_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 103 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_12_if_stmt:
+        %tmp.10 = lgetv %color;
+        %tmp.12 = getv ? :_colors;
+        %tmp.14 = lgetv %i.1;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        %tmp.16 = eq %tmp.10 %tmp.15;
+        bf %tmp.16 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_37_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 104 16 ]
+        %tmp.18 = lgetv %i.1;
+        ret %tmp.18;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_37_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_103_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_49_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 102 ]
+        %tmp.21 = lgetv %i.1;
+        %tmp.22 = add %tmp.21 1;
+        lputv %i.1 %tmp.22;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_102_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc" 107 8 ]
+        %tmp.23 = -1;
+        ret %tmp.23;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_drawable_ColorWheel_mc_101_64_stop:
+    }
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/ColorWheel.mc"; @line = 7; ]
+<init> {
+}

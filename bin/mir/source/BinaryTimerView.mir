@@ -1,0 +1,1658 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 7; ]
+import Toybox.Application;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 8; ]
+import Toybox.Application.Storage;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 9; ]
+import Toybox.Background;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 10; ]
+import Toybox.Graphics;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 11; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 12; ]
+import Toybox.Time;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 13; ]
+import Toybox.Timer;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 14; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 18; typecheck = disableBackgroundCheck; ]
+class BinaryTimerView extends WatchUi.View{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 19; ]
+    <init> {
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 21 5 ]
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :getProperty;
+        %tmp.5 = "BackgroundColor";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        putv self :backgroundColor %tmp.6;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 22 5 ]
+        %tmp.7 = getm $.Toybox.Application;
+        %tmp.8 = getv function %tmp.7 :getApp;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv function %tmp.9 :getProperty;
+        %tmp.11 = "HourColor";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        putv self :_hourColor %tmp.12;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 23 5 ]
+        %tmp.13 = getm $.Toybox.Application;
+        %tmp.14 = getv function %tmp.13 :getApp;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        %tmp.16 = getv function %tmp.15 :getProperty;
+        %tmp.17 = "MinuteColor";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        putv self :_minuteColor %tmp.18;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 24 5 ]
+        %tmp.19 = getm $.Toybox.Application;
+        %tmp.20 = getv function %tmp.19 :getApp;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = getv function %tmp.21 :getProperty;
+        %tmp.23 = "SecondsColor";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        putv self :_secondsColor %tmp.24;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 25 8 ]
+        %tmp.26 = getv ? :_hourColor;
+        putv self :hourColor %tmp.26;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 26 8 ]
+        %tmp.28 = getv ? :_minuteColor;
+        putv self :minuteColor %tmp.28;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 27 8 ]
+        %tmp.30 = getv ? :_secondsColor;
+        putv self :secondsColor %tmp.30;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 38 18 ]
+        %tmp.31 = 5;
+        %tmp.32 = 60;
+        %tmp.33 = mul %tmp.31 %tmp.32;
+        putv self :TIMER_DURATION_DEFAULT %tmp.33;
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 19; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 21; @position = 5; ]
+    var backgroundColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 22; @position = 5; ]
+    var _hourColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 23; @position = 5; ]
+    var _minuteColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 24; @position = 5; ]
+    var _secondsColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 25; @position = 8; ]
+    var hourColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 26; @position = 8; ]
+    var minuteColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 27; @position = 8; ]
+    var secondsColor;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 30; @position = 15; ]
+    public
+    var rectangleMode = true;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 32; ]
+    private static
+    enum TimerKeys {
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 33; @position = 8; ]
+        TIMER_KEY_DURATION,
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 34; @position = 8; ]
+        TIMER_KEY_START_TIME,
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 35; @position = 8; ]
+        TIMER_KEY_PAUSE_TIME
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 38; @position = 18; ]
+    private
+    const TIMER_DURATION_DEFAULT;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 40; @position = 16; ]
+    private
+    var _timerDuration as Number;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 41; @position = 16; ]
+    private
+    var _timerStartTime as Number or Null;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 42; @position = 16; ]
+    private
+    var _timerPauseTime as Number or Null;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 43; @position = 16; ]
+    private
+    var _updateTimer as Timer.Timer;
+    //! Initialize variables for this view
+    //! @param backgroundRan Contains background data if background ran
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 47; ]
+    public
+    function initialize(backgroundRan as PersistableType or Null) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_47_66_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 50 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 53 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_stmt:
+        %tmp.5 = lgetv %backgroundRan;
+        %tmp.6 = null;
+        %tmp.7 = eq %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_35_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 55 12 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_35_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_35_stop" ]
+        %timerDuration.1 = local;
+        %tmp.8 = getm $.Toybox.Application.Storage;
+        %tmp.9 = getv function %tmp.8 :getValue;
+        %tmp.11 = getv ? :TIMER_KEY_DURATION;
+        %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
+        lputv %timerDuration.1 %tmp.12;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 56 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_stmt:
+        %tmp.14 = lgetv %timerDuration.1;
+        %tmp.16 = getv ? :Number;
+        %tmp.17 = isa %tmp.14 %tmp.16;
+        bf %tmp.17 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_49_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 57 16 ]
+        %tmp.19 = lgetv %timerDuration.1;
+        %tmp.20 = as %tmp.19 { (Number) };
+        putv self :_timerDuration %tmp.20;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 58 16 ]
+        %tmp.21 = null;
+        putv self :_timerStartTime %tmp.21;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 59 16 ]
+        %tmp.22 = null;
+        putv self :_timerPauseTime %tmp.22;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_49_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_61_19_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 62 16 ]
+        %tmp.24 = getv ? :TIMER_DURATION_DEFAULT;
+        putv self :_timerDuration %tmp.24;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_61_19_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_56_12_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 65 12 ]
+        %tmp.25 = getm $.Toybox.Application.Storage;
+        %tmp.26 = getv function %tmp.25 :getValue;
+        %tmp.28 = getv ? :TIMER_KEY_START_TIME;
+        %tmp.29 = invoke %tmp.25 %tmp.26(%tmp.28);
+        putv self :_timerStartTime %tmp.29;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 66 12 ]
+        %tmp.30 = getm $.Toybox.Application.Storage;
+        %tmp.31 = getv function %tmp.30 :getValue;
+        %tmp.33 = getv ? :TIMER_KEY_PAUSE_TIME;
+        %tmp.34 = invoke %tmp.30 %tmp.31(%tmp.33);
+        putv self :_timerPauseTime %tmp.34;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_35_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_67_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 70 12 ]
+        %tmp.36 = getv ? :TIMER_DURATION_DEFAULT;
+        putv self :_timerDuration %tmp.36;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 71 12 ]
+        %tmp.37 = null;
+        putv self :_timerStartTime %tmp.37;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 72 12 ]
+        %tmp.38 = null;
+        putv self :_timerPauseTime %tmp.38;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_67_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_53_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 76 8 ]
+        %tmp.41 = getm $.Toybox.Timer;
+        %tmp.42 = getv function ? %tmp.41 :Timer;
+        %tmp.39 = newc %tmp.42 ();
+        putv self :_updateTimer %tmp.39;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 79 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_8_if_stmt:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_12_begin:
+        %tmp.44 = getv ? :_timerStartTime;
+        %tmp.45 = null;
+        %tmp.46 = ne %tmp.44 %tmp.45;
+        %tmp.47 = dup %tmp.46;
+        bf %tmp.47 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_41_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_41_true:
+        %tmp.49 = getv ? :_timerPauseTime;
+        %tmp.50 = null;
+        %tmp.51 = eq %tmp.49 %tmp.50;
+        %tmp.52 = and %tmp.46 %tmp.51;
+        push %tmp.52;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_41_end:
+        %tmp.53 = phi [%tmp.47 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_12_begin] [%tmp.52 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_41_true] [%tmp.53 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_41_end];
+        bf %tmp.53 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_68_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 81 12 ]
+        %tmp.55 = getv ? :_updateTimer;
+        %tmp.56 = getv function %tmp.55 :start;
+        %tmp.57 = self;
+        %tmp.58 = getv function %tmp.57 :method;
+        %tmp.60 = const :requestUpdate;
+        %tmp.61 = invoke %tmp.57 %tmp.58(%tmp.60);
+        %tmp.62 = 1000;
+        %tmp.63 = true;
+        invoke %tmp.55 %tmp.56(%tmp.61, %tmp.62, %tmp.63);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_68_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_79_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_47_66_stop:
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 85; ]
+    public
+    function onLayout(dc) {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 89; ]
+    public
+    function onShow() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_89_34_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 92 2 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_89_34_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_89_34_stop" ]
+        %timerDuration.1 = local;
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        %tmp.2 = getv function %tmp.1 :getValue;
+        %tmp.4 = getv ? :TIMER_KEY_DURATION;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
+        lputv %timerDuration.1 %tmp.5;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 93 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_stmt:
+        %tmp.7 = lgetv %timerDuration.1;
+        %tmp.9 = getv ? :Number;
+        %tmp.10 = isa %tmp.7 %tmp.9;
+        bf %tmp.10 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_45_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 94 9 ]
+        %tmp.12 = lgetv %timerDuration.1;
+        %tmp.13 = as %tmp.12 { (Number) };
+        putv self :_timerDuration %tmp.13;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 95 12 ]
+        %tmp.14 = null;
+        putv self :_timerStartTime %tmp.14;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 96 12 ]
+        %tmp.15 = null;
+        putv self :_timerPauseTime %tmp.15;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_45_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_98_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 99 12 ]
+        %tmp.17 = getv ? :TIMER_DURATION_DEFAULT;
+        putv self :_timerDuration %tmp.17;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_98_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_93_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 103 2 ]
+        %tmp.18 = getm $.Toybox.Application.Storage;
+        %tmp.19 = getv function %tmp.18 :getValue;
+        %tmp.21 = getv ? :TIMER_KEY_START_TIME;
+        %tmp.22 = invoke %tmp.18 %tmp.19(%tmp.21);
+        putv self :_timerStartTime %tmp.22;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 104 8 ]
+        %tmp.23 = getm $.Toybox.Application.Storage;
+        %tmp.24 = getv function %tmp.23 :getValue;
+        %tmp.26 = getv ? :TIMER_KEY_PAUSE_TIME;
+        %tmp.27 = invoke %tmp.23 %tmp.24(%tmp.26);
+        putv self :_timerPauseTime %tmp.27;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 108 8 ]
+        %tmp.30 = getm $.Toybox.Timer;
+        %tmp.31 = getv function ? %tmp.30 :Timer;
+        %tmp.28 = newc %tmp.31 ();
+        putv self :_updateTimer %tmp.28;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 111 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_8_if_stmt:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_12_begin:
+        %tmp.33 = getv ? :_timerStartTime;
+        %tmp.34 = null;
+        %tmp.35 = ne %tmp.33 %tmp.34;
+        %tmp.36 = dup %tmp.35;
+        bf %tmp.36 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_41_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_41_true:
+        %tmp.38 = getv ? :_timerPauseTime;
+        %tmp.39 = null;
+        %tmp.40 = eq %tmp.38 %tmp.39;
+        %tmp.41 = and %tmp.35 %tmp.40;
+        push %tmp.41;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_41_end:
+        %tmp.42 = phi [%tmp.36 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_12_begin] [%tmp.41 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_41_true] [%tmp.42 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_41_end];
+        bf %tmp.42 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_68_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 113 12 ]
+        %tmp.44 = getv ? :_updateTimer;
+        %tmp.45 = getv function %tmp.44 :start;
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :method;
+        %tmp.49 = const :requestUpdate;
+        %tmp.50 = invoke %tmp.46 %tmp.47(%tmp.49);
+        %tmp.51 = 1000;
+        %tmp.52 = true;
+        invoke %tmp.44 %tmp.45(%tmp.50, %tmp.51, %tmp.52);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_68_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_111_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_89_34_stop:
+    }
+    //! Draw the time remaining on the timer to the display
+    //! @param dc Device Context
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 120; ]
+    public
+    function onUpdate(dc as Dc) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 121 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :backgroundColor;
+        %tmp.6 = getv ? :backgroundColor;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 122 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 124 2 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %clockTime.1 = local;
+        %tmp.10 = getv ? :System;
+        %tmp.11 = getv function %tmp.10 :getClockTime;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        lputv %clockTime.1 %tmp.12;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 125 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %elapsed.2 = local;
+        %tmp.13 = 0;
+        lputv %elapsed.2 %tmp.13;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 126 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %timerStartTime.3 = local;
+        %tmp.15 = getv ? :_timerStartTime;
+        lputv %timerStartTime.3 %tmp.15;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 127 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %timerPauseTime.4 = local;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 128 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_stmt:
+        %tmp.17 = lgetv %timerStartTime.3;
+        %tmp.18 = null;
+        %tmp.19 = ne %tmp.17 %tmp.18;
+        bf %tmp.19 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 129 12 ]
+        %tmp.21 = getv ? :_timerPauseTime;
+        lputv %timerPauseTime.4 %tmp.21;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 130 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_stmt:
+        %tmp.23 = lgetv %timerPauseTime.4;
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 132 16 ]
+        %tmp.26 = getm $.Toybox.Graphics;
+        %tmp.27 = getv %tmp.26 :COLOR_YELLOW;
+        putv self :hourColor %tmp.27;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 133 16 ]
+        %tmp.28 = getm $.Toybox.Graphics;
+        %tmp.29 = getv %tmp.28 :COLOR_YELLOW;
+        putv self :minuteColor %tmp.29;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 134 16 ]
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv %tmp.30 :COLOR_YELLOW;
+        putv self :secondsColor %tmp.31;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 135 16 ]
+        %tmp.33 = lgetv %timerPauseTime.4;
+        %tmp.34 = as %tmp.33 { (!Null) };
+        %tmp.36 = lgetv %timerStartTime.3;
+        %tmp.37 = as %tmp.36 { (!Null) };
+        %tmp.38 = sub %tmp.34 %tmp.37;
+        lputv %elapsed.2 %tmp.38;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_40_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_136_19_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 137 16 ]
+        %tmp.39 = getm $.Toybox.Time;
+        %tmp.40 = getv function %tmp.39 :now;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        %tmp.42 = getv function %tmp.41 :value;
+        %tmp.43 = invoke %tmp.41 %tmp.42();
+        %tmp.45 = lgetv %timerStartTime.3;
+        %tmp.46 = as %tmp.45 { (!Null) };
+        %tmp.47 = sub %tmp.43 %tmp.46;
+        lputv %elapsed.2 %tmp.47;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_136_19_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_130_12_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 140 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_12_if_stmt:
+        %tmp.49 = lgetv %elapsed.2;
+        %tmp.51 = getv ? :_timerDuration;
+        %tmp.52 = gte %tmp.49 %tmp.51;
+        bf %tmp.52 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 141 16 ]
+        %tmp.54 = getv ? :_timerDuration;
+        lputv %elapsed.2 %tmp.54;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 143 16 ]
+        %tmp.55 = getm $.Toybox.Graphics;
+        %tmp.56 = getv %tmp.55 :COLOR_RED;
+        putv self :hourColor %tmp.56;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 144 16 ]
+        %tmp.57 = getm $.Toybox.Graphics;
+        %tmp.58 = getv %tmp.57 :COLOR_RED;
+        putv self :minuteColor %tmp.58;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 145 16 ]
+        %tmp.59 = getm $.Toybox.Graphics;
+        %tmp.60 = getv %tmp.59 :COLOR_RED;
+        putv self :secondsColor %tmp.60;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 146 16 ]
+        %tmp.61 = getm $.Toybox.Time;
+        %tmp.62 = getv function %tmp.61 :now;
+        %tmp.63 = invoke %tmp.61 %tmp.62();
+        %tmp.64 = getv function %tmp.63 :value;
+        %tmp.65 = invoke %tmp.63 %tmp.64();
+        putv self :_timerPauseTime %tmp.65;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 147 16 ]
+        %tmp.67 = getv ? :_updateTimer;
+        %tmp.68 = getv function %tmp.67 :stop;
+        invoke %tmp.67 %tmp.68();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 148 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %toneLength.5 = local;
+        %tmp.69 = 120;
+        lputv %toneLength.5 %tmp.69;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 149 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %c.6 = local;
+        %tmp.70 = 1047;
+        lputv %c.6 %tmp.70;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 150 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %g.7 = local;
+        %tmp.71 = 784;
+        lputv %g.7 %tmp.71;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 151 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %fiss.8 = local;
+        %tmp.72 = 740;
+        lputv %fiss.8 %tmp.72;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 152 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %giss.9 = local;
+        %tmp.73 = 831;
+        lputv %giss.9 %tmp.73;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 153 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %b.10 = local;
+        %tmp.74 = 988;
+        lputv %b.10 %tmp.74;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 154 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop" ]
+        %p.11 = local;
+        %tmp.75 = 0;
+        lputv %p.11 %tmp.75;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 156 16 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_16_if_stmt:
+        %tmp.77 = getv ? :Attention;
+        %tmp.79 = const :ToneProfile;
+        %tmp.80 = canhazplz %tmp.77 %tmp.79;
+        bf %tmp.80 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_16_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_16_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_48_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 157 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_48_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_48_stop" ]
+        %toneProfile.12 = local;
+        %tmp.81 = newa 11;
+        %tmp.85 = getv ? :Attention;
+        %tmp.86 = as %tmp.85 { (interface { var ToneProfile; }) };
+        %tmp.87 = getv function ? %tmp.86 :ToneProfile;
+        %tmp.89 = lgetv %c.6;
+        %tmp.91 = lgetv %toneLength.5;
+        %tmp.82 = newc %tmp.87 (%tmp.89, %tmp.91);
+        %tmp.92 = dup %tmp.81;
+        %tmp.93 = aputv %tmp.92 0 %tmp.82;
+        %tmp.97 = getv ? :Attention;
+        %tmp.98 = as %tmp.97 { (interface { var ToneProfile; }) };
+        %tmp.99 = getv function ? %tmp.98 :ToneProfile;
+        %tmp.101 = lgetv %p.11;
+        %tmp.103 = lgetv %toneLength.5;
+        %tmp.104 = 2;
+        %tmp.105 = mul %tmp.103 %tmp.104;
+        %tmp.94 = newc %tmp.99 (%tmp.101, %tmp.105);
+        %tmp.106 = dup %tmp.93;
+        %tmp.107 = aputv %tmp.106 1 %tmp.94;
+        %tmp.111 = getv ? :Attention;
+        %tmp.112 = as %tmp.111 { (interface { var ToneProfile; }) };
+        %tmp.113 = getv function ? %tmp.112 :ToneProfile;
+        %tmp.115 = lgetv %g.7;
+        %tmp.117 = lgetv %toneLength.5;
+        %tmp.108 = newc %tmp.113 (%tmp.115, %tmp.117);
+        %tmp.118 = dup %tmp.107;
+        %tmp.119 = aputv %tmp.118 2 %tmp.108;
+        %tmp.123 = getv ? :Attention;
+        %tmp.124 = as %tmp.123 { (interface { var ToneProfile; }) };
+        %tmp.125 = getv function ? %tmp.124 :ToneProfile;
+        %tmp.127 = lgetv %fiss.8;
+        %tmp.129 = lgetv %toneLength.5;
+        %tmp.120 = newc %tmp.125 (%tmp.127, %tmp.129);
+        %tmp.130 = dup %tmp.119;
+        %tmp.131 = aputv %tmp.130 3 %tmp.120;
+        %tmp.135 = getv ? :Attention;
+        %tmp.136 = as %tmp.135 { (interface { var ToneProfile; }) };
+        %tmp.137 = getv function ? %tmp.136 :ToneProfile;
+        %tmp.139 = lgetv %g.7;
+        %tmp.141 = lgetv %toneLength.5;
+        %tmp.132 = newc %tmp.137 (%tmp.139, %tmp.141);
+        %tmp.142 = dup %tmp.131;
+        %tmp.143 = aputv %tmp.142 4 %tmp.132;
+        %tmp.147 = getv ? :Attention;
+        %tmp.148 = as %tmp.147 { (interface { var ToneProfile; }) };
+        %tmp.149 = getv function ? %tmp.148 :ToneProfile;
+        %tmp.151 = lgetv %giss.9;
+        %tmp.153 = lgetv %toneLength.5;
+        %tmp.154 = 3;
+        %tmp.155 = mul %tmp.153 %tmp.154;
+        %tmp.144 = newc %tmp.149 (%tmp.151, %tmp.155);
+        %tmp.156 = dup %tmp.143;
+        %tmp.157 = aputv %tmp.156 5 %tmp.144;
+        %tmp.161 = getv ? :Attention;
+        %tmp.162 = as %tmp.161 { (interface { var ToneProfile; }) };
+        %tmp.163 = getv function ? %tmp.162 :ToneProfile;
+        %tmp.165 = lgetv %g.7;
+        %tmp.167 = lgetv %toneLength.5;
+        %tmp.168 = 1;
+        %tmp.169 = mul %tmp.167 %tmp.168;
+        %tmp.158 = newc %tmp.163 (%tmp.165, %tmp.169);
+        %tmp.170 = dup %tmp.157;
+        %tmp.171 = aputv %tmp.170 6 %tmp.158;
+        %tmp.175 = getv ? :Attention;
+        %tmp.176 = as %tmp.175 { (interface { var ToneProfile; }) };
+        %tmp.177 = getv function ? %tmp.176 :ToneProfile;
+        %tmp.179 = lgetv %p.11;
+        %tmp.181 = lgetv %toneLength.5;
+        %tmp.182 = 5;
+        %tmp.183 = mul %tmp.181 %tmp.182;
+        %tmp.172 = newc %tmp.177 (%tmp.179, %tmp.183);
+        %tmp.184 = dup %tmp.171;
+        %tmp.185 = aputv %tmp.184 7 %tmp.172;
+        %tmp.189 = getv ? :Attention;
+        %tmp.190 = as %tmp.189 { (interface { var ToneProfile; }) };
+        %tmp.191 = getv function ? %tmp.190 :ToneProfile;
+        %tmp.193 = lgetv %b.10;
+        %tmp.195 = lgetv %toneLength.5;
+        %tmp.186 = newc %tmp.191 (%tmp.193, %tmp.195);
+        %tmp.196 = dup %tmp.185;
+        %tmp.197 = aputv %tmp.196 8 %tmp.186;
+        %tmp.201 = getv ? :Attention;
+        %tmp.202 = as %tmp.201 { (interface { var ToneProfile; }) };
+        %tmp.203 = getv function ? %tmp.202 :ToneProfile;
+        %tmp.205 = lgetv %p.11;
+        %tmp.207 = lgetv %toneLength.5;
+        %tmp.208 = 2;
+        %tmp.209 = mul %tmp.207 %tmp.208;
+        %tmp.198 = newc %tmp.203 (%tmp.205, %tmp.209);
+        %tmp.210 = dup %tmp.197;
+        %tmp.211 = aputv %tmp.210 9 %tmp.198;
+        %tmp.215 = getv ? :Attention;
+        %tmp.216 = as %tmp.215 { (interface { var ToneProfile; }) };
+        %tmp.217 = getv function ? %tmp.216 :ToneProfile;
+        %tmp.219 = lgetv %c.6;
+        %tmp.221 = lgetv %toneLength.5;
+        %tmp.212 = newc %tmp.217 (%tmp.219, %tmp.221);
+        %tmp.222 = dup %tmp.211;
+        %tmp.223 = aputv %tmp.222 10 %tmp.212;
+        lputv %toneProfile.12 %tmp.223;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 171 8 ]
+        %tmp.225 = getv ? :Attention;
+        %tmp.226 = as %tmp.225 { (interface { var ToneProfile; }) };
+        %tmp.227 = getv function %tmp.226 :playTone;
+        %tmp.228 = newd 1;
+        %tmp.230 = const :toneProfile;
+        %tmp.232 = lgetv %toneProfile.12;
+        %tmp.233 = dup %tmp.228;
+        %tmp.234 = aputv %tmp.233 %tmp.230 %tmp.232;
+        invoke %tmp.226 %tmp.227(%tmp.234);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_48_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_16_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_156_16_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 174 4 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_4_if_stmt:
+        %tmp.236 = getv ? :Attention;
+        %tmp.238 = const :vibrate;
+        %tmp.239 = canhazplz %tmp.236 %tmp.238;
+        bf %tmp.239 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_4_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_4_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_32_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 175 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_32_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_32_stop" ]
+        %vibrateData.13 = local;
+        %tmp.240 = newa 7;
+        %tmp.244 = getv ? :Attention;
+        %tmp.245 = as %tmp.244 { (interface { var vibrate; }) };
+        %tmp.246 = getv function ? %tmp.245 :VibeProfile;
+        %tmp.247 = 25;
+        %tmp.248 = 100;
+        %tmp.241 = newc %tmp.246 (%tmp.247, %tmp.248);
+        %tmp.249 = dup %tmp.240;
+        %tmp.250 = aputv %tmp.249 0 %tmp.241;
+        %tmp.254 = getv ? :Attention;
+        %tmp.255 = as %tmp.254 { (interface { var vibrate; }) };
+        %tmp.256 = getv function ? %tmp.255 :VibeProfile;
+        %tmp.257 = 50;
+        %tmp.258 = 100;
+        %tmp.251 = newc %tmp.256 (%tmp.257, %tmp.258);
+        %tmp.259 = dup %tmp.250;
+        %tmp.260 = aputv %tmp.259 1 %tmp.251;
+        %tmp.264 = getv ? :Attention;
+        %tmp.265 = as %tmp.264 { (interface { var vibrate; }) };
+        %tmp.266 = getv function ? %tmp.265 :VibeProfile;
+        %tmp.267 = 75;
+        %tmp.268 = 100;
+        %tmp.261 = newc %tmp.266 (%tmp.267, %tmp.268);
+        %tmp.269 = dup %tmp.260;
+        %tmp.270 = aputv %tmp.269 2 %tmp.261;
+        %tmp.274 = getv ? :Attention;
+        %tmp.275 = as %tmp.274 { (interface { var vibrate; }) };
+        %tmp.276 = getv function ? %tmp.275 :VibeProfile;
+        %tmp.277 = 100;
+        %tmp.278 = 100;
+        %tmp.271 = newc %tmp.276 (%tmp.277, %tmp.278);
+        %tmp.279 = dup %tmp.270;
+        %tmp.280 = aputv %tmp.279 3 %tmp.271;
+        %tmp.284 = getv ? :Attention;
+        %tmp.285 = as %tmp.284 { (interface { var vibrate; }) };
+        %tmp.286 = getv function ? %tmp.285 :VibeProfile;
+        %tmp.287 = 75;
+        %tmp.288 = 100;
+        %tmp.281 = newc %tmp.286 (%tmp.287, %tmp.288);
+        %tmp.289 = dup %tmp.280;
+        %tmp.290 = aputv %tmp.289 4 %tmp.281;
+        %tmp.294 = getv ? :Attention;
+        %tmp.295 = as %tmp.294 { (interface { var vibrate; }) };
+        %tmp.296 = getv function ? %tmp.295 :VibeProfile;
+        %tmp.297 = 50;
+        %tmp.298 = 100;
+        %tmp.291 = newc %tmp.296 (%tmp.297, %tmp.298);
+        %tmp.299 = dup %tmp.290;
+        %tmp.300 = aputv %tmp.299 5 %tmp.291;
+        %tmp.304 = getv ? :Attention;
+        %tmp.305 = as %tmp.304 { (interface { var vibrate; }) };
+        %tmp.306 = getv function ? %tmp.305 :VibeProfile;
+        %tmp.307 = 25;
+        %tmp.308 = 100;
+        %tmp.301 = newc %tmp.306 (%tmp.307, %tmp.308);
+        %tmp.309 = dup %tmp.300;
+        %tmp.310 = aputv %tmp.309 6 %tmp.301;
+        lputv %vibrateData.13 %tmp.310;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 185 16 ]
+        %tmp.312 = getv ? :Attention;
+        %tmp.313 = as %tmp.312 { (interface { var vibrate; }) };
+        %tmp.314 = getv function %tmp.313 :vibrate;
+        %tmp.316 = lgetv %vibrateData.13;
+        invoke %tmp.313 %tmp.314(%tmp.316);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_32_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_4_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_174_4_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_43_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_140_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_36_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_189_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 190 12 ]
+        %tmp.317 = null;
+        lputv %timerPauseTime.4 %tmp.317;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_189_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_128_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 193 2 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %clockValue.14 = local;
+        %tmp.318 = lgetv %clockTime.1;
+        %tmp.319 = getv %tmp.318 :hour;
+        %tmp.320 = 3600;
+        %tmp.321 = mul %tmp.319 %tmp.320;
+        %tmp.322 = lgetv %clockTime.1;
+        %tmp.323 = getv %tmp.322 :min;
+        %tmp.324 = 60;
+        %tmp.325 = mul %tmp.323 %tmp.324;
+        %tmp.326 = add %tmp.321 %tmp.325;
+        %tmp.327 = lgetv %clockTime.1;
+        %tmp.328 = getv %tmp.327 :sec;
+        %tmp.329 = add %tmp.326 %tmp.328;
+        lputv %clockValue.14 %tmp.329;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 194 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %timerValue.15 = local;
+        %tmp.331 = getv ? :_timerDuration;
+        %tmp.333 = lgetv %elapsed.2;
+        %tmp.334 = sub %tmp.331 %tmp.333;
+        lputv %timerValue.15 %tmp.334;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 197 2 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %finishValue.16 = local;
+        %tmp.336 = lgetv %clockValue.14;
+        %tmp.338 = lgetv %timerValue.15;
+        %tmp.339 = add %tmp.336 %tmp.338;
+        lputv %finishValue.16 %tmp.339;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 199 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %seconds.17 = local;
+        %tmp.341 = lgetv %timerValue.15;
+        %tmp.342 = 60;
+        %tmp.343 = mod %tmp.341 %tmp.342;
+        lputv %seconds.17 %tmp.343;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 200 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %minutes.18 = local;
+        %tmp.345 = lgetv %timerValue.15;
+        %tmp.346 = 60;
+        %tmp.347 = div %tmp.345 %tmp.346;
+        %tmp.348 = 60;
+        %tmp.349 = mod %tmp.347 %tmp.348;
+        lputv %minutes.18 %tmp.349;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 201 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %hours.19 = local;
+        %tmp.351 = lgetv %timerValue.15;
+        %tmp.352 = 3600;
+        %tmp.353 = div %tmp.351 %tmp.352;
+        lputv %hours.19 %tmp.353;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 204 8 ]
+        %tmp.354 = lgetv %dc;
+        %tmp.355 = getv function %tmp.354 :setColor;
+        %tmp.357 = getv ? :hourColor;
+        %tmp.358 = getm $.Toybox.Graphics;
+        %tmp.359 = getv %tmp.358 :COLOR_BLACK;
+        invoke %tmp.354 %tmp.355(%tmp.357, %tmp.359);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 205 8 ]
+        %tmp.360 = lgetv %dc;
+        %tmp.361 = getv function %tmp.360 :clear;
+        invoke %tmp.360 %tmp.361();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 207 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %rest_width.20 = local;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 208 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %rest_height.21 = local;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 209 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %rectangle_width.22 = local;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 210 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop" ]
+        %rectangle_height.23 = local;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 216 8 ]
+        %tmp.362 = lgetv %dc;
+        %tmp.363 = getv function %tmp.362 :getWidth;
+        %tmp.364 = invoke %tmp.362 %tmp.363();
+        %tmp.365 = 2;
+        %tmp.366 = sub %tmp.364 %tmp.365;
+        %tmp.367 = 3;
+        %tmp.368 = mod %tmp.366 %tmp.367;
+        lputv %rest_width.20 %tmp.368;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 217 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_stmt:
+        %tmp.369 = lgetv %dc;
+        %tmp.370 = getv function %tmp.369 :getHeight;
+        %tmp.371 = invoke %tmp.369 %tmp.370();
+        %tmp.372 = 5;
+        %tmp.373 = sub %tmp.371 %tmp.372;
+        %tmp.374 = 6;
+        %tmp.375 = mod %tmp.373 %tmp.374;
+        %tmp.376 = 4;
+        %tmp.377 = gt %tmp.375 %tmp.376;
+        bf %tmp.377 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_42_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 218 12 ]
+        %tmp.378 = 3;
+        lputv %rest_height.21 %tmp.378;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_42_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_false:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 219 15 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_stmt:
+        %tmp.379 = lgetv %dc;
+        %tmp.380 = getv function %tmp.379 :getHeight;
+        %tmp.381 = invoke %tmp.379 %tmp.380();
+        %tmp.382 = 5;
+        %tmp.383 = sub %tmp.381 %tmp.382;
+        %tmp.384 = 6;
+        %tmp.385 = mod %tmp.383 %tmp.384;
+        %tmp.386 = 2;
+        %tmp.387 = gt %tmp.385 %tmp.386;
+        bf %tmp.387 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_49_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 220 12 ]
+        %tmp.388 = 2;
+        lputv %rest_height.21 %tmp.388;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_49_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_221_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 222 12 ]
+        %tmp.389 = 1;
+        lputv %rest_height.21 %tmp.389;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_221_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_219_15_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_217_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 224 8 ]
+        %tmp.390 = lgetv %dc;
+        %tmp.391 = getv function %tmp.390 :getWidth;
+        %tmp.392 = invoke %tmp.390 %tmp.391();
+        %tmp.393 = 2;
+        %tmp.394 = sub %tmp.392 %tmp.393;
+        %tmp.395 = 3;
+        %tmp.396 = div %tmp.394 %tmp.395;
+        %tmp.398 = lgetv %rest_width.20;
+        %tmp.399 = add %tmp.396 %tmp.398;
+        lputv %rectangle_width.22 %tmp.399;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 225 8 ]
+        %tmp.400 = lgetv %dc;
+        %tmp.401 = getv function %tmp.400 :getHeight;
+        %tmp.402 = invoke %tmp.400 %tmp.401();
+        %tmp.403 = 5;
+        %tmp.404 = sub %tmp.402 %tmp.403;
+        %tmp.405 = 6;
+        %tmp.406 = div %tmp.404 %tmp.405;
+        %tmp.408 = lgetv %rest_height.21;
+        %tmp.409 = add %tmp.406 %tmp.408;
+        lputv %rectangle_height.23 %tmp.409;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 228 8 ]
+        %tmp.411 = getv ? :_hourColor;
+        putv self :hourColor %tmp.411;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 230 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_8_if_stmt:
+        %tmp.413 = lgetv %timerPauseTime.4;
+        %tmp.414 = null;
+        %tmp.415 = eq %tmp.413 %tmp.414;
+        bf %tmp.415 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 231 12 ]
+        %tmp.416 = lgetv %dc;
+        %tmp.417 = getv function %tmp.416 :setColor;
+        %tmp.419 = getv ? :hourColor;
+        %tmp.421 = getv ? :backgroundColor;
+        invoke %tmp.416 %tmp.417(%tmp.419, %tmp.421);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_36_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_230_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 234 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_end" ]
+        %x.24 = local;
+        %tmp.422 = 0;
+        lputv %x.24 %tmp.422;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_test:
+        %tmp.424 = lgetv %x.24;
+        %tmp.425 = 1;
+        %tmp.426 = lt %tmp.424 %tmp.425;
+        bf %tmp.426 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 235 12 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_end" ]
+        %y.25 = local;
+        %tmp.427 = 0;
+        lputv %y.25 %tmp.427;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_test:
+        %tmp.429 = lgetv %y.25;
+        %tmp.430 = 6;
+        %tmp.431 = lt %tmp.429 %tmp.430;
+        bf %tmp.431 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 236 16 ]
+        %tmp.432 = lgetv %dc;
+        %tmp.433 = getv function %tmp.432 :drawRectangle;
+        %tmp.435 = lgetv %x.24;
+        %tmp.437 = lgetv %rectangle_width.22;
+        %tmp.438 = 1;
+        %tmp.439 = add %tmp.437 %tmp.438;
+        %tmp.440 = mul %tmp.435 %tmp.439;
+        %tmp.442 = lgetv %rest_width.20;
+        %tmp.443 = sub %tmp.440 %tmp.442;
+        %tmp.445 = lgetv %y.25;
+        %tmp.447 = lgetv %rectangle_height.23;
+        %tmp.448 = 1;
+        %tmp.449 = add %tmp.447 %tmp.448;
+        %tmp.450 = mul %tmp.445 %tmp.449;
+        %tmp.452 = lgetv %rest_height.21;
+        %tmp.453 = sub %tmp.450 %tmp.452;
+        %tmp.455 = lgetv %rectangle_width.22;
+        %tmp.457 = lgetv %rectangle_height.23;
+        invoke %tmp.432 %tmp.433(%tmp.443, %tmp.453, %tmp.455, %tmp.457);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_40_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 235 ]
+        %tmp.460 = lgetv %y.25;
+        %tmp.461 = add %tmp.460 1;
+        lputv %y.25 %tmp.461;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_235_12_for_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 234 ]
+        %tmp.464 = lgetv %x.24;
+        %tmp.465 = add %tmp.464 1;
+        lputv %x.24 %tmp.465;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_234_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 241 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_end" ]
+        %i.26 = local;
+        %tmp.466 = 0;
+        lputv %i.26 %tmp.466;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_test:
+        %tmp.468 = lgetv %i.26;
+        %tmp.469 = 5;
+        %tmp.470 = lt %tmp.468 %tmp.469;
+        bf %tmp.470 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 242 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_12_if_stmt:
+        %tmp.472 = lgetv %hours.19;
+        %tmp.474 = getv ? :Math;
+        %tmp.475 = getv function %tmp.474 :pow;
+        %tmp.476 = 2;
+        %tmp.477 = 4;
+        %tmp.479 = lgetv %i.26;
+        %tmp.480 = sub %tmp.477 %tmp.479;
+        %tmp.481 = invoke %tmp.474 %tmp.475(%tmp.476, %tmp.480);
+        %tmp.482 = getv function %tmp.481 :toLong;
+        %tmp.483 = invoke %tmp.481 %tmp.482();
+        %tmp.484 = div %tmp.472 %tmp.483;
+        %tmp.485 = 2;
+        %tmp.486 = mod %tmp.484 %tmp.485;
+        %tmp.487 = 1;
+        %tmp.488 = eq %tmp.486 %tmp.487;
+        bf %tmp.488 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_62_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 243 16 ]
+        %tmp.489 = lgetv %dc;
+        %tmp.490 = getv function %tmp.489 :fillRectangle;
+        %tmp.492 = lgetv %rest_width.20;
+        %tmp.493 = sub 0 %tmp.492;
+        %tmp.495 = lgetv %i.26;
+        %tmp.496 = 1;
+        %tmp.497 = add %tmp.495 %tmp.496;
+        %tmp.499 = lgetv %rectangle_height.23;
+        %tmp.500 = 1;
+        %tmp.501 = add %tmp.499 %tmp.500;
+        %tmp.502 = mul %tmp.497 %tmp.501;
+        %tmp.504 = lgetv %rest_height.21;
+        %tmp.505 = sub %tmp.502 %tmp.504;
+        %tmp.507 = lgetv %rectangle_width.22;
+        %tmp.509 = lgetv %rectangle_height.23;
+        %tmp.510 = 1;
+        %tmp.511 = sub %tmp.509 %tmp.510;
+        invoke %tmp.489 %tmp.490(%tmp.493, %tmp.505, %tmp.507, %tmp.511);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_62_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_242_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 241 ]
+        %tmp.514 = lgetv %i.26;
+        %tmp.515 = add %tmp.514 1;
+        lputv %i.26 %tmp.515;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_241_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 247 8 ]
+        %tmp.517 = getv ? :_minuteColor;
+        putv self :minuteColor %tmp.517;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 249 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_8_if_stmt:
+        %tmp.519 = lgetv %timerPauseTime.4;
+        %tmp.520 = null;
+        %tmp.521 = eq %tmp.519 %tmp.520;
+        bf %tmp.521 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 250 12 ]
+        %tmp.522 = lgetv %dc;
+        %tmp.523 = getv function %tmp.522 :setColor;
+        %tmp.525 = getv ? :minuteColor;
+        %tmp.527 = getv ? :backgroundColor;
+        invoke %tmp.522 %tmp.523(%tmp.525, %tmp.527);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_36_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_249_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 254 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_end" ]
+        %x.27 = local;
+        %tmp.528 = 1;
+        lputv %x.27 %tmp.528;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_test:
+        %tmp.530 = lgetv %x.27;
+        %tmp.531 = 2;
+        %tmp.532 = lt %tmp.530 %tmp.531;
+        bf %tmp.532 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 255 12 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_end" ]
+        %y.28 = local;
+        %tmp.533 = 0;
+        lputv %y.28 %tmp.533;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_test:
+        %tmp.535 = lgetv %y.28;
+        %tmp.536 = 6;
+        %tmp.537 = lt %tmp.535 %tmp.536;
+        bf %tmp.537 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 256 16 ]
+        %tmp.538 = lgetv %dc;
+        %tmp.539 = getv function %tmp.538 :drawRectangle;
+        %tmp.541 = lgetv %x.27;
+        %tmp.543 = lgetv %rectangle_width.22;
+        %tmp.544 = 1;
+        %tmp.545 = add %tmp.543 %tmp.544;
+        %tmp.546 = mul %tmp.541 %tmp.545;
+        %tmp.548 = lgetv %rest_width.20;
+        %tmp.549 = sub %tmp.546 %tmp.548;
+        %tmp.551 = lgetv %y.28;
+        %tmp.553 = lgetv %rectangle_height.23;
+        %tmp.554 = 1;
+        %tmp.555 = add %tmp.553 %tmp.554;
+        %tmp.556 = mul %tmp.551 %tmp.555;
+        %tmp.558 = lgetv %rest_height.21;
+        %tmp.559 = sub %tmp.556 %tmp.558;
+        %tmp.561 = lgetv %rectangle_width.22;
+        %tmp.563 = lgetv %rectangle_height.23;
+        invoke %tmp.538 %tmp.539(%tmp.549, %tmp.559, %tmp.561, %tmp.563);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_40_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 255 ]
+        %tmp.566 = lgetv %y.28;
+        %tmp.567 = add %tmp.566 1;
+        lputv %y.28 %tmp.567;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_255_12_for_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 254 ]
+        %tmp.570 = lgetv %x.27;
+        %tmp.571 = add %tmp.570 1;
+        lputv %x.27 %tmp.571;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_254_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 260 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_end" ]
+        %i.29 = local;
+        %tmp.572 = 0;
+        lputv %i.29 %tmp.572;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_test:
+        %tmp.574 = lgetv %i.29;
+        %tmp.575 = 6;
+        %tmp.576 = lt %tmp.574 %tmp.575;
+        bf %tmp.576 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 261 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_12_if_stmt:
+        %tmp.578 = lgetv %minutes.18;
+        %tmp.580 = getv ? :Math;
+        %tmp.581 = getv function %tmp.580 :pow;
+        %tmp.582 = 2;
+        %tmp.583 = 5;
+        %tmp.585 = lgetv %i.29;
+        %tmp.586 = sub %tmp.583 %tmp.585;
+        %tmp.587 = invoke %tmp.580 %tmp.581(%tmp.582, %tmp.586);
+        %tmp.588 = getv function %tmp.587 :toLong;
+        %tmp.589 = invoke %tmp.587 %tmp.588();
+        %tmp.590 = div %tmp.578 %tmp.589;
+        %tmp.591 = 2;
+        %tmp.592 = mod %tmp.590 %tmp.591;
+        %tmp.593 = 1;
+        %tmp.594 = eq %tmp.592 %tmp.593;
+        bf %tmp.594 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_64_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 262 16 ]
+        %tmp.595 = lgetv %dc;
+        %tmp.596 = getv function %tmp.595 :fillRectangle;
+        %tmp.598 = lgetv %rectangle_width.22;
+        %tmp.599 = 1;
+        %tmp.600 = add %tmp.598 %tmp.599;
+        %tmp.602 = lgetv %rest_width.20;
+        %tmp.603 = sub %tmp.600 %tmp.602;
+        %tmp.605 = lgetv %i.29;
+        %tmp.607 = lgetv %rectangle_height.23;
+        %tmp.608 = 1;
+        %tmp.609 = add %tmp.607 %tmp.608;
+        %tmp.610 = mul %tmp.605 %tmp.609;
+        %tmp.612 = lgetv %rest_height.21;
+        %tmp.613 = sub %tmp.610 %tmp.612;
+        %tmp.615 = lgetv %rectangle_width.22;
+        %tmp.617 = lgetv %rectangle_height.23;
+        %tmp.618 = 1;
+        %tmp.619 = sub %tmp.617 %tmp.618;
+        invoke %tmp.595 %tmp.596(%tmp.603, %tmp.613, %tmp.615, %tmp.619);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_64_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_261_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 260 ]
+        %tmp.622 = lgetv %i.29;
+        %tmp.623 = add %tmp.622 1;
+        lputv %i.29 %tmp.623;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_260_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 266 8 ]
+        %tmp.625 = getv ? :_secondsColor;
+        putv self :secondsColor %tmp.625;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 268 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_8_if_stmt:
+        %tmp.627 = lgetv %timerPauseTime.4;
+        %tmp.628 = null;
+        %tmp.629 = eq %tmp.627 %tmp.628;
+        bf %tmp.629 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 269 12 ]
+        %tmp.630 = lgetv %dc;
+        %tmp.631 = getv function %tmp.630 :setColor;
+        %tmp.633 = getv ? :secondsColor;
+        %tmp.635 = getv ? :backgroundColor;
+        invoke %tmp.630 %tmp.631(%tmp.633, %tmp.635);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_36_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_268_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 272 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_end" ]
+        %x.30 = local;
+        %tmp.636 = 2;
+        lputv %x.30 %tmp.636;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_test:
+        %tmp.638 = lgetv %x.30;
+        %tmp.639 = 3;
+        %tmp.640 = lt %tmp.638 %tmp.639;
+        bf %tmp.640 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 273 12 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_end" ]
+        %y.31 = local;
+        %tmp.641 = 0;
+        lputv %y.31 %tmp.641;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_test:
+        %tmp.643 = lgetv %y.31;
+        %tmp.644 = 6;
+        %tmp.645 = lt %tmp.643 %tmp.644;
+        bf %tmp.645 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 274 16 ]
+        %tmp.646 = lgetv %dc;
+        %tmp.647 = getv function %tmp.646 :drawRectangle;
+        %tmp.649 = lgetv %x.30;
+        %tmp.651 = lgetv %rectangle_width.22;
+        %tmp.652 = 1;
+        %tmp.653 = add %tmp.651 %tmp.652;
+        %tmp.654 = mul %tmp.649 %tmp.653;
+        %tmp.656 = lgetv %rest_width.20;
+        %tmp.657 = sub %tmp.654 %tmp.656;
+        %tmp.659 = lgetv %y.31;
+        %tmp.661 = lgetv %rectangle_height.23;
+        %tmp.662 = 1;
+        %tmp.663 = add %tmp.661 %tmp.662;
+        %tmp.664 = mul %tmp.659 %tmp.663;
+        %tmp.666 = lgetv %rest_height.21;
+        %tmp.667 = sub %tmp.664 %tmp.666;
+        %tmp.669 = lgetv %rectangle_width.22;
+        %tmp.671 = lgetv %rectangle_height.23;
+        invoke %tmp.646 %tmp.647(%tmp.657, %tmp.667, %tmp.669, %tmp.671);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_40_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 273 ]
+        %tmp.674 = lgetv %y.31;
+        %tmp.675 = add %tmp.674 1;
+        lputv %y.31 %tmp.675;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_273_12_for_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 272 ]
+        %tmp.678 = lgetv %x.30;
+        %tmp.679 = add %tmp.678 1;
+        lputv %x.30 %tmp.679;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_272_8_for_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 279 8 ]
+        for @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_test @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_incr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_init:
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_begin" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_end" ]
+        %i.32 = local;
+        %tmp.680 = 0;
+        lputv %i.32 %tmp.680;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_test:
+        %tmp.682 = lgetv %i.32;
+        %tmp.683 = 6;
+        %tmp.684 = lt %tmp.682 %tmp.683;
+        bf %tmp.684 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_begin:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 280 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_12_if_stmt:
+        %tmp.686 = lgetv %seconds.17;
+        %tmp.688 = getv ? :Math;
+        %tmp.689 = getv function %tmp.688 :pow;
+        %tmp.690 = 2;
+        %tmp.691 = 5;
+        %tmp.693 = lgetv %i.32;
+        %tmp.694 = sub %tmp.691 %tmp.693;
+        %tmp.695 = invoke %tmp.688 %tmp.689(%tmp.690, %tmp.694);
+        %tmp.696 = getv function %tmp.695 :toLong;
+        %tmp.697 = invoke %tmp.695 %tmp.696();
+        %tmp.698 = div %tmp.686 %tmp.697;
+        %tmp.699 = 2;
+        %tmp.700 = mod %tmp.698 %tmp.699;
+        %tmp.701 = 1;
+        %tmp.702 = eq %tmp.700 %tmp.701;
+        bf %tmp.702 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_64_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 281 16 ]
+        %tmp.703 = lgetv %dc;
+        %tmp.704 = getv function %tmp.703 :fillRectangle;
+        %tmp.705 = 2;
+        %tmp.707 = lgetv %rectangle_width.22;
+        %tmp.708 = 1;
+        %tmp.709 = add %tmp.707 %tmp.708;
+        %tmp.710 = mul %tmp.705 %tmp.709;
+        %tmp.712 = lgetv %rest_width.20;
+        %tmp.713 = sub %tmp.710 %tmp.712;
+        %tmp.715 = lgetv %i.32;
+        %tmp.717 = lgetv %rectangle_height.23;
+        %tmp.718 = 1;
+        %tmp.719 = add %tmp.717 %tmp.718;
+        %tmp.720 = mul %tmp.715 %tmp.719;
+        %tmp.722 = lgetv %rest_height.21;
+        %tmp.723 = sub %tmp.720 %tmp.722;
+        %tmp.725 = lgetv %rectangle_width.22;
+        %tmp.727 = lgetv %rectangle_height.23;
+        %tmp.728 = 1;
+        %tmp.729 = sub %tmp.727 %tmp.728;
+        invoke %tmp.703 %tmp.704(%tmp.713, %tmp.723, %tmp.725, %tmp.729);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_64_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_280_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_36_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_incr:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 279 ]
+        %tmp.732 = lgetv %i.32;
+        %tmp.733 = add %tmp.732 1;
+        lputv %i.32 %tmp.733;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_test;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_279_8_for_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_120_47_stop:
+    }
+    //! If the timer is running, pause it. Otherwise, start it up.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 291; ]
+    public
+    function startStopTimer() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 292 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_stop" ]
+        %now.1 = local;
+        %tmp.1 = getm $.Toybox.Time;
+        %tmp.2 = getv function %tmp.1 :now;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :value;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %now.1 %tmp.5;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 294 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_stop" ]
+        %timerStartTime.2 = local;
+        %tmp.7 = getv ? :_timerStartTime;
+        lputv %timerStartTime.2 %tmp.7;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 295 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_stmt:
+        %tmp.9 = lgetv %timerStartTime.2;
+        %tmp.10 = null;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_36_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 296 12 ]
+        %tmp.13 = lgetv %now.1;
+        putv self :_timerStartTime %tmp.13;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 297 12 ]
+        %tmp.15 = getv ? :_updateTimer;
+        %tmp.16 = getv function %tmp.15 :start;
+        %tmp.17 = self;
+        %tmp.18 = getv function %tmp.17 :method;
+        %tmp.20 = const :requestUpdate;
+        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
+        %tmp.22 = 1000;
+        %tmp.23 = true;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.22, %tmp.23);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_36_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_298_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 299 12 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_298_15_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_298_15_stop" ]
+        %timerPauseTime.3 = local;
+        %tmp.25 = getv ? :_timerPauseTime;
+        lputv %timerPauseTime.3 %tmp.25;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 300 12 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_stmt:
+        %tmp.27 = lgetv %timerPauseTime.3;
+        %tmp.28 = null;
+        %tmp.29 = eq %tmp.27 %tmp.28;
+        bf %tmp.29 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 301 16 ]
+        %tmp.31 = lgetv %now.1;
+        putv self :_timerPauseTime %tmp.31;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 302 16 ]
+        %tmp.33 = getv ? :_updateTimer;
+        %tmp.34 = getv function %tmp.33 :stop;
+        invoke %tmp.33 %tmp.34();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 303 16 ]
+        %tmp.35 = getm $.Toybox.WatchUi;
+        %tmp.36 = getv function %tmp.35 :requestUpdate;
+        invoke %tmp.35 %tmp.36();
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_40_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_304_19_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 305 16 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_16_if_stmt:
+        %tmp.38 = lgetv %timerPauseTime.3;
+        %tmp.39 = as %tmp.38 { (!Null) };
+        %tmp.41 = lgetv %timerStartTime.2;
+        %tmp.42 = as %tmp.41 { (!Null) };
+        %tmp.43 = sub %tmp.39 %tmp.42;
+        %tmp.45 = getv ? :_timerDuration;
+        %tmp.46 = lt %tmp.43 %tmp.45;
+        bf %tmp.46 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_16_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_16_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_72_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 306 20 ]
+        %tmp.48 = lgetv %timerStartTime.2;
+        %tmp.49 = as %tmp.48 { (!Null) };
+        %tmp.51 = lgetv %now.1;
+        %tmp.53 = lgetv %timerPauseTime.3;
+        %tmp.54 = as %tmp.53 { (!Null) };
+        %tmp.55 = sub %tmp.51 %tmp.54;
+        %tmp.56 = add %tmp.49 %tmp.55;
+        putv self :_timerStartTime %tmp.56;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 307 20 ]
+        %tmp.57 = null;
+        putv self :_timerPauseTime %tmp.57;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 308 20 ]
+        %tmp.59 = getv ? :_updateTimer;
+        %tmp.60 = getv function %tmp.59 :start;
+        %tmp.61 = self;
+        %tmp.62 = getv function %tmp.61 :method;
+        %tmp.64 = const :requestUpdate;
+        %tmp.65 = invoke %tmp.61 %tmp.62(%tmp.64);
+        %tmp.66 = 1000;
+        %tmp.67 = true;
+        invoke %tmp.59 %tmp.60(%tmp.65, %tmp.66, %tmp.67);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_72_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_16_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_305_16_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_304_19_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_300_12_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_298_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_295_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_291_45_stop:
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 314; ]
+    public
+    function stopTimer() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_314_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 315 5 ]
+        %tmp.2 = getv ? :_updateTimer;
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 316 5 ]
+        %tmp.4 = getm $.Toybox.WatchUi;
+        %tmp.5 = getv function %tmp.4 :requestUpdate;
+        invoke %tmp.4 %tmp.5();
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_314_40_stop:
+    }
+    //! If the timer is paused, then go ahead and reset it back to the default time.
+    //! @return true if timer is reset, false otherwise
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 323; ]
+    public
+    function resetTimer() as Boolean {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_323_44_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 324 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_8_if_stmt:
+        %tmp.2 = getv ? :_timerPauseTime;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_37_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 325 12 ]
+        %tmp.5 = null;
+        putv self :_timerStartTime %tmp.5;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 326 12 ]
+        %tmp.6 = null;
+        putv self :_timerPauseTime %tmp.6;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 327 12 ]
+        %tmp.7 = getm $.Toybox.Application.Storage;
+        %tmp.8 = getv function %tmp.7 :setValue;
+        %tmp.10 = getv ? :TIMER_KEY_START_TIME;
+        %tmp.12 = getv ? :_timerStartTime;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 328 12 ]
+        %tmp.13 = getm $.Toybox.Application.Storage;
+        %tmp.14 = getv function %tmp.13 :setValue;
+        %tmp.16 = getv ? :TIMER_KEY_PAUSE_TIME;
+        %tmp.18 = getv ? :_timerPauseTime;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 329 12 ]
+        %tmp.19 = getm $.Toybox.WatchUi;
+        %tmp.20 = getv function %tmp.19 :requestUpdate;
+        invoke %tmp.19 %tmp.20();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 330 12 ]
+        %tmp.21 = true;
+        ret %tmp.21;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_37_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_324_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 332 8 ]
+        %tmp.22 = false;
+        ret %tmp.22;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_323_44_stop:
+    }
+    //! Save all the persisted values into the object store. This gets
+    //! called by the Application base before the application shuts down.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 337; ]
+    public
+    function saveProperties() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_337_45_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 338 8 ]
+        %tmp.1 = getm $.Toybox.Application.Storage;
+        %tmp.2 = getv function %tmp.1 :setValue;
+        %tmp.4 = getv ? :TIMER_KEY_DURATION;
+        %tmp.6 = getv ? :_timerDuration;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 339 8 ]
+        %tmp.7 = getm $.Toybox.Application.Storage;
+        %tmp.8 = getv function %tmp.7 :setValue;
+        %tmp.10 = getv ? :TIMER_KEY_START_TIME;
+        %tmp.12 = getv ? :_timerStartTime;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 340 8 ]
+        %tmp.13 = getm $.Toybox.Application.Storage;
+        %tmp.14 = getv function %tmp.13 :setValue;
+        %tmp.16 = getv ? :TIMER_KEY_PAUSE_TIME;
+        %tmp.18 = getv ? :_timerPauseTime;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_337_45_stop:
+    }
+    //! Set up a background event to occur when the timer expires. This
+    //! will alert the user that the timer has expired even if the
+    //! application does not remain open.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 346; ]
+    public
+    function setBackgroundEvent() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_346_49_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 347 8 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_346_49_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_346_49_stop" ]
+        %timerStartTime.1 = local;
+        %tmp.2 = getv ? :_timerStartTime;
+        lputv %timerStartTime.1 %tmp.2;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 348 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_8_if_stmt:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_12_begin:
+        %tmp.4 = lgetv %timerStartTime.1;
+        %tmp.5 = null;
+        %tmp.6 = ne %tmp.4 %tmp.5;
+        %tmp.7 = dup %tmp.6;
+        bf %tmp.7 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_40_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_40_true:
+        %tmp.9 = getv ? :_timerPauseTime;
+        %tmp.10 = null;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        %tmp.12 = and %tmp.6 %tmp.11;
+        push %tmp.12;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_40_end:
+        %tmp.13 = phi [%tmp.7 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_12_begin] [%tmp.12 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_40_true] [%tmp.13 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_40_end];
+        bf %tmp.13 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_67_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 349 12 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_67_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_67_stop" ]
+        %time.2 = local;
+        %tmp.16 = getm $.Toybox.Time;
+        %tmp.17 = getv function ? %tmp.16 :Moment;
+        %tmp.19 = lgetv %timerStartTime.1;
+        %tmp.20 = as %tmp.19 { (!Null) };
+        %tmp.14 = newc %tmp.17 (%tmp.20);
+        lputv %time.2 %tmp.14;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 350 12 ]
+        %tmp.21 = lgetv %time.2;
+        %tmp.22 = getv function %tmp.21 :add;
+        %tmp.25 = getm $.Toybox.Time;
+        %tmp.26 = getv function ? %tmp.25 :Duration;
+        %tmp.28 = getv ? :_timerDuration;
+        %tmp.23 = newc %tmp.26 (%tmp.28);
+        %tmp.29 = invoke %tmp.21 %tmp.22(%tmp.23);
+        lputv %time.2 %tmp.29;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 351 12 ]
+        try @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_beginTry @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_endTry @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_catch @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_beginTry:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_16_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 352 16 ]
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_16_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_16_stop" ]
+        %info.3 = local;
+        %tmp.30 = getm $.Toybox.Time;
+        %tmp.31 = getv %tmp.30 :Gregorian;
+        %tmp.32 = getv function %tmp.31 :info;
+        %tmp.34 = lgetv %time.2;
+        %tmp.35 = getm $.Toybox.Time;
+        %tmp.36 = getv %tmp.35 :FORMAT_SHORT;
+        %tmp.37 = invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
+        lputv %info.3 %tmp.37;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 353 16 ]
+        %tmp.38 = getm $.Toybox.Background;
+        %tmp.39 = getv function %tmp.38 :registerForTemporalEvent;
+        %tmp.41 = lgetv %time.2;
+        invoke %tmp.38 %tmp.39(%tmp.41);
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_16_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_endTry:
+        jsr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_catch:
+        %tmp.42 = exception;
+        push %tmp.42;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 354 14 ]
+        %tmp.43 = dup %tmp.42;
+        %tmp.44 = getm $.Toybox.Background;
+        %tmp.45 = getv %tmp.44 :InvalidBackgroundTimeException;
+        %tmp.46 = isa %tmp.43 %tmp.45;
+        bf %tmp.46 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_354_14_next;
+        [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_catch" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_354_14_next" ]
+        %e.4 = local;
+        %tmp.47 = dup %tmp.42;
+        %tmp.48 = as %tmp.47 Background.InvalidBackgroundTimeException;
+        lputv %e.4 %tmp.48;
+        jsr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally;
+        pop;
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_354_14_next:
+        try @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_catch @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_354_14_next @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_354_14_next @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally;
+        jsr @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally;
+        throw %tmp.42;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_finally:
+        jsrret;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_351_12_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_67_stop:
+        goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_348_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_346_49_stop:
+    }
+    //! Delete the background event. We can get rid of this event when the
+    //! application opens because now we can see exactly when the timer
+    //! is going to expire. We will set it again when the application closes.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 366; ]
+    public
+    function deleteBackgroundEvent() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_366_52_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 367 8 ]
+        %tmp.1 = getm $.Toybox.Background;
+        %tmp.2 = getv function %tmp.1 :deleteTemporalEvent;
+        invoke %tmp.1 %tmp.2();
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_366_52_stop:
+    }
+    //! If we do receive a background event while the application is open,
+    //! go ahead and reset to the default timer.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 372; ]
+    public
+    function backgroundEvent() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_372_46_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 373 8 ]
+        %tmp.2 = getv ? :TIMER_DURATION_DEFAULT;
+        putv self :_timerDuration %tmp.2;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 374 8 ]
+        %tmp.3 = null;
+        putv self :_timerStartTime %tmp.3;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 375 8 ]
+        %tmp.4 = null;
+        putv self :_timerPauseTime %tmp.4;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 376 8 ]
+        %tmp.5 = getm $.Toybox.WatchUi;
+        %tmp.6 = getv function %tmp.5 :requestUpdate;
+        invoke %tmp.5 %tmp.6();
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_372_46_stop:
+    }
+    //! This is the callback method we use for our timer. It is
+    //! only needed to request display updates as the timer counts
+    //! down so we see the updated time on the display.
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 382; ]
+    public
+    function requestUpdate() as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_382_44_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" 383 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerView_mc_382_44_stop:
+    }
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc"; @line = 7; ]
+<init> {
+}

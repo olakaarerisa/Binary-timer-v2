@@ -1,0 +1,76 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 7; ]
+import Toybox.Graphics;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 12; ]
+class RectangleFactory extends WatchUi.PickerFactory{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 14; @position = 16; ]
+    private
+    var _color as ColorType;
+    //! Constructor
+    //! @param color Color for the rectangle
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 18; ]
+    public
+    function initialize(color as ColorType) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_18_51_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" 19 8 ]
+        %tmp.2 = getv ? :PickerFactory;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" 20 8 ]
+        %tmp.5 = lgetv %color;
+        putv self :_color %tmp.5;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_18_51_stop:
+    }
+    //! Get the number of picker items
+    //! @return Number of items
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 25; ]
+    public
+    function getSize() as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_25_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" 26 8 ]
+        %tmp.1 = 1;
+        ret %tmp.1;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_25_40_stop:
+    }
+    //! Get the value of the item at the given index
+    //! @param index Index of the item to get the value of
+    //! @return Value of the item
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 32; ]
+    public
+    function getValue(index as Number) as Object or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_32_57_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" 33 8 ]
+        %tmp.1 = 0;
+        ret %tmp.1;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_32_57_stop:
+    }
+    //! Generate a Drawable instance for an item
+    //! @param index The item index
+    //! @param selected true if the current item is selected, false otherwise
+    //! @return Drawable for the item
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 40; ]
+    public
+    function getDrawable(index as Number, selected as Boolean) as Drawable or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_40_83_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" 41 8 ]
+        %tmp.4 = getm $;
+        %tmp.5 = getv %tmp.4 :Rectangle;
+        %tmp.7 = getv ? :_color;
+        %tmp.1 = newc %tmp.5 (%tmp.7);
+        ret %tmp.1;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_RectangleFactory_mc_40_83_stop:
+    }
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc"; @line = 7; ]
+<init> {
+}

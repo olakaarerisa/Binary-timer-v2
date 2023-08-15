@@ -1,0 +1,238 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 7; ]
+import Toybox.Graphics;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 12; ]
+class NumberFactory extends WatchUi.PickerFactory{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 13; @position = 16; ]
+    private
+    var _start as Number;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 14; @position = 16; ]
+    private
+    var _stop as Number;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 15; @position = 16; ]
+    private
+    var _increment as Number;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 16; @position = 16; ]
+    private
+    var _formatString as String;
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 17; @position = 16; ]
+    private
+    var _font as FontDefinition;
+    //! Constructor
+    //! @param start Number to start with
+    //! @param stop Number to end with
+    //! @param increment How far apart the numbers should be
+    //! @param options Dictionary of options
+    //! @option options :font The font to use
+    //! @option options :format The number format to display
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 26; ]
+    public
+function initialize(start as Number, stop as Number, increment as Number, options as {:font as FontDefinition, :format as String}) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 30 8 ]
+    %tmp.2 = getv ? :PickerFactory;
+    %tmp.3 = getv function %tmp.2 :initialize;
+    invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 32 8 ]
+    %tmp.5 = lgetv %start;
+    putv self :_start %tmp.5;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 33 8 ]
+    %tmp.7 = lgetv %stop;
+    putv self :_stop %tmp.7;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 34 8 ]
+    %tmp.9 = lgetv %increment;
+    putv self :_increment %tmp.9;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 36 8 ]
+    [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_stop" ]
+    %format.1 = local;
+    %tmp.10 = lgetv %options;
+    %tmp.11 = getv function %tmp.10 :get;
+    %tmp.13 = const :format;
+    %tmp.14 = invoke %tmp.10 %tmp.11(%tmp.13);
+    lputv %format.1 %tmp.14;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 37 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_stmt:
+    %tmp.16 = lgetv %format.1;
+    %tmp.17 = null;
+    %tmp.18 = ne %tmp.16 %tmp.17;
+    bf %tmp.18 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_28_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 38 12 ]
+    %tmp.20 = lgetv %format.1;
+    %tmp.21 = as %tmp.20 { (!Null) };
+    putv self :_formatString %tmp.21;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_28_stop:
+    goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_39_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 40 12 ]
+    %tmp.22 = "%d";
+    putv self :_formatString %tmp.22;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_39_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_37_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 43 8 ]
+    [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_stop" ]
+    %font.2 = local;
+    %tmp.23 = lgetv %options;
+    %tmp.24 = getv function %tmp.23 :get;
+    %tmp.26 = const :font;
+    %tmp.27 = invoke %tmp.23 %tmp.24(%tmp.26);
+    lputv %font.2 %tmp.27;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 44 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_stmt:
+    %tmp.29 = lgetv %font.2;
+    %tmp.30 = null;
+    %tmp.31 = ne %tmp.29 %tmp.30;
+    bf %tmp.31 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_false;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_26_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 45 12 ]
+    %tmp.33 = lgetv %font.2;
+    %tmp.34 = as %tmp.33 { (!Null) };
+    putv self :_font %tmp.34;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_26_stop:
+    goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_false:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_46_15_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 47 12 ]
+    %tmp.35 = getm $.Toybox.Graphics;
+    %tmp.36 = getv %tmp.35 :FONT_NUMBER_HOT;
+    putv self :_font %tmp.36;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_46_15_stop:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_44_8_if_end:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_29_7_stop:
+}
+//! Get the index of a number item
+//! @param value The number to get the index of
+//! @return The index of the number
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 54; ]
+public
+function getIndex(value as Number) as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_54_56_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 55 8 ]
+    %tmp.2 = lgetv %value;
+    %tmp.4 = getv ? :_increment;
+    %tmp.5 = div %tmp.2 %tmp.4;
+    %tmp.7 = getv ? :_start;
+    %tmp.8 = sub %tmp.5 %tmp.7;
+    ret %tmp.8;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_54_56_stop:
+}
+//! Generate a Drawable instance for an item
+//! @param index The item index
+//! @param selected true if the current item is selected, false otherwise
+//! @return Drawable for the item
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 62; ]
+public
+function getDrawable(index as Number, selected as Boolean) as Drawable or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 63 8 ]
+    [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_stop" ]
+    %value.1 = local;
+    %tmp.1 = self;
+    %tmp.2 = getv function %tmp.1 :getValue;
+    %tmp.4 = lgetv %index;
+    %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
+    lputv %value.1 %tmp.5;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 64 8 ]
+    [ "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_start" "_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_stop" ]
+    %text.2 = local;
+    %tmp.6 = "No item";
+    lputv %text.2 %tmp.6;
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 65 8 ]
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_8_if_stmt:
+    %tmp.8 = lgetv %value.1;
+    %tmp.10 = getv ? :Number;
+    %tmp.11 = isa %tmp.8 %tmp.10;
+    bf %tmp.11 @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_8_if_true:
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_37_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 66 12 ]
+    %tmp.12 = lgetv %value.1;
+    %tmp.13 = as %tmp.12 { (Number) };
+    %tmp.14 = getv function %tmp.13 :format;
+    %tmp.16 = getv ? :_formatString;
+    %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+    lputv %text.2 %tmp.17;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_37_stop:
+    goto @_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_8_if_end;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_65_8_if_end:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 68 8 ]
+    %tmp.20 = getm $.Toybox.WatchUi;
+    %tmp.21 = getv function ? %tmp.20 :Text;
+    %tmp.22 = newd 5;
+    %tmp.24 = const :text;
+    %tmp.26 = lgetv %text.2;
+    %tmp.27 = dup %tmp.22;
+    %tmp.28 = aputv %tmp.27 %tmp.24 %tmp.26;
+    %tmp.30 = const :color;
+    %tmp.31 = getm $.Toybox.Graphics;
+    %tmp.32 = getv %tmp.31 :COLOR_WHITE;
+    %tmp.33 = dup %tmp.28;
+    %tmp.34 = aputv %tmp.33 %tmp.30 %tmp.32;
+    %tmp.36 = const :font;
+    %tmp.38 = getv ? :_font;
+    %tmp.39 = dup %tmp.34;
+    %tmp.40 = aputv %tmp.39 %tmp.36 %tmp.38;
+    %tmp.42 = const :locX;
+    %tmp.43 = getm $.Toybox.WatchUi;
+    %tmp.44 = getv %tmp.43 :LAYOUT_HALIGN_CENTER;
+    %tmp.45 = dup %tmp.40;
+    %tmp.46 = aputv %tmp.45 %tmp.42 %tmp.44;
+    %tmp.48 = const :locY;
+    %tmp.49 = getm $.Toybox.WatchUi;
+    %tmp.50 = getv %tmp.49 :LAYOUT_VALIGN_CENTER;
+    %tmp.51 = dup %tmp.46;
+    %tmp.52 = aputv %tmp.51 %tmp.48 %tmp.50;
+    %tmp.18 = newc %tmp.21 (%tmp.52);
+    ret %tmp.18;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_62_83_stop:
+}
+//! Get the value of the item at the given index
+//! @param index Index of the item to get the value of
+//! @return Value of the item
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 75; ]
+public
+function getValue(index as Number) as Object or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_75_57_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 76 8 ]
+    %tmp.2 = getv ? :_start;
+    %tmp.4 = lgetv %index;
+    %tmp.6 = getv ? :_increment;
+    %tmp.7 = mul %tmp.4 %tmp.6;
+    %tmp.8 = add %tmp.2 %tmp.7;
+    ret %tmp.8;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_75_57_stop:
+}
+//! Get the number of picker items
+//! @return Number of items
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 81; ]
+public
+function getSize() as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_81_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc" 82 8 ]
+    %tmp.2 = getv ? :_stop;
+    %tmp.4 = getv ? :_start;
+    %tmp.5 = sub %tmp.2 %tmp.4;
+    %tmp.7 = getv ? :_increment;
+    %tmp.8 = div %tmp.5 %tmp.7;
+    %tmp.9 = 1;
+    %tmp.10 = add %tmp.8 %tmp.9;
+    ret %tmp.10;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_NumberFactory_mc_81_40_stop:
+}
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/NumberFactory.mc"; @line = 7; ]
+<init> {
+}

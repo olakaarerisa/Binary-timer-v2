@@ -1,0 +1,101 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 7; ]
+import Toybox.Graphics;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 8; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 9; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 12; ]
+class ColorFactory extends WatchUi.PickerFactory{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 13; @position = 16; ]
+    private
+    var _colorWheel as ColorWheel;
+    //! Constructor
+    //! @param colors Colors to display in the Color Wheel
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 17; ]
+    public
+    function initialize(colors as Array<ColorType>) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_17_59_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 18 8 ]
+        %tmp.2 = getv ? :PickerFactory;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 19 8 ]
+        %tmp.7 = getm $;
+        %tmp.8 = getv %tmp.7 :ColorWheel;
+        %tmp.10 = lgetv %colors;
+        %tmp.4 = newc %tmp.8 (%tmp.10);
+        putv self :_colorWheel %tmp.4;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_17_59_stop:
+    }
+    //! Get the index of a color item
+    //! @param value The color to get the index of
+    //! @return The index of the color
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 25; ]
+    public
+    function getIndex(value as ColorType) as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_25_59_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 26 8 ]
+        %tmp.2 = getv ? :_colorWheel;
+        %tmp.3 = getv function %tmp.2 :getColorIndex;
+        %tmp.5 = lgetv %value;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
+        ret %tmp.6;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_25_59_stop:
+    }
+    //! Get the number of picker items
+    //! @return Number of items
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 31; ]
+    public
+    function getSize() as Number {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_31_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 32 8 ]
+        %tmp.2 = getv ? :_colorWheel;
+        %tmp.3 = getv function %tmp.2 :getNumberOfColors;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        ret %tmp.4;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_31_40_stop:
+    }
+    //! Get the value of the item at the given index
+    //! @param index Index of the item to get the value of
+    //! @return Value of the item
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 38; ]
+    public
+    function getValue(index as Number) as Object or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_38_57_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 39 8 ]
+        %tmp.2 = getv ? :_colorWheel;
+        %tmp.3 = getv function %tmp.2 :getColor;
+        %tmp.5 = lgetv %index;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.5);
+        ret %tmp.6;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_38_57_stop:
+    }
+    //! Generate a Drawable instance for an item
+    //! @param index The item index
+    //! @param selected true if the current item is selected, false otherwise
+    //! @return Drawable for the item
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 46; ]
+    public
+    function getDrawable(index as Number, selected as Boolean) as Drawable or Null {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_46_83_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 47 8 ]
+        %tmp.2 = getv ? :_colorWheel;
+        %tmp.3 = getv function %tmp.2 :setColor;
+        %tmp.5 = lgetv %index;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" 48 8 ]
+        %tmp.7 = getv ? :_colorWheel;
+        ret %tmp.7;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_factories_ColorFactory_mc_46_83_stop:
+    }
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc"; @line = 7; ]
+<init> {
+}

@@ -40,7 +40,7 @@ class BinaryTimerApp extends Application.AppBase {
 
     //! Handle data passed from a background service delegate to the app
     //! @param data The data passed from the background process
-    public function onBackgroundData(data as Boolean?) as Void {
+    public function onBackgroundData(data) as Void {
         var timerView = _timerView;
         if (timerView != null) {
             timerView.backgroundEvent();

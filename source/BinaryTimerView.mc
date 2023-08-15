@@ -114,14 +114,7 @@ class BinaryTimerView extends WatchUi.View {
         }
 		
 	}
-
-    public function setStartPause() as void {
-
-
-
-    }
-	
-	
+		
     //! Draw the time remaining on the timer to the display
     //! @param dc Device Context
     public function onUpdate(dc as Dc) as Void {
@@ -187,7 +180,7 @@ class BinaryTimerView extends WatchUi.View {
                         new Attention.VibeProfile(75, 100),
                         new Attention.VibeProfile(50, 100),
                         new Attention.VibeProfile(25, 100)
-                      ] as Array<VibeProfile>;
+                      ];
 
                 Attention.vibrate(vibrateData);
                 

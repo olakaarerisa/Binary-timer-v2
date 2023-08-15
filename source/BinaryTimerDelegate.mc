@@ -46,9 +46,6 @@ class BinaryTimerDelegate extends WatchUi.BehaviorDelegate {
     }
    	
    	
-    public function onBack() as Boolean {
-        
-    }
     
     public function pushPicker() as Boolean {
         WatchUi.pushView(new $.TimePicker(), new $.TimePickerDelegate(), WatchUi.SLIDE_IMMEDIATE);

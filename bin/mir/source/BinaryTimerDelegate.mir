@@ -1,0 +1,101 @@
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 7; ]
+import Toybox.Lang;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 8; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 11; typecheck = disableBackgroundCheck; ]
+class BinaryTimerDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 13; @position = 16; ]
+    private
+    var _parentView as BinaryTimerView;
+    //! Constructor
+    //! @param view The app view
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 17; ]
+    public
+    function initialize(view as BinaryTimerView) as Void {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_17_56_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 18 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 19 8 ]
+        %tmp.5 = lgetv %view;
+        putv self :_parentView %tmp.5;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_17_56_stop:
+    }
+    //! Call the start stop timer method on the parent view
+    //! when the select action occurs (start/stop button on most products)
+    //! @return true if handled, false otherwise
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 32; ]
+    public
+    function onSelect() as Boolean {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_32_42_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 33 8 ]
+        %tmp.2 = getv ? :_parentView;
+        %tmp.3 = getv function %tmp.2 :startStopTimer;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 34 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_32_42_stop:
+    }
+    //! Call the reset method on the parent view when the
+    //! back action occurs.
+    //! @return true if handled, false otherwise
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 39; ]
+    public
+    function onNextPage() as Boolean {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_39_44_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 40 8 ]
+        %tmp.2 = getv ? :_parentView;
+        %tmp.3 = getv function %tmp.2 :resetTimer;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        ret %tmp.4;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_39_44_stop:
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 43; ]
+    public
+    function onMenu() as Boolean {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_43_40_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 44 8 ]
+        %tmp.2 = getv ? :_parentView;
+        %tmp.3 = getv function %tmp.2 :resetTimer;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 45 8 ]
+        %tmp.4 = self;
+        %tmp.5 = getv function %tmp.4 :pushPicker;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        ret %tmp.6;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_43_40_stop:
+    }
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 50; ]
+    public
+    function pushPicker() as Boolean {
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_50_44_start:
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 51 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :pushView;
+        %tmp.6 = getm $;
+        %tmp.7 = getv %tmp.6 :TimePicker;
+        %tmp.3 = newc %tmp.7 ();
+        %tmp.11 = getm $;
+        %tmp.12 = getv %tmp.11 :TimePickerDelegate;
+        %tmp.8 = newc %tmp.12 ();
+        %tmp.13 = getm $.Toybox.WatchUi;
+        %tmp.14 = getv %tmp.13 :SLIDE_IMMEDIATE;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.8, %tmp.14);
+[ "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" 52 8 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+_Users_olakarerisa_Library_CloudStorage_Dropbox_Garminprosjekter_Binary_Timer_source_BinaryTimerDelegate_mc_50_44_stop:
+    }
+}
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc"; @line = 7; ]
+<init> {
+}
