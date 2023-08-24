@@ -14,31 +14,31 @@
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerBackground.mc" id="3" lineNum="21" parent="globals/BinaryTimerServiceDelegate" pc="268435634" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="4" lineNum="16" parent="globals/BinaryTimerApp" pc="268435653" symbol="&lt;init&gt;"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="5" lineNum="27" parent="globals/BinaryTimerApp" pc="268435672" symbol="onStart"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="6" lineNum="66" parent="globals/BinaryTimerApp" pc="268435675" symbol="getServiceDelegate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="6" lineNum="67" parent="globals/BinaryTimerApp" pc="268435677" symbol="getServiceDelegate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="54" parent="globals/BinaryTimerApp" pc="268435718" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="55" parent="globals/BinaryTimerApp" pc="268435722" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="56" parent="globals/BinaryTimerApp" pc="268435764" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="57" parent="globals/BinaryTimerApp" pc="268435774" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="58" parent="globals/BinaryTimerApp" pc="268435781" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="59" parent="globals/BinaryTimerApp" pc="268435793" symbol="getInitialView"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="61" parent="globals/BinaryTimerApp" pc="268435849" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="6" lineNum="65" parent="globals/BinaryTimerApp" pc="268435675" symbol="getServiceDelegate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="6" lineNum="66" parent="globals/BinaryTimerApp" pc="268435677" symbol="getServiceDelegate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="53" parent="globals/BinaryTimerApp" pc="268435718" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="54" parent="globals/BinaryTimerApp" pc="268435722" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="55" parent="globals/BinaryTimerApp" pc="268435764" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="56" parent="globals/BinaryTimerApp" pc="268435774" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="57" parent="globals/BinaryTimerApp" pc="268435781" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="58" parent="globals/BinaryTimerApp" pc="268435793" symbol="getInitialView"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="7" lineNum="60" parent="globals/BinaryTimerApp" pc="268435849" symbol="getInitialView"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="8" lineNum="21" parent="globals/BinaryTimerApp" pc="268435851" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="8" lineNum="22" parent="globals/BinaryTimerApp" pc="268435853" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="43" parent="globals/BinaryTimerApp" pc="268435872" symbol="onBackgroundData"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="44" parent="globals/BinaryTimerApp" pc="268435876" symbol="onBackgroundData"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="45" parent="globals/BinaryTimerApp" pc="268435886" symbol="onBackgroundData"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="46" parent="globals/BinaryTimerApp" pc="268435893" symbol="onBackgroundData"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="48" parent="globals/BinaryTimerApp" pc="268435908" symbol="onBackgroundData"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="71" parent="globals/BinaryTimerApp" pc="268435919" symbol="onStorageChanged"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="72" parent="globals/BinaryTimerApp" pc="268435921" symbol="onStorageChanged"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="73" parent="globals/BinaryTimerApp" pc="268435934" symbol="onStorageChanged"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="33" parent="globals/BinaryTimerApp" pc="268435954" symbol="onStop"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="34" parent="globals/BinaryTimerApp" pc="268435958" symbol="onStop"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="35" parent="globals/BinaryTimerApp" pc="268435968" symbol="onStop"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="36" parent="globals/BinaryTimerApp" pc="268435975" symbol="onStop"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="37" parent="globals/BinaryTimerApp" pc="268435987" symbol="onStop"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen" id="12" lineNum="8" parent="globals/BackgroundRez" pc="268436003" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="42" parent="globals/BinaryTimerApp" pc="268435872" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="43" parent="globals/BinaryTimerApp" pc="268435876" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="44" parent="globals/BinaryTimerApp" pc="268435886" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="45" parent="globals/BinaryTimerApp" pc="268435893" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="9" lineNum="47" parent="globals/BinaryTimerApp" pc="268435908" symbol="onBackgroundData"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="70" parent="globals/BinaryTimerApp" pc="268435919" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="71" parent="globals/BinaryTimerApp" pc="268435921" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="10" lineNum="72" parent="globals/BinaryTimerApp" pc="268435934" symbol="onStorageChanged"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="32" parent="globals/BinaryTimerApp" pc="268435954" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="33" parent="globals/BinaryTimerApp" pc="268435958" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="34" parent="globals/BinaryTimerApp" pc="268435968" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="35" parent="globals/BinaryTimerApp" pc="268435975" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="11" lineNum="36" parent="globals/BinaryTimerApp" pc="268435987" symbol="onStop"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen" id="12" lineNum="8" parent="globals/BackgroundRez" pc="268436003" symbol="&lt;init&gt;"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="13" lineNum="16" parent="globals/TimePicker" pc="268436027" symbol="&lt;init&gt;"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="14" lineNum="61" parent="globals/TimePicker" pc="268436046" symbol="splitStoredTime"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="14" lineNum="62" parent="globals/TimePicker" pc="268436050" symbol="splitStoredTime"/>
@@ -163,269 +163,270 @@
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/WordFactory.mc" id="36" lineNum="27" parent="globals/WordFactory" pc="268438716" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/WordFactory.mc" id="36" lineNum="29" parent="globals/WordFactory" pc="268438729" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="37" lineNum="12" parent="globals/BinaryTimerDelegate" pc="268438743" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="43" parent="globals/BinaryTimerDelegate" pc="268438762" symbol="onMenu"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="44" parent="globals/BinaryTimerDelegate" pc="268438764" symbol="onMenu"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="45" parent="globals/BinaryTimerDelegate" pc="268438782" symbol="onMenu"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="50" parent="globals/BinaryTimerDelegate" pc="268438794" symbol="pushPicker"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="51" parent="globals/BinaryTimerDelegate" pc="268438796" symbol="pushPicker"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="52" parent="globals/BinaryTimerDelegate" pc="268438869" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="44" parent="globals/BinaryTimerDelegate" pc="268438762" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="45" parent="globals/BinaryTimerDelegate" pc="268438764" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="38" lineNum="46" parent="globals/BinaryTimerDelegate" pc="268438782" symbol="onMenu"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="51" parent="globals/BinaryTimerDelegate" pc="268438794" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="52" parent="globals/BinaryTimerDelegate" pc="268438796" symbol="pushPicker"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="39" lineNum="53" parent="globals/BinaryTimerDelegate" pc="268438869" symbol="pushPicker"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="40" lineNum="17" parent="globals/BinaryTimerDelegate" pc="268438872" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="40" lineNum="18" parent="globals/BinaryTimerDelegate" pc="268438874" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="40" lineNum="19" parent="globals/BinaryTimerDelegate" pc="268438892" symbol="initialize"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="41" lineNum="32" parent="globals/BinaryTimerDelegate" pc="268438903" symbol="onSelect"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="41" lineNum="33" parent="globals/BinaryTimerDelegate" pc="268438905" symbol="onSelect"/>
         <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="41" lineNum="34" parent="globals/BinaryTimerDelegate" pc="268438923" symbol="onSelect"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="42" lineNum="39" parent="globals/BinaryTimerDelegate" pc="268438926" symbol="onNextPage"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="42" lineNum="40" parent="globals/BinaryTimerDelegate" pc="268438928" symbol="onNextPage"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="43" lineNum="12" parent="globals/CharacterFactory" pc="268438946" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="42" parent="globals/CharacterFactory" pc="268438965" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="43" parent="globals/CharacterFactory" pc="268438967" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="44" parent="globals/CharacterFactory" pc="268438990" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="47" parent="globals/CharacterFactory" pc="268438999" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="45" lineNum="35" parent="globals/CharacterFactory" pc="268439027" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="45" lineNum="36" parent="globals/CharacterFactory" pc="268439029" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="54" parent="globals/CharacterFactory" pc="268439072" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="55" parent="globals/CharacterFactory" pc="268439074" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="56" parent="globals/CharacterFactory" pc="268439097" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="60" parent="globals/CharacterFactory" pc="268439217" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="47" lineNum="29" parent="globals/CharacterFactory" pc="268439323" symbol="getIndex"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="47" lineNum="30" parent="globals/CharacterFactory" pc="268439325" symbol="getIndex"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="20" parent="globals/CharacterFactory" pc="268439345" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="21" parent="globals/CharacterFactory" pc="268439347" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="22" parent="globals/CharacterFactory" pc="268439365" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="23" parent="globals/CharacterFactory" pc="268439375" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="49" lineNum="67" parent="globals/CharacterFactory" pc="268439386" symbol="isDone"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="49" lineNum="68" parent="globals/CharacterFactory" pc="268439388" symbol="isDone"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen" id="50" lineNum="17" parent="globals/Rez" pc="268439411" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="51" lineNum="11" parent="globals/Rectangle" pc="268439435" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="17" parent="globals/Rectangle" pc="268439454" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="18" parent="globals/Rectangle" pc="268439456" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="19" parent="globals/Rectangle" pc="268439480" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="24" parent="globals/Rectangle" pc="268439491" symbol="draw"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="25" parent="globals/Rectangle" pc="268439493" symbol="draw"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="26" parent="globals/Rectangle" pc="268439521" symbol="draw"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="54" lineNum="5" parent="globals/BinaryTimerMenuDelegate" pc="268439566" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="11" parent="globals/BinaryTimerMenuDelegate" pc="268439585" symbol="onMenuItem"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="12" parent="globals/BinaryTimerMenuDelegate" pc="268439587" symbol="onMenuItem"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="13" parent="globals/BinaryTimerMenuDelegate" pc="268439598" symbol="onMenuItem"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="14" parent="globals/BinaryTimerMenuDelegate" pc="268439622" symbol="onMenuItem"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="15" parent="globals/BinaryTimerMenuDelegate" pc="268439633" symbol="onMenuItem"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="56" lineNum="7" parent="globals/BinaryTimerMenuDelegate" pc="268439658" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="56" lineNum="8" parent="globals/BinaryTimerMenuDelegate" pc="268439660" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="11" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439679" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="14" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439698" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="15" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439700" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="20" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439719" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="21" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439721" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="22" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439743" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="23" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439755" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="60" lineNum="82" parent="globals/TimePickerDelegate" pc="268439817" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="95" parent="globals/TimePickerDelegate" pc="268439836" symbol="onCancel"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="96" parent="globals/TimePickerDelegate" pc="268439838" symbol="onCancel"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="97" parent="globals/TimePickerDelegate" pc="268439859" symbol="onCancel"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="62" lineNum="89" parent="globals/TimePickerDelegate" pc="268439862" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="62" lineNum="90" parent="globals/TimePickerDelegate" pc="268439864" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="103" parent="globals/TimePickerDelegate" pc="268439883" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="104" parent="globals/TimePickerDelegate" pc="268439887" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="107" parent="globals/TimePickerDelegate" pc="268439933" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="108" parent="globals/TimePickerDelegate" pc="268439956" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="109" parent="globals/TimePickerDelegate" pc="268439992" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="110" parent="globals/TimePickerDelegate" pc="268440013" symbol="onAccept"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="64" lineNum="12" parent="globals/RectangleFactory" pc="268440016" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="65" lineNum="32" parent="globals/RectangleFactory" pc="268440035" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="65" lineNum="33" parent="globals/RectangleFactory" pc="268440037" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="66" lineNum="25" parent="globals/RectangleFactory" pc="268440043" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="66" lineNum="26" parent="globals/RectangleFactory" pc="268440045" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="67" lineNum="40" parent="globals/RectangleFactory" pc="268440051" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="67" lineNum="41" parent="globals/RectangleFactory" pc="268440053" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="18" parent="globals/RectangleFactory" pc="268440088" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="19" parent="globals/RectangleFactory" pc="268440090" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="20" parent="globals/RectangleFactory" pc="268440108" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="19" parent="globals/BinaryTimerView" pc="268440119" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="21" parent="globals/BinaryTimerView" pc="268440137" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="22" parent="globals/BinaryTimerView" pc="268440174" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="23" parent="globals/BinaryTimerView" pc="268440211" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="24" parent="globals/BinaryTimerView" pc="268440248" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="25" parent="globals/BinaryTimerView" pc="268440285" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="26" parent="globals/BinaryTimerView" pc="268440301" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="27" parent="globals/BinaryTimerView" pc="268440317" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="323" parent="globals/BinaryTimerView" pc="268440334" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="324" parent="globals/BinaryTimerView" pc="268440336" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="325" parent="globals/BinaryTimerView" pc="268440349" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="326" parent="globals/BinaryTimerView" pc="268440358" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="327" parent="globals/BinaryTimerView" pc="268440367" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="328" parent="globals/BinaryTimerView" pc="268440396" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="329" parent="globals/BinaryTimerView" pc="268440425" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="330" parent="globals/BinaryTimerView" pc="268440441" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="332" parent="globals/BinaryTimerView" pc="268440447" symbol="resetTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="346" parent="globals/BinaryTimerView" pc="268440450" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="347" parent="globals/BinaryTimerView" pc="268440454" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="348" parent="globals/BinaryTimerView" pc="268440464" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="349" parent="globals/BinaryTimerView" pc="268440487" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="350" parent="globals/BinaryTimerView" pc="268440517" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="351" parent="globals/BinaryTimerView" pc="268440564" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="352" parent="globals/BinaryTimerView" pc="268440564" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="353" parent="globals/BinaryTimerView" pc="268440594" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="354" parent="globals/BinaryTimerView" pc="268440618" symbol="setBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="291" parent="globals/BinaryTimerView" pc="268440656" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="292" parent="globals/BinaryTimerView" pc="268440660" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="294" parent="globals/BinaryTimerView" pc="268440686" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="295" parent="globals/BinaryTimerView" pc="268440696" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="296" parent="globals/BinaryTimerView" pc="268440703" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="297" parent="globals/BinaryTimerView" pc="268440713" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="299" parent="globals/BinaryTimerView" pc="268440757" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="300" parent="globals/BinaryTimerView" pc="268440767" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="301" parent="globals/BinaryTimerView" pc="268440774" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="302" parent="globals/BinaryTimerView" pc="268440784" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="303" parent="globals/BinaryTimerView" pc="268440802" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="305" parent="globals/BinaryTimerView" pc="268440821" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="306" parent="globals/BinaryTimerView" pc="268440838" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="307" parent="globals/BinaryTimerView" pc="268440854" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="308" parent="globals/BinaryTimerView" pc="268440863" symbol="startStopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="337" parent="globals/BinaryTimerView" pc="268440908" symbol="saveProperties"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="338" parent="globals/BinaryTimerView" pc="268440910" symbol="saveProperties"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="339" parent="globals/BinaryTimerView" pc="268440939" symbol="saveProperties"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="340" parent="globals/BinaryTimerView" pc="268440968" symbol="saveProperties"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="366" parent="globals/BinaryTimerView" pc="268440998" symbol="deleteBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="367" parent="globals/BinaryTimerView" pc="268441000" symbol="deleteBackgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="372" parent="globals/BinaryTimerView" pc="268441017" symbol="backgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="373" parent="globals/BinaryTimerView" pc="268441019" symbol="backgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="374" parent="globals/BinaryTimerView" pc="268441032" symbol="backgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="375" parent="globals/BinaryTimerView" pc="268441041" symbol="backgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="376" parent="globals/BinaryTimerView" pc="268441050" symbol="backgroundEvent"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="89" parent="globals/BinaryTimerView" pc="268441067" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="92" parent="globals/BinaryTimerView" pc="268441071" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="93" parent="globals/BinaryTimerView" pc="268441093" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="94" parent="globals/BinaryTimerView" pc="268441111" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="95" parent="globals/BinaryTimerView" pc="268441121" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="96" parent="globals/BinaryTimerView" pc="268441130" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="99" parent="globals/BinaryTimerView" pc="268441142" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="103" parent="globals/BinaryTimerView" pc="268441155" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="104" parent="globals/BinaryTimerView" pc="268441183" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="108" parent="globals/BinaryTimerView" pc="268441211" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="111" parent="globals/BinaryTimerView" pc="268441245" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="113" parent="globals/BinaryTimerView" pc="268441274" symbol="onShow"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="85" parent="globals/BinaryTimerView" pc="268441319" symbol="onLayout"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="382" parent="globals/BinaryTimerView" pc="268441322" symbol="requestUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="383" parent="globals/BinaryTimerView" pc="268441324" symbol="requestUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="314" parent="globals/BinaryTimerView" pc="268441341" symbol="stopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="315" parent="globals/BinaryTimerView" pc="268441343" symbol="stopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="316" parent="globals/BinaryTimerView" pc="268441361" symbol="stopTimer"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="47" parent="globals/BinaryTimerView" pc="268441378" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="50" parent="globals/BinaryTimerView" pc="268441382" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="53" parent="globals/BinaryTimerView" pc="268441400" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="55" parent="globals/BinaryTimerView" pc="268441407" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="56" parent="globals/BinaryTimerView" pc="268441429" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="57" parent="globals/BinaryTimerView" pc="268441447" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="58" parent="globals/BinaryTimerView" pc="268441457" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="59" parent="globals/BinaryTimerView" pc="268441466" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="62" parent="globals/BinaryTimerView" pc="268441478" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="65" parent="globals/BinaryTimerView" pc="268441491" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="66" parent="globals/BinaryTimerView" pc="268441519" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="70" parent="globals/BinaryTimerView" pc="268441550" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="71" parent="globals/BinaryTimerView" pc="268441563" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="72" parent="globals/BinaryTimerView" pc="268441572" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="76" parent="globals/BinaryTimerView" pc="268441581" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="79" parent="globals/BinaryTimerView" pc="268441615" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="81" parent="globals/BinaryTimerView" pc="268441644" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="120" parent="globals/BinaryTimerView" pc="268441689" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="121" parent="globals/BinaryTimerView" pc="268441693" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="122" parent="globals/BinaryTimerView" pc="268441721" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="124" parent="globals/BinaryTimerView" pc="268441733" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="125" parent="globals/BinaryTimerView" pc="268441752" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="126" parent="globals/BinaryTimerView" pc="268441759" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="127" parent="globals/BinaryTimerView" pc="268441769" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="128" parent="globals/BinaryTimerView" pc="268441769" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="129" parent="globals/BinaryTimerView" pc="268441776" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="130" parent="globals/BinaryTimerView" pc="268441786" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="132" parent="globals/BinaryTimerView" pc="268441793" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="133" parent="globals/BinaryTimerView" pc="268441806" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="134" parent="globals/BinaryTimerView" pc="268441819" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="135" parent="globals/BinaryTimerView" pc="268441832" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="137" parent="globals/BinaryTimerView" pc="268441842" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="140" parent="globals/BinaryTimerView" pc="268441871" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="141" parent="globals/BinaryTimerView" pc="268441885" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="143" parent="globals/BinaryTimerView" pc="268441895" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="144" parent="globals/BinaryTimerView" pc="268441908" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="145" parent="globals/BinaryTimerView" pc="268441921" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="146" parent="globals/BinaryTimerView" pc="268441934" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="147" parent="globals/BinaryTimerView" pc="268441966" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="148" parent="globals/BinaryTimerView" pc="268441984" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="149" parent="globals/BinaryTimerView" pc="268441991" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="150" parent="globals/BinaryTimerView" pc="268441998" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="151" parent="globals/BinaryTimerView" pc="268442005" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="152" parent="globals/BinaryTimerView" pc="268442012" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="153" parent="globals/BinaryTimerView" pc="268442019" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="154" parent="globals/BinaryTimerView" pc="268442026" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="156" parent="globals/BinaryTimerView" pc="268442033" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="157" parent="globals/BinaryTimerView" pc="268442050" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="171" parent="globals/BinaryTimerView" pc="268442528" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="174" parent="globals/BinaryTimerView" pc="268442565" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="175" parent="globals/BinaryTimerView" pc="268442582" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="185" parent="globals/BinaryTimerView" pc="268442912" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="190" parent="globals/BinaryTimerView" pc="268442941" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="193" parent="globals/BinaryTimerView" pc="268442944" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="194" parent="globals/BinaryTimerView" pc="268442984" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="197" parent="globals/BinaryTimerView" pc="268442997" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="199" parent="globals/BinaryTimerView" pc="268443004" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="200" parent="globals/BinaryTimerView" pc="268443014" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="201" parent="globals/BinaryTimerView" pc="268443030" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="204" parent="globals/BinaryTimerView" pc="268443040" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="205" parent="globals/BinaryTimerView" pc="268443065" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="216" parent="globals/BinaryTimerView" pc="268443077" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="208" parent="globals/BinaryTimerView" pc="268443077" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="210" parent="globals/BinaryTimerView" pc="268443077" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="209" parent="globals/BinaryTimerView" pc="268443077" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="207" parent="globals/BinaryTimerView" pc="268443077" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="217" parent="globals/BinaryTimerView" pc="268443102" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="218" parent="globals/BinaryTimerView" pc="268443134" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="219" parent="globals/BinaryTimerView" pc="268443144" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="220" parent="globals/BinaryTimerView" pc="268443176" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="222" parent="globals/BinaryTimerView" pc="268443186" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="224" parent="globals/BinaryTimerView" pc="268443193" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="225" parent="globals/BinaryTimerView" pc="268443221" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="228" parent="globals/BinaryTimerView" pc="268443249" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="230" parent="globals/BinaryTimerView" pc="268443265" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="231" parent="globals/BinaryTimerView" pc="268443272" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="234" parent="globals/BinaryTimerView" pc="268443303" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="235" parent="globals/BinaryTimerView" pc="268443321" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="236" parent="globals/BinaryTimerView" pc="268443339" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="241" parent="globals/BinaryTimerView" pc="268443409" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="242" parent="globals/BinaryTimerView" pc="268443427" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="243" parent="globals/BinaryTimerView" pc="268443484" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="247" parent="globals/BinaryTimerView" pc="268443550" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="249" parent="globals/BinaryTimerView" pc="268443566" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="250" parent="globals/BinaryTimerView" pc="268443573" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="254" parent="globals/BinaryTimerView" pc="268443604" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="255" parent="globals/BinaryTimerView" pc="268443622" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="256" parent="globals/BinaryTimerView" pc="268443640" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="260" parent="globals/BinaryTimerView" pc="268443710" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="261" parent="globals/BinaryTimerView" pc="268443728" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="262" parent="globals/BinaryTimerView" pc="268443785" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="266" parent="globals/BinaryTimerView" pc="268443848" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="268" parent="globals/BinaryTimerView" pc="268443864" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="269" parent="globals/BinaryTimerView" pc="268443871" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="272" parent="globals/BinaryTimerView" pc="268443902" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="273" parent="globals/BinaryTimerView" pc="268443920" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="274" parent="globals/BinaryTimerView" pc="268443938" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="279" parent="globals/BinaryTimerView" pc="268444008" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="280" parent="globals/BinaryTimerView" pc="268444026" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="281" parent="globals/BinaryTimerView" pc="268444083" symbol="onUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="82" lineNum="78" parent="globals" pc="268444153" symbol="handleStorageUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="82" lineNum="80" parent="globals" pc="268444163" symbol="handleStorageUpdate"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="83" lineNum="12" parent="globals/ColorFactory" pc="268444208" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="84" lineNum="38" parent="globals/ColorFactory" pc="268444227" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="84" lineNum="39" parent="globals/ColorFactory" pc="268444229" symbol="getValue"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="85" lineNum="31" parent="globals/ColorFactory" pc="268444249" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="85" lineNum="32" parent="globals/ColorFactory" pc="268444251" symbol="getSize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="46" parent="globals/ColorFactory" pc="268444269" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="47" parent="globals/ColorFactory" pc="268444271" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="48" parent="globals/ColorFactory" pc="268444291" symbol="getDrawable"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="25" parent="globals/ColorFactory" pc="268444300" symbol="getIndex"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="26" parent="globals/ColorFactory" pc="268444302" symbol="getIndex"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="17" parent="globals/ColorFactory" pc="268444322" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="18" parent="globals/ColorFactory" pc="268444324" symbol="initialize"/>
-        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="19" parent="globals/ColorFactory" pc="268444342" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="41" lineNum="35" parent="globals/BinaryTimerDelegate" pc="268438941" symbol="onSelect"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="42" lineNum="40" parent="globals/BinaryTimerDelegate" pc="268438944" symbol="onNextPage"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerDelegate.mc" id="42" lineNum="41" parent="globals/BinaryTimerDelegate" pc="268438946" symbol="onNextPage"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="43" lineNum="12" parent="globals/CharacterFactory" pc="268438964" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="42" parent="globals/CharacterFactory" pc="268438983" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="43" parent="globals/CharacterFactory" pc="268438985" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="44" parent="globals/CharacterFactory" pc="268439008" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="44" lineNum="47" parent="globals/CharacterFactory" pc="268439017" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="45" lineNum="35" parent="globals/CharacterFactory" pc="268439045" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="45" lineNum="36" parent="globals/CharacterFactory" pc="268439047" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="54" parent="globals/CharacterFactory" pc="268439090" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="55" parent="globals/CharacterFactory" pc="268439092" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="56" parent="globals/CharacterFactory" pc="268439115" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="46" lineNum="60" parent="globals/CharacterFactory" pc="268439235" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="47" lineNum="29" parent="globals/CharacterFactory" pc="268439341" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="47" lineNum="30" parent="globals/CharacterFactory" pc="268439343" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="20" parent="globals/CharacterFactory" pc="268439363" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="21" parent="globals/CharacterFactory" pc="268439365" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="22" parent="globals/CharacterFactory" pc="268439383" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="48" lineNum="23" parent="globals/CharacterFactory" pc="268439393" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="49" lineNum="67" parent="globals/CharacterFactory" pc="268439404" symbol="isDone"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/CharacterFactory.mc" id="49" lineNum="68" parent="globals/CharacterFactory" pc="268439406" symbol="isDone"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen" id="50" lineNum="17" parent="globals/Rez" pc="268439429" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="51" lineNum="11" parent="globals/Rectangle" pc="268439453" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="17" parent="globals/Rectangle" pc="268439472" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="18" parent="globals/Rectangle" pc="268439474" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="52" lineNum="19" parent="globals/Rectangle" pc="268439498" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="24" parent="globals/Rectangle" pc="268439509" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="25" parent="globals/Rectangle" pc="268439511" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/drawable/Rectangle.mc" id="53" lineNum="26" parent="globals/Rectangle" pc="268439539" symbol="draw"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="54" lineNum="5" parent="globals/BinaryTimerMenuDelegate" pc="268439584" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="11" parent="globals/BinaryTimerMenuDelegate" pc="268439603" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="12" parent="globals/BinaryTimerMenuDelegate" pc="268439605" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="13" parent="globals/BinaryTimerMenuDelegate" pc="268439616" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="14" parent="globals/BinaryTimerMenuDelegate" pc="268439640" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="55" lineNum="15" parent="globals/BinaryTimerMenuDelegate" pc="268439651" symbol="onMenuItem"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="56" lineNum="7" parent="globals/BinaryTimerMenuDelegate" pc="268439676" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerMenuDelegate.mc" id="56" lineNum="8" parent="globals/BinaryTimerMenuDelegate" pc="268439678" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="57" lineNum="11" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439697" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="14" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439716" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="58" lineNum="15" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439718" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="20" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439737" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="21" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439739" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="22" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439761" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerStorageChangedAlertView.mc" id="59" lineNum="23" parent="globals/BinaryTimerStorageChangedAlertView" pc="268439773" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="60" lineNum="82" parent="globals/TimePickerDelegate" pc="268439835" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="95" parent="globals/TimePickerDelegate" pc="268439854" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="96" parent="globals/TimePickerDelegate" pc="268439856" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="61" lineNum="97" parent="globals/TimePickerDelegate" pc="268439877" symbol="onCancel"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="62" lineNum="89" parent="globals/TimePickerDelegate" pc="268439880" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="62" lineNum="90" parent="globals/TimePickerDelegate" pc="268439882" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="103" parent="globals/TimePickerDelegate" pc="268439901" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="104" parent="globals/TimePickerDelegate" pc="268439905" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="107" parent="globals/TimePickerDelegate" pc="268439951" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="108" parent="globals/TimePickerDelegate" pc="268439974" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="109" parent="globals/TimePickerDelegate" pc="268440010" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/pickers/TimePicker.mc" id="63" lineNum="110" parent="globals/TimePickerDelegate" pc="268440031" symbol="onAccept"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="64" lineNum="12" parent="globals/RectangleFactory" pc="268440034" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="65" lineNum="32" parent="globals/RectangleFactory" pc="268440053" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="65" lineNum="33" parent="globals/RectangleFactory" pc="268440055" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="66" lineNum="25" parent="globals/RectangleFactory" pc="268440061" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="66" lineNum="26" parent="globals/RectangleFactory" pc="268440063" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="67" lineNum="40" parent="globals/RectangleFactory" pc="268440069" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="67" lineNum="41" parent="globals/RectangleFactory" pc="268440071" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="18" parent="globals/RectangleFactory" pc="268440106" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="19" parent="globals/RectangleFactory" pc="268440108" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/RectangleFactory.mc" id="68" lineNum="20" parent="globals/RectangleFactory" pc="268440126" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="19" parent="globals/BinaryTimerView" pc="268440137" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="21" parent="globals/BinaryTimerView" pc="268440155" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="22" parent="globals/BinaryTimerView" pc="268440192" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="23" parent="globals/BinaryTimerView" pc="268440229" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="24" parent="globals/BinaryTimerView" pc="268440266" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="25" parent="globals/BinaryTimerView" pc="268440303" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="26" parent="globals/BinaryTimerView" pc="268440319" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="69" lineNum="27" parent="globals/BinaryTimerView" pc="268440335" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="323" parent="globals/BinaryTimerView" pc="268440352" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="324" parent="globals/BinaryTimerView" pc="268440354" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="325" parent="globals/BinaryTimerView" pc="268440367" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="326" parent="globals/BinaryTimerView" pc="268440376" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="327" parent="globals/BinaryTimerView" pc="268440385" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="328" parent="globals/BinaryTimerView" pc="268440414" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="329" parent="globals/BinaryTimerView" pc="268440443" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="330" parent="globals/BinaryTimerView" pc="268440459" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="70" lineNum="332" parent="globals/BinaryTimerView" pc="268440465" symbol="resetTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="346" parent="globals/BinaryTimerView" pc="268440468" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="347" parent="globals/BinaryTimerView" pc="268440472" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="348" parent="globals/BinaryTimerView" pc="268440482" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="349" parent="globals/BinaryTimerView" pc="268440505" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="350" parent="globals/BinaryTimerView" pc="268440535" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="351" parent="globals/BinaryTimerView" pc="268440582" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="352" parent="globals/BinaryTimerView" pc="268440582" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="353" parent="globals/BinaryTimerView" pc="268440612" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="71" lineNum="354" parent="globals/BinaryTimerView" pc="268440636" symbol="setBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="291" parent="globals/BinaryTimerView" pc="268440674" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="292" parent="globals/BinaryTimerView" pc="268440678" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="294" parent="globals/BinaryTimerView" pc="268440704" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="295" parent="globals/BinaryTimerView" pc="268440714" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="296" parent="globals/BinaryTimerView" pc="268440721" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="297" parent="globals/BinaryTimerView" pc="268440731" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="299" parent="globals/BinaryTimerView" pc="268440775" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="300" parent="globals/BinaryTimerView" pc="268440785" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="301" parent="globals/BinaryTimerView" pc="268440792" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="302" parent="globals/BinaryTimerView" pc="268440802" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="303" parent="globals/BinaryTimerView" pc="268440820" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="305" parent="globals/BinaryTimerView" pc="268440839" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="306" parent="globals/BinaryTimerView" pc="268440856" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="307" parent="globals/BinaryTimerView" pc="268440872" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="72" lineNum="308" parent="globals/BinaryTimerView" pc="268440881" symbol="startStopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="337" parent="globals/BinaryTimerView" pc="268440926" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="338" parent="globals/BinaryTimerView" pc="268440928" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="339" parent="globals/BinaryTimerView" pc="268440957" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="73" lineNum="340" parent="globals/BinaryTimerView" pc="268440986" symbol="saveProperties"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="366" parent="globals/BinaryTimerView" pc="268441016" symbol="deleteBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="74" lineNum="367" parent="globals/BinaryTimerView" pc="268441018" symbol="deleteBackgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="372" parent="globals/BinaryTimerView" pc="268441035" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="373" parent="globals/BinaryTimerView" pc="268441037" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="374" parent="globals/BinaryTimerView" pc="268441050" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="375" parent="globals/BinaryTimerView" pc="268441059" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="75" lineNum="376" parent="globals/BinaryTimerView" pc="268441068" symbol="backgroundEvent"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="89" parent="globals/BinaryTimerView" pc="268441085" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="92" parent="globals/BinaryTimerView" pc="268441089" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="93" parent="globals/BinaryTimerView" pc="268441111" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="94" parent="globals/BinaryTimerView" pc="268441129" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="95" parent="globals/BinaryTimerView" pc="268441139" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="96" parent="globals/BinaryTimerView" pc="268441148" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="99" parent="globals/BinaryTimerView" pc="268441160" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="103" parent="globals/BinaryTimerView" pc="268441173" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="104" parent="globals/BinaryTimerView" pc="268441201" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="108" parent="globals/BinaryTimerView" pc="268441229" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="111" parent="globals/BinaryTimerView" pc="268441263" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="76" lineNum="113" parent="globals/BinaryTimerView" pc="268441292" symbol="onShow"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="77" lineNum="85" parent="globals/BinaryTimerView" pc="268441337" symbol="onLayout"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="382" parent="globals/BinaryTimerView" pc="268441340" symbol="requestUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="78" lineNum="383" parent="globals/BinaryTimerView" pc="268441342" symbol="requestUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="314" parent="globals/BinaryTimerView" pc="268441359" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="315" parent="globals/BinaryTimerView" pc="268441361" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="79" lineNum="316" parent="globals/BinaryTimerView" pc="268441379" symbol="stopTimer"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="47" parent="globals/BinaryTimerView" pc="268441396" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="50" parent="globals/BinaryTimerView" pc="268441400" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="53" parent="globals/BinaryTimerView" pc="268441418" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="55" parent="globals/BinaryTimerView" pc="268441425" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="56" parent="globals/BinaryTimerView" pc="268441447" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="57" parent="globals/BinaryTimerView" pc="268441465" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="58" parent="globals/BinaryTimerView" pc="268441475" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="59" parent="globals/BinaryTimerView" pc="268441484" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="62" parent="globals/BinaryTimerView" pc="268441496" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="65" parent="globals/BinaryTimerView" pc="268441509" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="66" parent="globals/BinaryTimerView" pc="268441537" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="70" parent="globals/BinaryTimerView" pc="268441568" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="71" parent="globals/BinaryTimerView" pc="268441581" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="72" parent="globals/BinaryTimerView" pc="268441590" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="76" parent="globals/BinaryTimerView" pc="268441599" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="79" parent="globals/BinaryTimerView" pc="268441633" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="80" lineNum="81" parent="globals/BinaryTimerView" pc="268441662" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="120" parent="globals/BinaryTimerView" pc="268441707" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="121" parent="globals/BinaryTimerView" pc="268441711" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="122" parent="globals/BinaryTimerView" pc="268441739" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="124" parent="globals/BinaryTimerView" pc="268441751" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="125" parent="globals/BinaryTimerView" pc="268441770" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="126" parent="globals/BinaryTimerView" pc="268441777" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="127" parent="globals/BinaryTimerView" pc="268441787" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="128" parent="globals/BinaryTimerView" pc="268441787" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="129" parent="globals/BinaryTimerView" pc="268441794" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="130" parent="globals/BinaryTimerView" pc="268441804" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="132" parent="globals/BinaryTimerView" pc="268441811" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="133" parent="globals/BinaryTimerView" pc="268441824" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="134" parent="globals/BinaryTimerView" pc="268441837" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="135" parent="globals/BinaryTimerView" pc="268441850" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="137" parent="globals/BinaryTimerView" pc="268441860" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="140" parent="globals/BinaryTimerView" pc="268441889" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="141" parent="globals/BinaryTimerView" pc="268441903" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="143" parent="globals/BinaryTimerView" pc="268441913" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="144" parent="globals/BinaryTimerView" pc="268441926" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="145" parent="globals/BinaryTimerView" pc="268441939" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="146" parent="globals/BinaryTimerView" pc="268441952" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="147" parent="globals/BinaryTimerView" pc="268441984" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="148" parent="globals/BinaryTimerView" pc="268442002" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="149" parent="globals/BinaryTimerView" pc="268442009" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="150" parent="globals/BinaryTimerView" pc="268442016" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="151" parent="globals/BinaryTimerView" pc="268442023" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="152" parent="globals/BinaryTimerView" pc="268442030" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="153" parent="globals/BinaryTimerView" pc="268442037" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="154" parent="globals/BinaryTimerView" pc="268442044" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="156" parent="globals/BinaryTimerView" pc="268442051" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="157" parent="globals/BinaryTimerView" pc="268442068" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="171" parent="globals/BinaryTimerView" pc="268442546" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="174" parent="globals/BinaryTimerView" pc="268442583" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="175" parent="globals/BinaryTimerView" pc="268442600" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="185" parent="globals/BinaryTimerView" pc="268442930" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="190" parent="globals/BinaryTimerView" pc="268442959" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="193" parent="globals/BinaryTimerView" pc="268442962" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="194" parent="globals/BinaryTimerView" pc="268443002" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="197" parent="globals/BinaryTimerView" pc="268443015" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="199" parent="globals/BinaryTimerView" pc="268443022" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="200" parent="globals/BinaryTimerView" pc="268443032" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="201" parent="globals/BinaryTimerView" pc="268443048" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="204" parent="globals/BinaryTimerView" pc="268443058" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="205" parent="globals/BinaryTimerView" pc="268443083" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="216" parent="globals/BinaryTimerView" pc="268443095" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="208" parent="globals/BinaryTimerView" pc="268443095" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="210" parent="globals/BinaryTimerView" pc="268443095" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="209" parent="globals/BinaryTimerView" pc="268443095" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="207" parent="globals/BinaryTimerView" pc="268443095" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="217" parent="globals/BinaryTimerView" pc="268443120" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="218" parent="globals/BinaryTimerView" pc="268443152" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="219" parent="globals/BinaryTimerView" pc="268443162" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="220" parent="globals/BinaryTimerView" pc="268443194" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="222" parent="globals/BinaryTimerView" pc="268443204" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="224" parent="globals/BinaryTimerView" pc="268443211" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="225" parent="globals/BinaryTimerView" pc="268443239" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="228" parent="globals/BinaryTimerView" pc="268443267" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="230" parent="globals/BinaryTimerView" pc="268443283" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="231" parent="globals/BinaryTimerView" pc="268443290" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="234" parent="globals/BinaryTimerView" pc="268443321" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="235" parent="globals/BinaryTimerView" pc="268443339" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="236" parent="globals/BinaryTimerView" pc="268443357" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="241" parent="globals/BinaryTimerView" pc="268443427" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="242" parent="globals/BinaryTimerView" pc="268443445" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="243" parent="globals/BinaryTimerView" pc="268443502" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="247" parent="globals/BinaryTimerView" pc="268443568" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="249" parent="globals/BinaryTimerView" pc="268443584" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="250" parent="globals/BinaryTimerView" pc="268443591" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="254" parent="globals/BinaryTimerView" pc="268443622" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="255" parent="globals/BinaryTimerView" pc="268443640" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="256" parent="globals/BinaryTimerView" pc="268443658" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="260" parent="globals/BinaryTimerView" pc="268443728" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="261" parent="globals/BinaryTimerView" pc="268443746" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="262" parent="globals/BinaryTimerView" pc="268443803" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="266" parent="globals/BinaryTimerView" pc="268443866" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="268" parent="globals/BinaryTimerView" pc="268443882" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="269" parent="globals/BinaryTimerView" pc="268443889" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="272" parent="globals/BinaryTimerView" pc="268443920" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="273" parent="globals/BinaryTimerView" pc="268443938" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="274" parent="globals/BinaryTimerView" pc="268443956" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="279" parent="globals/BinaryTimerView" pc="268444026" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="280" parent="globals/BinaryTimerView" pc="268444044" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerView.mc" id="81" lineNum="281" parent="globals/BinaryTimerView" pc="268444101" symbol="onUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="82" lineNum="77" parent="globals" pc="268444171" symbol="handleStorageUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/BinaryTimerApp.mc" id="82" lineNum="79" parent="globals" pc="268444181" symbol="handleStorageUpdate"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="83" lineNum="12" parent="globals/ColorFactory" pc="268444226" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="84" lineNum="38" parent="globals/ColorFactory" pc="268444245" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="84" lineNum="39" parent="globals/ColorFactory" pc="268444247" symbol="getValue"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="85" lineNum="31" parent="globals/ColorFactory" pc="268444267" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="85" lineNum="32" parent="globals/ColorFactory" pc="268444269" symbol="getSize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="46" parent="globals/ColorFactory" pc="268444287" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="47" parent="globals/ColorFactory" pc="268444289" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="86" lineNum="48" parent="globals/ColorFactory" pc="268444309" symbol="getDrawable"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="25" parent="globals/ColorFactory" pc="268444318" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="87" lineNum="26" parent="globals/ColorFactory" pc="268444320" symbol="getIndex"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="17" parent="globals/ColorFactory" pc="268444340" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="18" parent="globals/ColorFactory" pc="268444342" symbol="initialize"/>
+        <entry filename="/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/source/factories/ColorFactory.mc" id="88" lineNum="19" parent="globals/ColorFactory" pc="268444360" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -679,71 +680,71 @@
         <entry arg="true" endPc="268438742" name="options" stackId="2" startPc="268438659"/>
         <entry endPc="268438741" name="font" stackId="3" startPc="268438663"/>
         <entry arg="true" endPc="268438902" name="view" stackId="1" startPc="268438872"/>
-        <entry arg="true" endPc="268439026" name="index" stackId="1" startPc="268438965"/>
-        <entry arg="true" endPc="268439322" name="index" stackId="1" startPc="268439072"/>
-        <entry arg="true" endPc="268439322" name="selected" stackId="2" startPc="268439072"/>
-        <entry arg="true" endPc="268439344" name="value" stackId="1" startPc="268439323"/>
-        <entry arg="true" endPc="268439385" name="characterSet" stackId="1" startPc="268439345"/>
-        <entry arg="true" endPc="268439385" name="addOk" stackId="2" startPc="268439345"/>
-        <entry arg="true" endPc="268439410" name="value" stackId="1" startPc="268439386"/>
-        <entry arg="true" endPc="268439490" name="color" stackId="1" startPc="268439454"/>
-        <entry arg="true" endPc="268439565" name="dc" stackId="1" startPc="268439491"/>
-        <entry arg="true" endPc="268439657" name="item" stackId="1" startPc="268439585"/>
-        <entry arg="true" endPc="268439816" name="dc" stackId="1" startPc="268439719"/>
-        <entry arg="true" endPc="268440015" name="values" stackId="1" startPc="268439883"/>
-        <entry endPc="268440015" name="time" stackId="2" startPc="268439887"/>
-        <entry arg="true" endPc="268440042" name="index" stackId="1" startPc="268440035"/>
-        <entry arg="true" endPc="268440087" name="index" stackId="1" startPc="268440051"/>
-        <entry arg="true" endPc="268440087" name="selected" stackId="2" startPc="268440051"/>
-        <entry arg="true" endPc="268440118" name="color" stackId="1" startPc="268440088"/>
-        <entry endPc="268440654" name="timerStartTime" stackId="1" startPc="268440454"/>
-        <entry endPc="268440651" name="time" stackId="2" startPc="268440487"/>
-        <entry endPc="268440611" name="info" stackId="3" startPc="268440564"/>
-        <entry endPc="268440646" name="e" stackId="4" startPc="268440618"/>
-        <entry endPc="268440906" name="now" stackId="1" startPc="268440660"/>
-        <entry endPc="268440906" name="timerStartTime" stackId="2" startPc="268440660"/>
-        <entry endPc="268440906" name="timerPauseTime" stackId="3" startPc="268440757"/>
-        <entry endPc="268441317" name="timerDuration" stackId="1" startPc="268441071"/>
-        <entry arg="true" endPc="268441688" name="backgroundRan" stackId="1" startPc="268441378"/>
-        <entry endPc="268441546" name="timerDuration" stackId="2" startPc="268441407"/>
-        <entry arg="true" endPc="268444152" name="dc" stackId="1" startPc="268441689"/>
-        <entry endPc="268444151" name="clockTime" stackId="2" startPc="268441693"/>
-        <entry endPc="268444151" name="elapsed" stackId="3" startPc="268441693"/>
-        <entry endPc="268444151" name="timerStartTime" stackId="4" startPc="268441693"/>
-        <entry endPc="268444151" name="timerPauseTime" stackId="5" startPc="268441693"/>
-        <entry endPc="268442934" name="toneLength" stackId="6" startPc="268441885"/>
-        <entry endPc="268442934" name="c" stackId="7" startPc="268441885"/>
-        <entry endPc="268442934" name="g" stackId="8" startPc="268441885"/>
-        <entry endPc="268442934" name="fiss" stackId="9" startPc="268441885"/>
-        <entry endPc="268442934" name="giss" stackId="10" startPc="268441885"/>
-        <entry endPc="268442934" name="b" stackId="11" startPc="268441885"/>
-        <entry endPc="268442934" name="p" stackId="12" startPc="268441885"/>
-        <entry endPc="268442561" name="toneProfile" stackId="13" startPc="268442050"/>
-        <entry endPc="268442931" name="vibrateData" stackId="14" startPc="268442582"/>
-        <entry endPc="268444151" name="clockValue" stackId="15" startPc="268441693"/>
-        <entry endPc="268444151" name="timerValue" stackId="16" startPc="268441693"/>
-        <entry endPc="268444151" name="finishValue" stackId="17" startPc="268441693"/>
-        <entry endPc="268444151" name="seconds" stackId="18" startPc="268441693"/>
-        <entry endPc="268444151" name="minutes" stackId="19" startPc="268441693"/>
-        <entry endPc="268444151" name="hours" stackId="20" startPc="268441693"/>
-        <entry endPc="268444151" name="rest_width" stackId="21" startPc="268441693"/>
-        <entry endPc="268444151" name="rest_height" stackId="22" startPc="268441693"/>
-        <entry endPc="268444151" name="rectangle_width" stackId="23" startPc="268441693"/>
-        <entry endPc="268444151" name="rectangle_height" stackId="24" startPc="268441693"/>
-        <entry endPc="268443408" name="x" stackId="25" startPc="268443321"/>
-        <entry endPc="268443395" name="y" stackId="26" startPc="268443339"/>
-        <entry endPc="268443549" name="i" stackId="27" startPc="268443427"/>
-        <entry endPc="268443709" name="x" stackId="28" startPc="268443622"/>
-        <entry endPc="268443696" name="y" stackId="29" startPc="268443640"/>
-        <entry endPc="268443847" name="i" stackId="30" startPc="268443728"/>
-        <entry endPc="268444007" name="x" stackId="31" startPc="268443920"/>
-        <entry endPc="268443994" name="y" stackId="32" startPc="268443938"/>
-        <entry endPc="268444151" name="i" stackId="33" startPc="268444026"/>
-        <entry arg="true" endPc="268444248" name="index" stackId="1" startPc="268444227"/>
-        <entry arg="true" endPc="268444299" name="index" stackId="1" startPc="268444269"/>
-        <entry arg="true" endPc="268444299" name="selected" stackId="2" startPc="268444269"/>
-        <entry arg="true" endPc="268444321" name="value" stackId="1" startPc="268444300"/>
-        <entry arg="true" endPc="268444378" name="colors" stackId="1" startPc="268444322"/>
+        <entry arg="true" endPc="268439044" name="index" stackId="1" startPc="268438983"/>
+        <entry arg="true" endPc="268439340" name="index" stackId="1" startPc="268439090"/>
+        <entry arg="true" endPc="268439340" name="selected" stackId="2" startPc="268439090"/>
+        <entry arg="true" endPc="268439362" name="value" stackId="1" startPc="268439341"/>
+        <entry arg="true" endPc="268439403" name="characterSet" stackId="1" startPc="268439363"/>
+        <entry arg="true" endPc="268439403" name="addOk" stackId="2" startPc="268439363"/>
+        <entry arg="true" endPc="268439428" name="value" stackId="1" startPc="268439404"/>
+        <entry arg="true" endPc="268439508" name="color" stackId="1" startPc="268439472"/>
+        <entry arg="true" endPc="268439583" name="dc" stackId="1" startPc="268439509"/>
+        <entry arg="true" endPc="268439675" name="item" stackId="1" startPc="268439603"/>
+        <entry arg="true" endPc="268439834" name="dc" stackId="1" startPc="268439737"/>
+        <entry arg="true" endPc="268440033" name="values" stackId="1" startPc="268439901"/>
+        <entry endPc="268440033" name="time" stackId="2" startPc="268439905"/>
+        <entry arg="true" endPc="268440060" name="index" stackId="1" startPc="268440053"/>
+        <entry arg="true" endPc="268440105" name="index" stackId="1" startPc="268440069"/>
+        <entry arg="true" endPc="268440105" name="selected" stackId="2" startPc="268440069"/>
+        <entry arg="true" endPc="268440136" name="color" stackId="1" startPc="268440106"/>
+        <entry endPc="268440672" name="timerStartTime" stackId="1" startPc="268440472"/>
+        <entry endPc="268440669" name="time" stackId="2" startPc="268440505"/>
+        <entry endPc="268440629" name="info" stackId="3" startPc="268440582"/>
+        <entry endPc="268440664" name="e" stackId="4" startPc="268440636"/>
+        <entry endPc="268440924" name="now" stackId="1" startPc="268440678"/>
+        <entry endPc="268440924" name="timerStartTime" stackId="2" startPc="268440678"/>
+        <entry endPc="268440924" name="timerPauseTime" stackId="3" startPc="268440775"/>
+        <entry endPc="268441335" name="timerDuration" stackId="1" startPc="268441089"/>
+        <entry arg="true" endPc="268441706" name="backgroundRan" stackId="1" startPc="268441396"/>
+        <entry endPc="268441564" name="timerDuration" stackId="2" startPc="268441425"/>
+        <entry arg="true" endPc="268444170" name="dc" stackId="1" startPc="268441707"/>
+        <entry endPc="268444169" name="clockTime" stackId="2" startPc="268441711"/>
+        <entry endPc="268444169" name="elapsed" stackId="3" startPc="268441711"/>
+        <entry endPc="268444169" name="timerStartTime" stackId="4" startPc="268441711"/>
+        <entry endPc="268444169" name="timerPauseTime" stackId="5" startPc="268441711"/>
+        <entry endPc="268442952" name="toneLength" stackId="6" startPc="268441903"/>
+        <entry endPc="268442952" name="c" stackId="7" startPc="268441903"/>
+        <entry endPc="268442952" name="g" stackId="8" startPc="268441903"/>
+        <entry endPc="268442952" name="fiss" stackId="9" startPc="268441903"/>
+        <entry endPc="268442952" name="giss" stackId="10" startPc="268441903"/>
+        <entry endPc="268442952" name="b" stackId="11" startPc="268441903"/>
+        <entry endPc="268442952" name="p" stackId="12" startPc="268441903"/>
+        <entry endPc="268442579" name="toneProfile" stackId="13" startPc="268442068"/>
+        <entry endPc="268442949" name="vibrateData" stackId="14" startPc="268442600"/>
+        <entry endPc="268444169" name="clockValue" stackId="15" startPc="268441711"/>
+        <entry endPc="268444169" name="timerValue" stackId="16" startPc="268441711"/>
+        <entry endPc="268444169" name="finishValue" stackId="17" startPc="268441711"/>
+        <entry endPc="268444169" name="seconds" stackId="18" startPc="268441711"/>
+        <entry endPc="268444169" name="minutes" stackId="19" startPc="268441711"/>
+        <entry endPc="268444169" name="hours" stackId="20" startPc="268441711"/>
+        <entry endPc="268444169" name="rest_width" stackId="21" startPc="268441711"/>
+        <entry endPc="268444169" name="rest_height" stackId="22" startPc="268441711"/>
+        <entry endPc="268444169" name="rectangle_width" stackId="23" startPc="268441711"/>
+        <entry endPc="268444169" name="rectangle_height" stackId="24" startPc="268441711"/>
+        <entry endPc="268443426" name="x" stackId="25" startPc="268443339"/>
+        <entry endPc="268443413" name="y" stackId="26" startPc="268443357"/>
+        <entry endPc="268443567" name="i" stackId="27" startPc="268443445"/>
+        <entry endPc="268443727" name="x" stackId="28" startPc="268443640"/>
+        <entry endPc="268443714" name="y" stackId="29" startPc="268443658"/>
+        <entry endPc="268443865" name="i" stackId="30" startPc="268443746"/>
+        <entry endPc="268444025" name="x" stackId="31" startPc="268443938"/>
+        <entry endPc="268444012" name="y" stackId="32" startPc="268443956"/>
+        <entry endPc="268444169" name="i" stackId="33" startPc="268444044"/>
+        <entry arg="true" endPc="268444266" name="index" stackId="1" startPc="268444245"/>
+        <entry arg="true" endPc="268444317" name="index" stackId="1" startPc="268444287"/>
+        <entry arg="true" endPc="268444317" name="selected" stackId="2" startPc="268444287"/>
+        <entry arg="true" endPc="268444339" name="value" stackId="1" startPc="268444318"/>
+        <entry arg="true" endPc="268444396" name="colors" stackId="1" startPc="268444340"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="typecheck" class="BinaryTimerView" module="globals" symbol="stopTimer"/>
@@ -1035,171 +1036,171 @@
             <param id="view"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> view The app view</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438925" name="onSelect" parent="BinaryTimerDelegate" startPc="268438903">
+        <functionEntry accessMode="public" endPc="268438943" name="onSelect" parent="BinaryTimerDelegate" startPc="268438903">
             <documentation><![CDATA[<div class="description"> Call the start stop timer method on the parent view<br/> when the select action occurs (start/stop button on most products)<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438945" name="onNextPage" parent="BinaryTimerDelegate" startPc="268438926">
+        <functionEntry accessMode="public" endPc="268438963" name="onNextPage" parent="BinaryTimerDelegate" startPc="268438944">
             <documentation><![CDATA[<div class="description"> Call the reset method on the parent view when the<br/> back action occurs.<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438964" name="&lt;init&gt;" parent="CharacterFactory" startPc="268438946">
+        <functionEntry accessMode="public" endPc="268438982" name="&lt;init&gt;" parent="CharacterFactory" startPc="268438964">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439026" name="getValue" parent="CharacterFactory" startPc="268438965">
+        <functionEntry accessMode="public" endPc="268439044" name="getValue" parent="CharacterFactory" startPc="268438983">
             <param id="index"/>
             <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439071" name="getSize" parent="CharacterFactory" startPc="268439027">
+        <functionEntry accessMode="public" endPc="268439089" name="getSize" parent="CharacterFactory" startPc="268439045">
             <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439322" name="getDrawable" parent="CharacterFactory" startPc="268439072">
+        <functionEntry accessMode="public" endPc="268439340" name="getDrawable" parent="CharacterFactory" startPc="268439090">
             <param id="index"/>
             <param id="selected"/>
             <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439344" name="getIndex" parent="CharacterFactory" startPc="268439323">
+        <functionEntry accessMode="public" endPc="268439362" name="getIndex" parent="CharacterFactory" startPc="268439341">
             <param id="value"/>
             <documentation><![CDATA[<div class="description"> Get the index of a character item<br/> <div class="param"> value The character to get the index of</div><br/> <div class="returns">Returns  The index of the character</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439385" name="initialize" parent="CharacterFactory" startPc="268439345">
+        <functionEntry accessMode="public" endPc="268439403" name="initialize" parent="CharacterFactory" startPc="268439363">
             <param id="characterSet"/>
             <param id="addOk"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> characterSet The characters to include in the Picker</div><br/> <div class="param"> addOk true to add OK button, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439410" name="isDone" parent="CharacterFactory" startPc="268439386">
+        <functionEntry accessMode="public" endPc="268439428" name="isDone" parent="CharacterFactory" startPc="268439404">
             <param id="value"/>
             <documentation><![CDATA[<div class="description"> Get whether the user selected OK and is done picking<br/> <div class="param"> value Value user selected</div><br/> <div class="returns">Returns  true if user is done, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439434" name="&lt;init&gt;" parent="Rez" startPc="268439411">
+        <functionEntry accessMode="public" endPc="268439452" name="&lt;init&gt;" parent="Rez" startPc="268439429">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439453" name="&lt;init&gt;" parent="Rectangle" startPc="268439435">
+        <functionEntry accessMode="public" endPc="268439471" name="&lt;init&gt;" parent="Rectangle" startPc="268439453">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439490" name="initialize" parent="Rectangle" startPc="268439454">
+        <functionEntry accessMode="public" endPc="268439508" name="initialize" parent="Rectangle" startPc="268439472">
             <param id="color"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> color Color of the rectangle</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439565" name="draw" parent="Rectangle" startPc="268439491">
+        <functionEntry accessMode="public" endPc="268439583" name="draw" parent="Rectangle" startPc="268439509">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Draw a rectangle<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439584" name="&lt;init&gt;" parent="BinaryTimerMenuDelegate" startPc="268439566">
+        <functionEntry accessMode="public" endPc="268439602" name="&lt;init&gt;" parent="BinaryTimerMenuDelegate" startPc="268439584">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439657" name="onMenuItem" parent="BinaryTimerMenuDelegate" startPc="268439585">
+        <functionEntry accessMode="public" endPc="268439675" name="onMenuItem" parent="BinaryTimerMenuDelegate" startPc="268439603">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439678" name="initialize" parent="BinaryTimerMenuDelegate" startPc="268439658">
+        <functionEntry accessMode="public" endPc="268439696" name="initialize" parent="BinaryTimerMenuDelegate" startPc="268439676">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439697" name="&lt;init&gt;" parent="BinaryTimerStorageChangedAlertView" startPc="268439679">
+        <functionEntry accessMode="public" endPc="268439715" name="&lt;init&gt;" parent="BinaryTimerStorageChangedAlertView" startPc="268439697">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439718" name="initialize" parent="BinaryTimerStorageChangedAlertView" startPc="268439698">
+        <functionEntry accessMode="public" endPc="268439736" name="initialize" parent="BinaryTimerStorageChangedAlertView" startPc="268439716">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439816" name="onUpdate" parent="BinaryTimerStorageChangedAlertView" startPc="268439719">
+        <functionEntry accessMode="public" endPc="268439834" name="onUpdate" parent="BinaryTimerStorageChangedAlertView" startPc="268439737">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439835" name="&lt;init&gt;" parent="TimePickerDelegate" startPc="268439817">
+        <functionEntry accessMode="public" endPc="268439853" name="&lt;init&gt;" parent="TimePickerDelegate" startPc="268439835">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439861" name="onCancel" parent="TimePickerDelegate" startPc="268439836">
+        <functionEntry accessMode="public" endPc="268439879" name="onCancel" parent="TimePickerDelegate" startPc="268439854">
             <documentation><![CDATA[<div class="description"> Handle a cancel event from the picker<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439882" name="initialize" parent="TimePickerDelegate" startPc="268439862">
+        <functionEntry accessMode="public" endPc="268439900" name="initialize" parent="TimePickerDelegate" startPc="268439880">
             <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440015" name="onAccept" parent="TimePickerDelegate" startPc="268439883">
+        <functionEntry accessMode="public" endPc="268440033" name="onAccept" parent="TimePickerDelegate" startPc="268439901">
             <param id="values"/>
             <documentation><![CDATA[<div class="description"> Handle a confirm event from the picker<br/> <div class="param"> values The values chosen in the picker</div><br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440034" name="&lt;init&gt;" parent="RectangleFactory" startPc="268440016">
+        <functionEntry accessMode="public" endPc="268440052" name="&lt;init&gt;" parent="RectangleFactory" startPc="268440034">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440042" name="getValue" parent="RectangleFactory" startPc="268440035">
+        <functionEntry accessMode="public" endPc="268440060" name="getValue" parent="RectangleFactory" startPc="268440053">
             <param id="index"/>
             <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440050" name="getSize" parent="RectangleFactory" startPc="268440043">
+        <functionEntry accessMode="public" endPc="268440068" name="getSize" parent="RectangleFactory" startPc="268440061">
             <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440087" name="getDrawable" parent="RectangleFactory" startPc="268440051">
+        <functionEntry accessMode="public" endPc="268440105" name="getDrawable" parent="RectangleFactory" startPc="268440069">
             <param id="index"/>
             <param id="selected"/>
             <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440118" name="initialize" parent="RectangleFactory" startPc="268440088">
+        <functionEntry accessMode="public" endPc="268440136" name="initialize" parent="RectangleFactory" startPc="268440106">
             <param id="color"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> color Color for the rectangle</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440333" name="&lt;init&gt;" parent="BinaryTimerView" startPc="268440119">
+        <functionEntry accessMode="public" endPc="268440351" name="&lt;init&gt;" parent="BinaryTimerView" startPc="268440137">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440449" name="resetTimer" parent="BinaryTimerView" startPc="268440334">
+        <functionEntry accessMode="public" endPc="268440467" name="resetTimer" parent="BinaryTimerView" startPc="268440352">
             <documentation><![CDATA[<div class="description"> If the timer is paused, then go ahead and reset it back to the default time.<br/> <div class="returns">Returns  true if timer is reset, false otherwise</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440655" name="setBackgroundEvent" parent="BinaryTimerView" startPc="268440450">
+        <functionEntry accessMode="public" endPc="268440673" name="setBackgroundEvent" parent="BinaryTimerView" startPc="268440468">
             <documentation><![CDATA[<div class="description"> Set up a background event to occur when the timer expires. This<br/> will alert the user that the timer has expired even if the<br/> application does not remain open.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440907" name="startStopTimer" parent="BinaryTimerView" startPc="268440656">
+        <functionEntry accessMode="public" endPc="268440925" name="startStopTimer" parent="BinaryTimerView" startPc="268440674">
             <documentation><![CDATA[<div class="description"> If the timer is running, pause it. Otherwise, start it up.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440997" name="saveProperties" parent="BinaryTimerView" startPc="268440908">
+        <functionEntry accessMode="public" endPc="268441015" name="saveProperties" parent="BinaryTimerView" startPc="268440926">
             <documentation><![CDATA[<div class="description"> Save all the persisted values into the object store. This gets<br/> called by the Application base before the application shuts down.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441016" name="deleteBackgroundEvent" parent="BinaryTimerView" startPc="268440998">
+        <functionEntry accessMode="public" endPc="268441034" name="deleteBackgroundEvent" parent="BinaryTimerView" startPc="268441016">
             <documentation><![CDATA[<div class="description"> Delete the background event. We can get rid of this event when the<br/> application opens because now we can see exactly when the timer<br/> is going to expire. We will set it again when the application closes.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441066" name="backgroundEvent" parent="BinaryTimerView" startPc="268441017">
+        <functionEntry accessMode="public" endPc="268441084" name="backgroundEvent" parent="BinaryTimerView" startPc="268441035">
             <documentation><![CDATA[<div class="description"> If we do receive a background event while the application is open,<br/> go ahead and reset to the default timer.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441318" name="onShow" parent="BinaryTimerView" startPc="268441067">
+        <functionEntry accessMode="public" endPc="268441336" name="onShow" parent="BinaryTimerView" startPc="268441085">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441321" name="onLayout" parent="BinaryTimerView" startPc="268441319">
+        <functionEntry accessMode="public" endPc="268441339" name="onLayout" parent="BinaryTimerView" startPc="268441337">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441340" name="requestUpdate" parent="BinaryTimerView" startPc="268441322">
+        <functionEntry accessMode="public" endPc="268441358" name="requestUpdate" parent="BinaryTimerView" startPc="268441340">
             <documentation><![CDATA[<div class="description"> This is the callback method we use for our timer. It is<br/> only needed to request display updates as the timer counts<br/> down so we see the updated time on the display.<br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441377" name="stopTimer" parent="BinaryTimerView" startPc="268441341">
+        <functionEntry accessMode="public" endPc="268441395" name="stopTimer" parent="BinaryTimerView" startPc="268441359">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441688" name="initialize" parent="BinaryTimerView" startPc="268441378">
+        <functionEntry accessMode="public" endPc="268441706" name="initialize" parent="BinaryTimerView" startPc="268441396">
             <param id="backgroundRan"/>
             <documentation><![CDATA[<div class="description"> Initialize variables for this view<br/> <div class="param"> backgroundRan Contains background data if background ran</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444152" name="onUpdate" parent="BinaryTimerView" startPc="268441689">
+        <functionEntry accessMode="public" endPc="268444170" name="onUpdate" parent="BinaryTimerView" startPc="268441707">
             <param id="dc"/>
             <documentation><![CDATA[<div class="description"> Draw the time remaining on the timer to the display<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444207" name="handleStorageUpdate" startPc="268444153">
+        <functionEntry accessMode="public" endPc="268444225" name="handleStorageUpdate" startPc="268444171">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444226" name="&lt;init&gt;" parent="ColorFactory" startPc="268444208">
+        <functionEntry accessMode="public" endPc="268444244" name="&lt;init&gt;" parent="ColorFactory" startPc="268444226">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444248" name="getValue" parent="ColorFactory" startPc="268444227">
+        <functionEntry accessMode="public" endPc="268444266" name="getValue" parent="ColorFactory" startPc="268444245">
             <param id="index"/>
             <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444268" name="getSize" parent="ColorFactory" startPc="268444249">
+        <functionEntry accessMode="public" endPc="268444286" name="getSize" parent="ColorFactory" startPc="268444267">
             <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444299" name="getDrawable" parent="ColorFactory" startPc="268444269">
+        <functionEntry accessMode="public" endPc="268444317" name="getDrawable" parent="ColorFactory" startPc="268444287">
             <param id="index"/>
             <param id="selected"/>
             <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444321" name="getIndex" parent="ColorFactory" startPc="268444300">
+        <functionEntry accessMode="public" endPc="268444339" name="getIndex" parent="ColorFactory" startPc="268444318">
             <param id="value"/>
             <documentation><![CDATA[<div class="description"> Get the index of a color item<br/> <div class="param"> value The color to get the index of</div><br/> <div class="returns">Returns  The index of the color</div><br/></div>]]></documentation>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444378" name="initialize" parent="ColorFactory" startPc="268444322">
+        <functionEntry accessMode="public" endPc="268444396" name="initialize" parent="ColorFactory" startPc="268444340">
             <param id="colors"/>
             <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> colors Colors to display in the Color Wheel</div><br/></div>]]></documentation>
         </functionEntry>

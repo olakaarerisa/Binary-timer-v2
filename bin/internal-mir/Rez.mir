@@ -1,189 +1,189 @@
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 2; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 3; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 4; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 5; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 7; background = true; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 7; background = true; ]
 module BackgroundRez {
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 8; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 8; ]
     <init> {
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 9; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 9; ]
     module JsonData {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 9; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 9; ]
         <init> {
         }
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 12; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 12; ]
     module Strings {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 12; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
         var TimerExpired as Symbol;
     }
 }
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 17; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 17; ]
 module Rez {
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 17; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 17; ]
     <init> {
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 18; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 18; ]
     module Drawables {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 18; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 22; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 22; ]
     module Fonts {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 22; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 22; ]
         <init> {
         }
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 25; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 25; ]
     module JsonData {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 25; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 25; ]
         <init> {
         }
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 28; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 28; ]
     module Layouts {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 28; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 28; ]
         <init> {
         }
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 31; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 31; ]
     module Menus {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 31; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 31; ]
         <init> {
         }
     }
-    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 34; ]
+    [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 34; ]
     module Strings {
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 34; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 34; ]
         <init> {
         }
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
         var date as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 36; @position = 27; initialized = true; ]
         var dateSeparator as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
         var ColorPastellGreen as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
         var pickerChooserTime as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
         var HourColorTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
         var TimerExpired as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
         var ColorRed as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
         var pickerChooserString as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
         var month12 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
         var month11 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
         var ColorPastellBlue as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
         var ColorWhite as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
         var month10 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
         var stringPickerTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
         var ColorOrange as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
         var morning as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
         var pickerChooserDate as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
         var month05 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
         var month04 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
         var ColorPastellPink as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
         var month07 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
         var month06 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
         var ColorPastellOrange as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
         var month01 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
         var month03 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
         var month02 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
         var menu_label_1 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
         var menu_label_2 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
         var ColorPurple as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
         var pickerChooserTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
         var month09 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 66; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 66; @position = 27; initialized = true; ]
         var month08 as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 67; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 67; @position = 27; initialized = true; ]
         var ColorBlue as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 68; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 68; @position = 27; initialized = true; ]
         var clickHere as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; ]
         var BackgroundColorTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; ]
         var timePickerTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; ]
         var ColorDarkRed as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; ]
         var string as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; ]
         var characterPickerOk as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; ]
         var timeSeparator as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; ]
         var ColorYellow as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; ]
         var ColorDarkGreen as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
         var datePickerTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
         var SecondsColorTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; ]
         var ColorPink as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 81; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 81; @position = 27; initialized = true; ]
         var pickerChooserColor as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 82; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 82; @position = 27; initialized = true; ]
         var ColorGreen as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 83; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 83; @position = 27; initialized = true; ]
         var MinuteColorTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 84; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 84; @position = 27; initialized = true; ]
         var colorPickerTitle as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 85; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 85; @position = 27; initialized = true; ]
         var ColorDarkBlue as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 86; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 86; @position = 27; initialized = true; ]
         var pickerChooserLayout as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 87; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 87; @position = 27; initialized = true; ]
         var ColorBlack as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 88; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 88; @position = 27; initialized = true; ]
         var afternoon as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 89; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 89; @position = 27; initialized = true; ]
         var time as Symbol;
-        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 90; @position = 27; initialized = true; ]
+        [ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 90; @position = 27; initialized = true; ]
         var prompt as Symbol;
     }
 }
-[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2697-00/source/Rez.mcgen"; @line = 1; ]
+[ @file = "/Users/olakarerisa/Library/CloudStorage/Dropbox/Garminprosjekter/Binary Timer/bin/gen/006-B2900-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

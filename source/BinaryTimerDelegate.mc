@@ -31,6 +31,7 @@ class BinaryTimerDelegate extends WatchUi.BehaviorDelegate {
     //! @return true if handled, false otherwise
     public function onSelect() as Boolean {
         _parentView.startStopTimer();
+        _parentView.saveProperties();
         return true;
     }
      //! Call the reset method on the parent view when the

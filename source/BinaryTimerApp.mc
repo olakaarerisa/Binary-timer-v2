@@ -25,7 +25,6 @@ class BinaryTimerApp extends Application.AppBase {
     //! Handle app startup
     //! @param state Startup arguments
     public function onStart(state as Dictionary?) as Void {
-        
     }
 
     //! Handle app shutdown
