@@ -1,0 +1,82 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var date as Symbol;
+        (:initialized) var dateSeparator as Symbol;
+        (:initialized) var ColorPastellGreen as Symbol;
+        (:initialized) var pickerChooserTime as Symbol;
+        (:initialized) var HourColorTitle as Symbol;
+        (:initialized) var TimerExpired as Symbol;
+        (:initialized) var ColorRed as Symbol;
+        (:initialized) var pickerChooserString as Symbol;
+        (:initialized) var month12 as Symbol;
+        (:initialized) var month11 as Symbol;
+        (:initialized) var ColorPastellBlue as Symbol;
+        (:initialized) var ColorWhite as Symbol;
+        (:initialized) var month10 as Symbol;
+        (:initialized) var stringPickerTitle as Symbol;
+        (:initialized) var ColorOrange as Symbol;
+        (:initialized) var morning as Symbol;
+        (:initialized) var pickerChooserDate as Symbol;
+        (:initialized) var month05 as Symbol;
+        (:initialized) var month04 as Symbol;
+        (:initialized) var ColorPastellPink as Symbol;
+        (:initialized) var month07 as Symbol;
+        (:initialized) var month06 as Symbol;
+        (:initialized) var ColorPastellOrange as Symbol;
+        (:initialized) var month01 as Symbol;
+        (:initialized) var month03 as Symbol;
+        (:initialized) var month02 as Symbol;
+        (:initialized) var menu_label_1 as Symbol;
+        (:initialized) var menu_label_2 as Symbol;
+        (:initialized) var ColorPurple as Symbol;
+        (:initialized) var pickerChooserTitle as Symbol;
+        (:initialized) var month09 as Symbol;
+        (:initialized) var month08 as Symbol;
+        (:initialized) var ColorBlue as Symbol;
+        (:initialized) var clickHere as Symbol;
+        (:initialized) var BackgroundColorTitle as Symbol;
+        (:initialized) var timePickerTitle as Symbol;
+        (:initialized) var ColorDarkRed as Symbol;
+        (:initialized) var string as Symbol;
+        (:initialized) var characterPickerOk as Symbol;
+        (:initialized) var timeSeparator as Symbol;
+        (:initialized) var ColorYellow as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var ColorDarkGreen as Symbol;
+        (:initialized) var datePickerTitle as Symbol;
+        (:initialized) var SecondsColorTitle as Symbol;
+        (:initialized) var ColorPink as Symbol;
+        (:initialized) var pickerChooserColor as Symbol;
+        (:initialized) var ColorGreen as Symbol;
+        (:initialized) var MinuteColorTitle as Symbol;
+        (:initialized) var colorPickerTitle as Symbol;
+        (:initialized) var ColorDarkBlue as Symbol;
+        (:initialized) var pickerChooserLayout as Symbol;
+        (:initialized) var ColorBlack as Symbol;
+        (:initialized) var afternoon as Symbol;
+        (:initialized) var time as Symbol;
+        (:initialized) var prompt as Symbol;
+    } // Strings
+} // Rez

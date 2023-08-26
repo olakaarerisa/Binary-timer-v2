@@ -6,6 +6,7 @@
 
 import Toybox.Application;
 import Toybox.Application.Storage;
+import Toybox.Attention;
 import Toybox.Background;
 import Toybox.Graphics;
 import Toybox.Lang;
@@ -25,6 +26,7 @@ class BinaryTimerView extends WatchUi.View {
     var hourColor = _hourColor;
     var minuteColor = _minuteColor;
     var secondsColor = _secondsColor;
+    public var melodyPlayed = false;
     
 	
     public var rectangleMode = true;
@@ -137,7 +139,7 @@ class BinaryTimerView extends WatchUi.View {
                 elapsed = Time.now().value() - timerStartTime;
             }
 
-            if (elapsed >= _timerDuration) {
+            if (elapsed >= _timerDuration && melodyPlayed == false) {
                 elapsed = _timerDuration;
                 // Draw the time in red if the timer has expired
                 hourColor = Graphics.COLOR_RED;
@@ -145,46 +147,8 @@ class BinaryTimerView extends WatchUi.View {
                 secondsColor = Graphics.COLOR_RED;
                 _timerPauseTime = Time.now().value();
                 _updateTimer.stop();
-                var toneLength = 120;
-                var c = 1047;
-                var g = 784;
-                var fiss = 740;
-                var giss = 831;
-                var b = 988;
-                var p = 0;
-
-                if (Attention has :ToneProfile) {
-    				var toneProfile =
-    				[
-        				new Attention.ToneProfile(c, toneLength),
-        				new Attention.ToneProfile(p, toneLength * 2),
-                        new Attention.ToneProfile(g, toneLength),
-                        new Attention.ToneProfile(fiss, toneLength),
-                        new Attention.ToneProfile(g, toneLength),
-                        new Attention.ToneProfile(giss, toneLength*3),
-                        new Attention.ToneProfile(g, toneLength * 1),
-                        new Attention.ToneProfile(p, toneLength * 5),
-                        new Attention.ToneProfile(b, toneLength),
-                        new Attention.ToneProfile(p, toneLength*2),
-                        new Attention.ToneProfile(c, toneLength)
-    				];
-    				Attention.playTone({:toneProfile=>toneProfile});
-				}
-				
-				if (Attention has :vibrate) {
-                var vibrateData = [
-                        new Attention.VibeProfile(25, 100),
-                        new Attention.VibeProfile(50, 100),
-                        new Attention.VibeProfile(75, 100),
-                        new Attention.VibeProfile(100, 100),
-                        new Attention.VibeProfile(75, 100),
-                        new Attention.VibeProfile(50, 100),
-                        new Attention.VibeProfile(25, 100)
-                      ];
-
-                Attention.vibrate(vibrateData);
-                
-                }
+                makeMarioAndVibrate();
+                melodyPlayed = true;
             }
         } else {
             timerPauseTime = null;
@@ -324,6 +288,7 @@ class BinaryTimerView extends WatchUi.View {
         if (_timerPauseTime != null) {
             _timerStartTime = null;
             _timerPauseTime = null;
+            melodyPlayed = false;
             Storage.setValue(TIMER_KEY_START_TIME, _timerStartTime);
             Storage.setValue(TIMER_KEY_PAUSE_TIME, _timerPauseTime);
             WatchUi.requestUpdate();
@@ -381,5 +346,93 @@ class BinaryTimerView extends WatchUi.View {
     //! down so we see the updated time on the display.
     public function requestUpdate() as Void {
         WatchUi.requestUpdate();
+    }
+
+    public function makeMarioAndVibrate() {
+			var toneLength = 130;
+			var c = 1047;
+			var b = 988;
+			var bb = 932;
+			var a = 880;
+			var giss = 831;
+			var g = 784;
+			var fiss = 740;
+			var e = 659;
+			var p = 0;
+
+			var toneList = [c, g, e, a, b, a, giss, bb, giss, g, fiss, g];
+			var toneLengthArray = [3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 3];
+
+			var toneProfile = new [12];
+			var lengthFactor = 1;
+            
+			// Make the toneProfile array and get the riterdando effect by multiplying with lenghtfactor
+
+            if (Attention has :ToneProfile) {
+    			for (var i = 0; i < 12; i++) {
+					toneProfile[i] = new Attention.ToneProfile(toneList[i], toneLength * toneLengthArray[i] * lengthFactor);
+					lengthFactor *= 1.08;
+				}
+    				Attention.playTone({:toneProfile=>toneProfile});
+			}
+				
+			if (Attention has :vibrate) {
+                    var vibrateData =
+                	[
+                    new Attention.VibeProfile(25, 100),
+                    new Attention.VibeProfile(50, 100),
+                    new Attention.VibeProfile(75, 100),
+                    new Attention.VibeProfile(100, 100),
+                    new Attention.VibeProfile(75, 100),
+                    new Attention.VibeProfile(50, 100),
+                    new Attention.VibeProfile(25, 100)
+                    ] as Array<VibeProfile>;
+
+                Attention.vibrate(vibrateData);
+                
+            }
+	}
+
+    public function makeMelodyAndVibrate() {
+        var toneLength = 120;
+                var c = 1047;
+                var g = 784;
+                var fiss = 740;
+                var giss = 831;
+                var b = 988;
+                var p = 0;
+
+                if (Attention has :ToneProfile) {
+    				var toneProfile =
+    				[
+        				new Attention.ToneProfile(c, toneLength),
+        				new Attention.ToneProfile(p, toneLength * 2),
+                        new Attention.ToneProfile(g, toneLength),
+                        new Attention.ToneProfile(fiss, toneLength),
+                        new Attention.ToneProfile(g, toneLength),
+                        new Attention.ToneProfile(giss, toneLength*3),
+                        new Attention.ToneProfile(g, toneLength * 1),
+                        new Attention.ToneProfile(p, toneLength * 5),
+                        new Attention.ToneProfile(b, toneLength),
+                        new Attention.ToneProfile(p, toneLength*2),
+                        new Attention.ToneProfile(c, toneLength)
+    				];
+    				Attention.playTone({:toneProfile=>toneProfile});
+				}
+				
+				if (Attention has :vibrate) {
+                var vibrateData = [
+                        new Attention.VibeProfile(25, 100),
+                        new Attention.VibeProfile(50, 100),
+                        new Attention.VibeProfile(75, 100),
+                        new Attention.VibeProfile(100, 100),
+                        new Attention.VibeProfile(75, 100),
+                        new Attention.VibeProfile(50, 100),
+                        new Attention.VibeProfile(25, 100)
+                      ];
+
+                Attention.vibrate(vibrateData);
+                
+                }
     }
 }
